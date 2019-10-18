@@ -1,0 +1,775 @@
+2019-09-28 14:31:52,812 ERROR 2223 [-/127.0.0.1/-/10ms GET /index] nodejs.TypeError: this.ctx.logger is not a function
+    at HomeController.index (/Users/jake/egg-game/init/app/controller/home.js:8:14)
+    at Object.callFn (/Users/jake/egg-game/init/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/jake/egg-game/init/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/jake/egg-game/init/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jake/egg-game/init/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/jake/egg-game/init/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 2223
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 14:31:54,258 ERROR 2223 [-/127.0.0.1/-/1ms GET /index] nodejs.TypeError: this.ctx.logger is not a function
+    at HomeController.index (/Users/jake/egg-game/init/app/controller/home.js:8:14)
+    at Object.callFn (/Users/jake/egg-game/init/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/jake/egg-game/init/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/jake/egg-game/init/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jake/egg-game/init/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/jake/egg-game/init/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 2223
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 14:32:41,008 INFO 2229 [-/127.0.0.1/-/9ms GET /index] { request:
+   { method: 'GET',
+     url: '/index',
+     header:
+      { host: '127.0.0.1:7002',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        'sec-fetch-site': 'none',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie: 'csrfToken=FRs1-yYDQKeqdlcBydx_n8b1' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header: [Object: null prototype] {} },
+  app:
+   { env: 'local',
+     name: 'jake',
+     baseDir: '/Users/jake/egg-game/init',
+     subdomainOffset: 2,
+     config: '<egg config>',
+     controller: '<egg controller>',
+     httpclient: '<egg httpclient>',
+     loggers: '<egg loggers>',
+     middlewares: '<egg middlewares>',
+     router: '<egg router>',
+     serviceClasses: '<egg serviceClasses>' },
+  originalUrl: '/index',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+2019-09-28 14:32:41,919 INFO 2229 [-/127.0.0.1/-/1ms GET /index] { request:
+   { method: 'GET',
+     url: '/index',
+     header:
+      { host: '127.0.0.1:7002',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        'sec-fetch-site': 'none',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie: 'csrfToken=FRs1-yYDQKeqdlcBydx_n8b1' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header: [Object: null prototype] {} },
+  app:
+   { env: 'local',
+     name: 'jake',
+     baseDir: '/Users/jake/egg-game/init',
+     subdomainOffset: 2,
+     config: '<egg config>',
+     controller: '<egg controller>',
+     httpclient: '<egg httpclient>',
+     loggers: '<egg loggers>',
+     middlewares: '<egg middlewares>',
+     router: '<egg router>',
+     serviceClasses: '<egg serviceClasses>' },
+  originalUrl: '/index',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+2019-09-28 14:33:12,358 INFO 2233 [-/127.0.0.1/-/9ms GET /index] Invalid date
+2019-09-28 14:33:31,112 INFO 2234 [-/127.0.0.1/-/9ms GET /index] Invalid date 时间
+2019-09-28 14:38:33,029 INFO 2252 [-/127.0.0.1/-/10ms GET /index] 09-28-2019 时间
+2019-09-28 14:38:33,957 INFO 2252 [-/127.0.0.1/-/3ms GET /index] 09-28-2019 时间
+2019-09-28 14:39:27,174 INFO 2258 [-/127.0.0.1/-/10ms GET /index] 2019-09-28 14:39:27 时间
+2019-09-28 16:16:10,789 INFO 4692 [-/127.0.0.1/-/9300ms GET /socket.io/?EIO=3&transport=polling&t=MrsyEEm] disconnection!这个是中间件
+2019-09-28 16:16:11,805 INFO 4692 [-/127.0.0.1/-/951ms GET /socket.io/?EIO=3&transport=polling&t=MrsyGXT] disconnection!这个是中间件
+2019-09-28 16:18:03,471 INFO 4692 [-/127.0.0.1/-/111600ms GET /socket.io/?EIO=3&transport=polling&t=MrsyGnS] disconnection!这个是中间件
+2019-09-28 16:18:35,392 INFO 4692 [-/127.0.0.1/-/30133ms GET /socket.io/?EIO=3&transport=polling&t=MrsyiT4] disconnection!这个是中间件
+2019-09-28 16:19:37,129 INFO 4692 [-/127.0.0.1/-/59947ms GET /socket.io/?EIO=3&transport=polling&t=MrsyqFs] disconnection!这个是中间件
+2019-09-28 16:20:08,368 INFO 4692 [-/127.0.0.1/-/30129ms GET /socket.io/?EIO=3&transport=polling&t=Mrsz39s] disconnection!这个是中间件
+2019-09-28 16:20:40,289 INFO 4692 [-/127.0.0.1/-/30023ms GET /socket.io/?EIO=3&transport=polling&t=MrszA-J] disconnection!这个是中间件
+2019-09-28 16:21:40,303 INFO 4692 [-/127.0.0.1/-/59113ms GET /socket.io/?EIO=3&transport=polling&t=MrszIXT] disconnection!这个是中间件
+2019-09-28 16:22:12,377 INFO 4692 [-/127.0.0.1/-/30127ms GET /socket.io/?EIO=3&transport=polling&t=MrszXRY] disconnection!这个是中间件
+2019-09-28 16:22:44,264 INFO 4692 [-/127.0.0.1/-/30134ms GET /socket.io/?EIO=3&transport=polling&t=MrszfDi] disconnection!这个是中间件
+2019-09-28 16:23:15,337 INFO 4692 [-/127.0.0.1/-/30134ms GET /socket.io/?EIO=3&transport=polling&t=MrszmpB] disconnection!这个是中间件
+2019-09-28 16:23:47,304 INFO 4692 [-/127.0.0.1/-/30140ms GET /socket.io/?EIO=3&transport=polling&t=Mrszucc] disconnection!这个是中间件
+2019-09-28 16:25:10,912 INFO 4692 [-/127.0.0.1/-/81680ms GET /socket.io/?EIO=3&transport=polling&t=Mrs-0Rh] disconnection!这个是中间件
+2019-09-28 16:26:05,256 INFO 4692 [-/127.0.0.1/-/53098ms GET /socket.io/?EIO=3&transport=polling&t=Mrs-KhL] disconnection!这个是中间件
+2019-09-28 16:27:00,917 INFO 4692 [-/127.0.0.1/-/55572ms GET /socket.io/?EIO=3&transport=polling&t=Mrs-XgN] disconnection!这个是中间件
+2019-09-28 16:32:49,790 INFO 4692 [-/127.0.0.1/-/347412ms GET /socket.io/?EIO=3&transport=polling&t=Mrs-lbW] disconnection!这个是中间件
+2019-09-28 16:33:47,939 INFO 4692 [-/127.0.0.1/-/55051ms GET /socket.io/?EIO=3&transport=polling&t=Mrt05AG] disconnection!这个是中间件
+2019-09-28 16:37:38,640 INFO 4692 [-/127.0.0.1/-/229207ms GET /socket.io/?EIO=3&transport=polling&t=Mrt0Izm] disconnection!这个是中间件
+2019-09-28 16:38:34,681 INFO 4692 [-/127.0.0.1/-/55951ms GET /socket.io/?token=cde&EIO=3&transport=polling&t=Mrt1AyV] disconnection!这个是中间件
+2019-09-28 16:38:53,434 INFO 4692 [-/127.0.0.1/-/18675ms GET /socket.io/?token=cde&EIO=3&transport=polling&t=Mrt1Odo] disconnection!这个是中间件
+2019-09-28 16:39:17,343 INFO 4692 [-/127.0.0.1/-/202176ms GET /socket.io/?token=cde&EIO=3&transport=polling&t=Mrt0ngO] disconnection!这个是中间件
+2019-09-28 16:39:17,343 INFO 4692 [-/127.0.0.1/-/23839ms GET /socket.io/?token=cde&EIO=3&transport=polling&t=Mrt1TCp] disconnection!这个是中间件
+2019-09-28 16:40:03,290 INFO 4851 [-/127.0.0.1/-/13341ms GET /socket.io/?token=cde&EIO=3&transport=polling&t=Mrt1g-k] disconnection!这个是中间件
+2019-09-28 16:40:42,951 INFO 4851 [-/127.0.0.1/-/55983ms GET /socket.io/?token=cde&EIO=3&transport=polling&t=Mrt1gG0] disconnection!这个是中间件
+2019-09-28 16:41:01,225 INFO 4851 [-/127.0.0.1/-/57853ms GET /socket.io/?token=cde&EIO=3&transport=polling&t=Mrt1kGW] disconnection!这个是中间件
+2019-09-28 16:41:32,425 INFO 4851 [-/127.0.0.1/-/48012ms GET /socket.io/?token=cde&EIO=3&transport=polling&t=Mrt1uHo] disconnection!这个是中间件
+2019-09-28 16:41:32,425 INFO 4851 [-/127.0.0.1/-/30119ms GET /socket.io/?token=cde&EIO=3&transport=polling&t=Mrt1yfP] disconnection!这个是中间件
+2019-09-28 16:45:17,788 INFO 4861 [-/127.0.0.1/-/223085ms GET /socket.io/?token=cde&EIO=3&transport=polling&t=Mrt24ZP] disconnection!这个是中间件
+2019-09-28 16:45:17,789 INFO 4861 [-/127.0.0.1/-/223078ms GET /socket.io/?token=cde&EIO=3&transport=polling&t=Mrt24ZQ] disconnection!这个是中间件
+2019-09-28 22:54:12,698 ERROR 1103 [-/127.0.0.1/-/25ms GET /socket.io/?token=cde&EIO=3&transport=polling&t=MruNN2g] null
+2019-09-28 22:54:13,970 ERROR 1103 [-/127.0.0.1/-/5ms GET /socket.io/?token=cde&EIO=3&transport=polling&t=MruNNN1] null
+2019-09-28 22:55:28,769 ERROR 1103 [-/127.0.0.1/-/16ms GET /socket.io/?token=cde&EIO=3&transport=polling&t=MruNbYT] null
+2019-09-28 22:55:33,737 ERROR 1103 [-/127.0.0.1/-/56708ms GET /socket.io/?token=cde&EIO=3&transport=polling&t=MruNS_Q] nodejs.Error: timeout reached while waiting for remoteDisconnect response
+    at Timeout._onTimeout (/Users/jake/egg-game/init/node_modules/_socket.io-redis@5.2.0@socket.io-redis/index.js:673:46)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+
+pid: 1103
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 22:55:41,293 ERROR 1103 [-/127.0.0.1/-/8ms GET /socket.io/?token=cde&EIO=3&transport=polling&t=MruNihP] null
+2019-09-28 22:59:59,169 ERROR 1103 [-/127.0.0.1/-/34470ms GET /socket.io/?token=cde&EIO=3&transport=polling&t=MruOZEH] nodejs.Error: timeout reached while waiting for remoteDisconnect response
+    at Timeout._onTimeout (/Users/jake/egg-game/init/node_modules/_socket.io-redis@5.2.0@socket.io-redis/index.js:673:46)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+
+pid: 1103
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 23:00:17,085 ERROR 1119 [-/127.0.0.1/-/28ms GET /socket.io/?token=cde&EIO=3&transport=polling&t=MruOm0B] null
+2019-09-28 23:00:49,992 ERROR 1119 [-/127.0.0.1/-/6ms GET /socket.io/?token=cde&EIO=3&transport=polling&t=MruOu2e] null
+2019-09-28 23:05:43,297 INFO 1143 [-/127.0.0.1/-/1ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruP_fd] #user_info EkNIuwlhy2yCZlnXAAAA 73 undefined
+2019-09-28 23:05:43,302 INFO 1143 [-/127.0.0.1/-/7ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruP_fd] #has_exist true
+2019-09-28 23:05:43,302 INFO 1143 [-/127.0.0.1/-/7ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruP_fd] #join 73
+2019-09-28 23:05:43,323 INFO 1143 [-/127.0.0.1/-/27ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruP_fd] #online_join [ 'EkNIuwlhy2yCZlnXAAAA' ]
+2019-09-28 23:06:13,166 INFO 1154 [-/127.0.0.1/-/2ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQ6yO] #user_info H4RJthQYmgFbK9-vAAAA 73 undefined
+2019-09-28 23:06:13,170 INFO 1154 [-/127.0.0.1/-/6ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQ6yO] #has_exist true
+2019-09-28 23:06:13,171 INFO 1154 [-/127.0.0.1/-/7ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQ6yO] #join 73
+2019-09-28 23:06:13,197 INFO 1154 [-/127.0.0.1/-/32ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQ6yO] #online_join [ 'H4RJthQYmgFbK9-vAAAA' ]
+2019-09-28 23:07:09,730 INFO 1154 [-/127.0.0.1/-/56566ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQ6yO] #leave 73
+2019-09-28 23:07:09,736 INFO 1154 [-/127.0.0.1/-/56571ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQ6yO] #online_leave []
+2019-09-28 23:07:11,552 INFO 1154 [-/127.0.0.1/-/1ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQLCu] #user_info wi3htvQqJdLmc0H7AAAB 73 undefined
+2019-09-28 23:07:11,554 INFO 1154 [-/127.0.0.1/-/3ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQLCu] #has_exist true
+2019-09-28 23:07:11,555 INFO 1154 [-/127.0.0.1/-/3ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQLCu] #join 73
+2019-09-28 23:07:11,559 INFO 1154 [-/127.0.0.1/-/8ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQLCu] #online_join [ 'wi3htvQqJdLmc0H7AAAB' ]
+2019-09-28 23:07:41,820 INFO 1154 [-/127.0.0.1/-/30269ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQLCu] #leave 73
+2019-09-28 23:07:41,827 INFO 1154 [-/127.0.0.1/-/30276ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQLCu] #online_leave []
+2019-09-28 23:07:41,891 INFO 1154 [-/127.0.0.1/-/0ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQScl] #user_info yqjsmIc8V9UjmFhlAAAC 73 undefined
+2019-09-28 23:07:41,896 INFO 1154 [-/127.0.0.1/-/5ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQScl] #has_exist true
+2019-09-28 23:07:41,896 INFO 1154 [-/127.0.0.1/-/5ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQScl] #join 73
+2019-09-28 23:07:41,924 INFO 1154 [-/127.0.0.1/-/32ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQScl] #online_join [ 'yqjsmIc8V9UjmFhlAAAC' ]
+2019-09-28 23:07:51,914 INFO 1154 [-/127.0.0.1/-/1ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQV3Q] #user_info vGMPx1wnMCWC-8xpAAAD 73 undefined
+2019-09-28 23:07:51,917 INFO 1154 [-/127.0.0.1/-/5ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQV3Q] #has_exist true
+2019-09-28 23:07:51,917 INFO 1154 [-/127.0.0.1/-/5ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQV3Q] #join 73
+2019-09-28 23:07:51,920 INFO 1154 [-/127.0.0.1/-/8ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQV3Q] #online_join [ 'yqjsmIc8V9UjmFhlAAAC', 'vGMPx1wnMCWC-8xpAAAD' ]
+2019-09-28 23:08:22,131 INFO 1154 [-/127.0.0.1/-/30219ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQV3Q] #leave 73
+2019-09-28 23:08:22,136 INFO 1154 [-/127.0.0.1/-/30224ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQV3Q] #online_leave [ 'yqjsmIc8V9UjmFhlAAAC' ]
+2019-09-28 23:08:24,718 INFO 1154 [-/127.0.0.1/-/1ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQd48] #user_info c_qF4o3-UCHNQ0HAAAAE 73 undefined
+2019-09-28 23:08:24,721 INFO 1154 [-/127.0.0.1/-/4ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQd48] #has_exist true
+2019-09-28 23:08:24,721 INFO 1154 [-/127.0.0.1/-/4ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQd48] #join 73
+2019-09-28 23:08:24,729 INFO 1154 [-/127.0.0.1/-/12ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQd48] #online_join [ 'yqjsmIc8V9UjmFhlAAAC', 'c_qF4o3-UCHNQ0HAAAAE' ]
+2019-09-28 23:08:45,388 INFO 1154 [-/127.0.0.1/-/20671ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQd48] #leave 73
+2019-09-28 23:08:45,393 INFO 1154 [-/127.0.0.1/-/20676ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQd48] #online_leave [ 'yqjsmIc8V9UjmFhlAAAC' ]
+2019-09-28 23:08:45,456 INFO 1154 [-/127.0.0.1/-/0ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQi84] #user_info eGvC0-UNqSvqoaalAAAF 73 undefined
+2019-09-28 23:08:45,460 INFO 1154 [-/127.0.0.1/-/4ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQi84] #has_exist true
+2019-09-28 23:08:45,461 INFO 1154 [-/127.0.0.1/-/4ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQi84] #join 73
+2019-09-28 23:08:45,464 INFO 1154 [-/127.0.0.1/-/8ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQi84] #online_join [ 'yqjsmIc8V9UjmFhlAAAC', 'eGvC0-UNqSvqoaalAAAF' ]
+2019-09-28 23:09:15,660 INFO 1154 [-/127.0.0.1/-/30204ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQi84] #leave 73
+2019-09-28 23:09:15,667 INFO 1154 [-/127.0.0.1/-/30211ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQi84] #online_leave [ 'yqjsmIc8V9UjmFhlAAAC' ]
+2019-09-28 23:09:17,615 INFO 1154 [-/127.0.0.1/-/1ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQp-e] #user_info dn4SW1Dfq9D8poUGAAAG 73 undefined
+2019-09-28 23:09:17,617 INFO 1154 [-/127.0.0.1/-/3ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQp-e] #has_exist true
+2019-09-28 23:09:17,617 INFO 1154 [-/127.0.0.1/-/3ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQp-e] #join 73
+2019-09-28 23:09:17,622 INFO 1154 [-/127.0.0.1/-/8ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruQp-e] #online_join [ 'yqjsmIc8V9UjmFhlAAAC', 'dn4SW1Dfq9D8poUGAAAG' ]
+2019-09-28 23:11:13,068 INFO 1160 [-/127.0.0.1/-/2ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruRGAI] #user_info IrEcdBt2ziMJCmyAAAAA 73 undefined
+2019-09-28 23:11:13,074 INFO 1160 [-/127.0.0.1/-/9ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruRGAI] #has_exist true
+2019-09-28 23:11:13,074 INFO 1160 [-/127.0.0.1/-/9ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruRGAI] #join 73
+2019-09-28 23:11:13,084 INFO 1160 [-/127.0.0.1/-/0ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruRGAS] #user_info ozPeNa69ulmYs9DEAAAB 73 undefined
+2019-09-28 23:11:13,088 INFO 1160 [-/127.0.0.1/-/5ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruRGAS] #has_exist true
+2019-09-28 23:11:13,088 INFO 1160 [-/127.0.0.1/-/5ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruRGAS] #join 73
+2019-09-28 23:11:13,106 INFO 1160 [-/127.0.0.1/-/40ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruRGAI] #online_join [ 'IrEcdBt2ziMJCmyAAAAA' ]
+2019-09-28 23:11:13,138 INFO 1160 [-/127.0.0.1/-/55ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruRGAS] #online_join [ 'IrEcdBt2ziMJCmyAAAAA', 'ozPeNa69ulmYs9DEAAAB' ]
+2019-09-28 23:13:32,047 INFO 1160 [-/127.0.0.1/-/138982ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruRGAI] #leave 73
+2019-09-28 23:13:32,053 INFO 1160 [-/127.0.0.1/-/138987ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruRGAI] #online_leave [ 'ozPeNa69ulmYs9DEAAAB' ]
+2019-09-28 23:14:51,594 INFO 1160 [-/127.0.0.1/-/0ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruS5X0] #user_info 6RPeYpO-tOmPbhfgAAAC 73 undefined
+2019-09-28 23:14:51,599 INFO 1160 [-/127.0.0.1/-/5ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruS5X0] #has_exist true
+2019-09-28 23:14:51,600 INFO 1160 [-/127.0.0.1/-/6ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruS5X0] #join 73
+2019-09-28 23:14:51,606 INFO 1160 [-/127.0.0.1/-/12ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruS5X0] #online_join [ 'ozPeNa69ulmYs9DEAAAB', '6RPeYpO-tOmPbhfgAAAC' ]
+2019-09-28 23:15:55,585 INFO 1160 [-/127.0.0.1/-/63991ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruS5X0] #leave 73
+2019-09-28 23:15:55,590 INFO 1160 [-/127.0.0.1/-/63996ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruS5X0] #online_leave [ 'ozPeNa69ulmYs9DEAAAB' ]
+2019-09-28 23:15:55,643 INFO 1160 [-/127.0.0.1/-/0ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSL9o] #user_info K0gubOo0KZXnIGu5AAAD 73 undefined
+2019-09-28 23:15:55,651 INFO 1160 [-/127.0.0.1/-/8ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSL9o] #has_exist true
+2019-09-28 23:15:55,652 INFO 1160 [-/127.0.0.1/-/9ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSL9o] #join 73
+2019-09-28 23:15:55,673 INFO 1160 [-/127.0.0.1/-/30ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSL9o] #online_join [ 'ozPeNa69ulmYs9DEAAAB', 'K0gubOo0KZXnIGu5AAAD' ]
+2019-09-28 23:16:15,439 INFO 1160 [-/127.0.0.1/-/19796ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSL9o] #leave 73
+2019-09-28 23:16:15,447 INFO 1160 [-/127.0.0.1/-/19804ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSL9o] #online_leave [ 'ozPeNa69ulmYs9DEAAAB' ]
+2019-09-28 23:16:15,497 INFO 1160 [-/127.0.0.1/-/1ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSP_v] #user_info oC87OvOqS7Ij92JbAAAE 73 undefined
+2019-09-28 23:16:15,500 INFO 1160 [-/127.0.0.1/-/4ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSP_v] #has_exist true
+2019-09-28 23:16:15,500 INFO 1160 [-/127.0.0.1/-/4ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSP_v] #join 73
+2019-09-28 23:16:15,504 INFO 1160 [-/127.0.0.1/-/8ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSP_v] #online_join [ 'ozPeNa69ulmYs9DEAAAB', 'oC87OvOqS7Ij92JbAAAE' ]
+2019-09-28 23:16:16,936 INFO 1160 [-/127.0.0.1/-/1440ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSP_v] #leave 73
+2019-09-28 23:16:16,944 INFO 1160 [-/127.0.0.1/-/1448ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSP_v] #online_leave [ 'ozPeNa69ulmYs9DEAAAB' ]
+2019-09-28 23:16:16,997 INFO 1160 [-/127.0.0.1/-/0ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSQNU] #user_info 5zpxrYaDFzrnSEz2AAAF 73 undefined
+2019-09-28 23:16:16,999 INFO 1160 [-/127.0.0.1/-/2ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSQNU] #has_exist true
+2019-09-28 23:16:17,000 INFO 1160 [-/127.0.0.1/-/3ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSQNU] #join 73
+2019-09-28 23:16:17,002 INFO 1160 [-/127.0.0.1/-/5ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSQNU] #online_join [ 'ozPeNa69ulmYs9DEAAAB', '5zpxrYaDFzrnSEz2AAAF' ]
+2019-09-28 23:16:56,716 INFO 1160 [-/127.0.0.1/-/39719ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSQNU] #leave 73
+2019-09-28 23:16:56,720 INFO 1160 [-/127.0.0.1/-/39723ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSQNU] #online_leave [ 'ozPeNa69ulmYs9DEAAAB' ]
+2019-09-28 23:16:56,782 INFO 1160 [-/127.0.0.1/-/0ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSa52] #user_info sHUYu5vjxGRJPsdXAAAG 73 undefined
+2019-09-28 23:16:56,784 INFO 1160 [-/127.0.0.1/-/2ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSa52] #has_exist true
+2019-09-28 23:16:56,784 INFO 1160 [-/127.0.0.1/-/2ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSa52] #join 73
+2019-09-28 23:16:56,788 INFO 1160 [-/127.0.0.1/-/6ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSa52] #online_join [ 'ozPeNa69ulmYs9DEAAAB', 'sHUYu5vjxGRJPsdXAAAG' ]
+2019-09-28 23:16:57,806 INFO 1160 [-/127.0.0.1/-/1024ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSa52] #leave 73
+2019-09-28 23:16:57,817 INFO 1160 [-/127.0.0.1/-/1035ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSa52] #online_leave [ 'ozPeNa69ulmYs9DEAAAB' ]
+2019-09-28 23:16:57,874 INFO 1160 [-/127.0.0.1/-/0ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSaMD] #user_info OsRt3SK0qFoE79pfAAAH 73 undefined
+2019-09-28 23:16:57,881 INFO 1160 [-/127.0.0.1/-/7ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSaMD] #has_exist true
+2019-09-28 23:16:57,882 INFO 1160 [-/127.0.0.1/-/8ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSaMD] #join 73
+2019-09-28 23:16:57,890 INFO 1160 [-/127.0.0.1/-/16ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSaMD] #online_join [ 'ozPeNa69ulmYs9DEAAAB', 'OsRt3SK0qFoE79pfAAAH' ]
+2019-09-28 23:16:58,514 INFO 1160 [-/127.0.0.1/-/640ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSaMD] #leave 73
+2019-09-28 23:16:58,525 INFO 1160 [-/127.0.0.1/-/651ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSaMD] #online_leave [ 'ozPeNa69ulmYs9DEAAAB' ]
+2019-09-28 23:16:58,573 INFO 1160 [-/127.0.0.1/-/0ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSaX8] #user_info 9vX2Bm-bWKAmdYKYAAAI 73 undefined
+2019-09-28 23:16:58,575 INFO 1160 [-/127.0.0.1/-/2ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSaX8] #has_exist true
+2019-09-28 23:16:58,575 INFO 1160 [-/127.0.0.1/-/2ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSaX8] #join 73
+2019-09-28 23:16:58,585 INFO 1160 [-/127.0.0.1/-/12ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSaX8] #online_join [ 'ozPeNa69ulmYs9DEAAAB', '9vX2Bm-bWKAmdYKYAAAI' ]
+2019-09-28 23:18:40,661 INFO 1160 [-/127.0.0.1/-/447578ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruRGAS] #leave 73
+2019-09-28 23:18:40,679 INFO 1160 [-/127.0.0.1/-/447594ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruRGAS] #online_leave [ '9vX2Bm-bWKAmdYKYAAAI' ]
+2019-09-28 23:18:40,692 INFO 1160 [-/127.0.0.1/-/102119ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSaX8] #leave 73
+2019-09-28 23:18:40,734 INFO 1160 [-/127.0.0.1/-/102160ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=MruSaX8] #online_leave []
+2019-09-30 12:30:42,502 INFO 923 [-/127.0.0.1/-/2ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0RrCA] #user_info iupC-mwGVZZ5qt1mAAAA 73 undefined
+2019-09-30 12:30:42,516 INFO 923 [-/127.0.0.1/-/17ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0RrCA] #has_exist true
+2019-09-30 12:30:42,516 INFO 923 [-/127.0.0.1/-/17ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0RrCA] #join 73
+2019-09-30 12:30:42,607 INFO 923 [-/127.0.0.1/-/85ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0RrCA] #online_join [ 'iupC-mwGVZZ5qt1mAAAA' ]
+2019-09-30 12:30:43,424 INFO 923 [-/127.0.0.1/-/2ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0RrQx] #user_info NFszIIiVI7mKTtMSAAAB 73 undefined
+2019-09-30 12:30:43,432 INFO 923 [-/127.0.0.1/-/933ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0RrCA] #leave 73
+2019-09-30 12:30:43,433 INFO 923 [-/127.0.0.1/-/11ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0RrQx] #has_exist true
+2019-09-30 12:30:43,433 INFO 923 [-/127.0.0.1/-/11ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0RrQx] #join 73
+2019-09-30 12:30:43,445 INFO 923 [-/127.0.0.1/-/945ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0RrCA] #online_leave [ 'NFszIIiVI7mKTtMSAAAB' ]
+2019-09-30 12:30:43,448 INFO 923 [-/127.0.0.1/-/26ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0RrQx] #online_join [ 'NFszIIiVI7mKTtMSAAAB' ]
+2019-09-30 12:32:29,053 INFO 923 [-/127.0.0.1/-/105630ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0RrQx] #leave 73
+2019-09-30 12:32:29,057 INFO 923 [-/127.0.0.1/-/105635ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0RrQx] #online_leave []
+2019-09-30 12:32:30,987 INFO 923 [-/127.0.0.1/-/1ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0SFi0] #user_info eVuSRY4l7o9ucltzAAAC 73 undefined
+2019-09-30 12:32:30,989 INFO 923 [-/127.0.0.1/-/2ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0SFi0] #has_exist true
+2019-09-30 12:32:30,989 INFO 923 [-/127.0.0.1/-/3ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0SFi0] #join 73
+2019-09-30 12:32:31,003 INFO 923 [-/127.0.0.1/-/17ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0SFi0] #online_join [ 'eVuSRY4l7o9ucltzAAAC' ]
+2019-09-30 12:33:33,412 INFO 923 [-/127.0.0.1/-/62426ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0SFi0] #leave 73
+2019-09-30 12:33:33,422 INFO 923 [-/127.0.0.1/-/62433ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0SFi0] #online_leave []
+2019-09-30 12:33:33,503 INFO 923 [-/127.0.0.1/-/3ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0SUyf] #user_info dz_1l3TjX2zPifyXAAAD 73 undefined
+2019-09-30 12:33:33,507 INFO 923 [-/127.0.0.1/-/7ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0SUyf] #has_exist true
+2019-09-30 12:33:33,507 INFO 923 [-/127.0.0.1/-/7ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0SUyf] #join 73
+2019-09-30 12:33:33,511 INFO 923 [-/127.0.0.1/-/11ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0SUyf] #online_join [ 'dz_1l3TjX2zPifyXAAAD' ]
+2019-09-30 12:35:11,503 INFO 923 [-/127.0.0.1/-/98003ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0SUyf] #leave 73
+2019-09-30 12:35:11,519 INFO 923 [-/127.0.0.1/-/98019ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0SUyf] #online_leave []
+2019-09-30 12:35:12,773 INFO 923 [-/127.0.0.1/-/0ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0StBz] #user_info gOPKboZ_ezQygiTnAAAE 73 undefined
+2019-09-30 12:35:12,776 INFO 923 [-/127.0.0.1/-/2ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0StBz] #has_exist true
+2019-09-30 12:35:12,776 INFO 923 [-/127.0.0.1/-/3ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0StBz] #join 73
+2019-09-30 12:35:12,781 INFO 923 [-/127.0.0.1/-/8ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0StBz] #online_join [ 'gOPKboZ_ezQygiTnAAAE' ]
+2019-09-30 14:24:52,162 INFO 960 [-/127.0.0.1/-/2ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0rzUj] #user_info gkCnhvmUSwjrxn3pAAAA 73 undefined
+2019-09-30 14:24:52,169 INFO 960 [-/127.0.0.1/-/10ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0rzUj] #has_exist true
+2019-09-30 14:24:52,169 INFO 960 [-/127.0.0.1/-/10ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0rzUj] #join 73
+2019-09-30 14:24:52,199 INFO 960 [-/127.0.0.1/-/39ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0rzUj] #online_join [ 'gkCnhvmUSwjrxn3pAAAA' ]
+2019-09-30 14:29:47,183 INFO 960 [-/127.0.0.1/-/295024ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0rzUj] #leave 73
+2019-09-30 14:29:47,189 INFO 960 [-/127.0.0.1/-/295030ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0rzUj] #online_leave []
+2019-09-30 14:29:49,013 INFO 960 [-/127.0.0.1/-/0ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0t5z5] #user_info dmoPOWEcnXJN6vgYAAAB 73 undefined
+2019-09-30 14:29:49,014 INFO 960 [-/127.0.0.1/-/2ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0t5z5] #has_exist true
+2019-09-30 14:29:49,015 INFO 960 [-/127.0.0.1/-/3ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0t5z5] #join 73
+2019-09-30 14:29:49,022 INFO 960 [-/127.0.0.1/-/10ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0t5z5] #online_join [ 'dmoPOWEcnXJN6vgYAAAB' ]
+2019-09-30 14:32:29,969 INFO 960 [-/127.0.0.1/-/160956ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0t5z5] #leave 73
+2019-09-30 14:32:29,973 INFO 960 [-/127.0.0.1/-/160961ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0t5z5] #online_leave []
+2019-09-30 14:32:30,937 INFO 960 [-/127.0.0.1/-/1ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0tjVD] #user_info CUpXDBUntQ0ZW1UpAAAC 73 undefined
+2019-09-30 14:32:30,939 INFO 960 [-/127.0.0.1/-/3ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0tjVD] #has_exist true
+2019-09-30 14:32:30,939 INFO 960 [-/127.0.0.1/-/3ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0tjVD] #join 73
+2019-09-30 14:32:30,944 INFO 960 [-/127.0.0.1/-/8ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0tjVD] #online_join [ 'CUpXDBUntQ0ZW1UpAAAC' ]
+2019-09-30 14:33:01,071 INFO 960 [-/127.0.0.1/-/30135ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0tjVD] #leave 73
+2019-09-30 14:33:01,075 INFO 960 [-/127.0.0.1/-/30139ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0tjVD] #online_leave []
+2019-09-30 14:33:03,072 INFO 960 [-/127.0.0.1/-/0ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0trLP] #user_info ltZye95XANc_V8E0AAAD 73 undefined
+2019-09-30 14:33:03,074 INFO 960 [-/127.0.0.1/-/2ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0trLP] #has_exist true
+2019-09-30 14:33:03,074 INFO 960 [-/127.0.0.1/-/2ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0trLP] #join 73
+2019-09-30 14:33:03,078 INFO 960 [-/127.0.0.1/-/6ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0trLP] #online_join [ 'ltZye95XANc_V8E0AAAD' ]
+2019-09-30 14:37:40,009 INFO 960 [-/127.0.0.1/-/276937ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0trLP] #leave 73
+2019-09-30 14:37:40,012 INFO 960 [-/127.0.0.1/-/276940ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0trLP] #online_leave []
+2019-09-30 14:37:40,064 INFO 960 [-/127.0.0.1/-/0ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0uuzJ] #user_info PmBDNChnY8FLQv7rAAAE 73 undefined
+2019-09-30 14:37:40,071 INFO 960 [-/127.0.0.1/-/6ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0uuzJ] #has_exist true
+2019-09-30 14:37:40,071 INFO 960 [-/127.0.0.1/-/7ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0uuzJ] #join 73
+2019-09-30 14:37:40,076 INFO 960 [-/127.0.0.1/-/12ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0uuzJ] #online_join [ 'PmBDNChnY8FLQv7rAAAE' ]
+2019-09-30 14:37:43,745 INFO 960 [-/127.0.0.1/-/3681ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0uuzJ] #leave 73
+2019-09-30 14:37:43,748 INFO 960 [-/127.0.0.1/-/3684ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0uuzJ] #online_leave []
+2019-09-30 14:37:43,793 INFO 960 [-/127.0.0.1/-/1ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0uvtf] #user_info NGoKDuyxRFjdA0bBAAAF 73 undefined
+2019-09-30 14:37:43,796 INFO 960 [-/127.0.0.1/-/4ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0uvtf] #has_exist true
+2019-09-30 14:37:43,796 INFO 960 [-/127.0.0.1/-/4ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0uvtf] #join 73
+2019-09-30 14:37:43,799 INFO 960 [-/127.0.0.1/-/7ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0uvtf] #online_join [ 'NGoKDuyxRFjdA0bBAAAF' ]
+2019-09-30 14:39:30,639 INFO 960 [-/127.0.0.1/-/106847ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0uvtf] #leave 73
+2019-09-30 14:39:30,648 INFO 960 [-/127.0.0.1/-/106856ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0uvtf] #online_leave []
+2019-09-30 14:39:32,123 INFO 960 [-/127.0.0.1/-/0ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0vKKH] #user_info bQff8KFFAOd93e8uAAAG 73 undefined
+2019-09-30 14:39:32,125 INFO 960 [-/127.0.0.1/-/2ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0vKKH] #has_exist true
+2019-09-30 14:39:32,125 INFO 960 [-/127.0.0.1/-/2ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0vKKH] #join 73
+2019-09-30 14:39:32,130 INFO 960 [-/127.0.0.1/-/7ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0vKKH] #online_join [ 'bQff8KFFAOd93e8uAAAG' ]
+2019-09-30 14:40:54,126 INFO 1054 [-/127.0.0.1/-/4ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0veLJ] #user_info _NTVH6w_-np3deSGAAAA 73 undefined
+2019-09-30 14:40:54,133 INFO 1054 [-/127.0.0.1/-/12ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0veLJ] #has_exist true
+2019-09-30 14:40:54,133 INFO 1054 [-/127.0.0.1/-/12ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0veLJ] #join 73
+2019-09-30 14:40:54,160 INFO 1054 [-/127.0.0.1/-/37ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0veLJ] #online_join [ '_NTVH6w_-np3deSGAAAA' ]
+2019-09-30 14:41:15,125 INFO 1058 [-/127.0.0.1/-/3ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0vjTS] #user_info T33Ai1ExvIqu7XPgAAAA 73 undefined
+2019-09-30 14:41:15,133 INFO 1058 [-/127.0.0.1/-/12ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0vjTS] #has_exist true
+2019-09-30 14:41:15,133 INFO 1058 [-/127.0.0.1/-/12ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0vjTS] #join 73
+2019-09-30 14:41:15,153 INFO 1058 [-/127.0.0.1/-/30ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0vjTS] #online_join [ 'T33Ai1ExvIqu7XPgAAAA' ]
+2019-09-30 14:42:30,215 INFO 1059 [-/127.0.0.1/-/1ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0v_ok] #user_info YK4hDcmQbV-W3qbXAAAA 73 undefined
+2019-09-30 14:42:30,221 INFO 1059 [-/127.0.0.1/-/8ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0v_ok] #has_exist true
+2019-09-30 14:42:30,222 INFO 1059 [-/127.0.0.1/-/9ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0v_ok] #join 73
+2019-09-30 14:42:30,244 INFO 1059 [-/127.0.0.1/-/29ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0v_ok] #online_join [ 'YK4hDcmQbV-W3qbXAAAA' ]
+2019-09-30 14:42:48,307 INFO 1059 [-/127.0.0.1/-/18094ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0v_ok] #leave 73
+2019-09-30 14:42:48,311 INFO 1059 [-/127.0.0.1/-/18098ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0v_ok] #online_leave []
+2019-09-30 14:42:48,350 INFO 1059 [-/127.0.0.1/-/1ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0w4EI] #user_info RUHtozhhf9gepW2YAAAB 73 undefined
+2019-09-30 14:42:48,356 INFO 1059 [-/127.0.0.1/-/7ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0w4EI] #has_exist true
+2019-09-30 14:42:48,356 INFO 1059 [-/127.0.0.1/-/7ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0w4EI] #join 73
+2019-09-30 14:42:48,369 INFO 1059 [-/127.0.0.1/-/20ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0w4EI] #online_join [ 'RUHtozhhf9gepW2YAAAB' ]
+2019-09-30 14:44:11,799 INFO 1059 [-/127.0.0.1/-/83450ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0w4EI] #leave 73
+2019-09-30 14:44:11,808 INFO 1059 [-/127.0.0.1/-/83459ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0w4EI] #online_leave []
+2019-09-30 14:44:13,069 INFO 1059 [-/127.0.0.1/-/0ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0wOw4] #user_info 72MjxrIyyy3xcs-EAAAC 73 undefined
+2019-09-30 14:44:13,072 INFO 1059 [-/127.0.0.1/-/3ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0wOw4] #has_exist true
+2019-09-30 14:44:13,073 INFO 1059 [-/127.0.0.1/-/4ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0wOw4] #join 73
+2019-09-30 14:44:13,083 INFO 1059 [-/127.0.0.1/-/14ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0wOw4] #online_join [ '72MjxrIyyy3xcs-EAAAC' ]
+2019-09-30 14:45:08,661 INFO 1059 [-/127.0.0.1/-/55592ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0wOw4] #leave 73
+2019-09-30 14:45:08,667 INFO 1059 [-/127.0.0.1/-/55598ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0wOw4] #online_leave []
+2019-09-30 14:45:11,020 INFO 1059 [-/127.0.0.1/-/0ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0wd3a] #user_info 4Ikmk5_c7-QlgZvnAAAD 73 undefined
+2019-09-30 14:45:11,023 INFO 1059 [-/127.0.0.1/-/2ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0wd3a] #has_exist true
+2019-09-30 14:45:11,023 INFO 1059 [-/127.0.0.1/-/3ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0wd3a] #join 73
+2019-09-30 14:45:11,029 INFO 1059 [-/127.0.0.1/-/9ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0wd3a] #online_join [ '4Ikmk5_c7-QlgZvnAAAD' ]
+2019-09-30 14:46:32,664 INFO 1059 [-/127.0.0.1/-/81644ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0wd3a] #leave 73
+2019-09-30 14:46:32,670 INFO 1059 [-/127.0.0.1/-/81650ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0wd3a] #online_leave []
+2019-09-30 14:46:34,022 INFO 1059 [-/127.0.0.1/-/1ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0wxKQ] #user_info 3k-MubMAhVMEDd6KAAAE 73 undefined
+2019-09-30 14:46:34,025 INFO 1059 [-/127.0.0.1/-/4ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0wxKQ] #has_exist true
+2019-09-30 14:46:34,025 INFO 1059 [-/127.0.0.1/-/4ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0wxKQ] #join 73
+2019-09-30 14:46:34,034 INFO 1059 [-/127.0.0.1/-/13ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0wxKQ] #online_join [ '3k-MubMAhVMEDd6KAAAE' ]
+2019-09-30 14:47:54,058 INFO 1088 [-/127.0.0.1/-/3ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0xEsl] #user_info nt4TcF1tbARvhIvSAAAA 73 undefined
+2019-09-30 14:47:54,065 INFO 1088 [-/127.0.0.1/-/11ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0xEsl] #has_exist true
+2019-09-30 14:47:54,065 INFO 1088 [-/127.0.0.1/-/11ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0xEsl] #join 73
+2019-09-30 14:47:54,085 INFO 1088 [-/127.0.0.1/-/30ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0xEsl] #online_join [ 'nt4TcF1tbARvhIvSAAAA' ]
+2019-09-30 14:48:16,687 INFO 1090 [-/127.0.0.1/-/2ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0xKON] #user_info 7Agic8UoLmyK-cYYAAAA 73 undefined
+2019-09-30 14:48:16,693 INFO 1090 [-/127.0.0.1/-/8ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0xKON] #has_exist true
+2019-09-30 14:48:16,693 INFO 1090 [-/127.0.0.1/-/8ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0xKON] #join 73
+2019-09-30 14:48:16,713 INFO 1090 [-/127.0.0.1/-/27ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0xKON] #online_join [ '7Agic8UoLmyK-cYYAAAA' ]
+2019-09-30 14:50:38,708 INFO 1098 [-/127.0.0.1/-/5ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0xt3B] #user_info NyWDBlAwQ2sZB5apAAAA 73 undefined
+2019-09-30 14:50:38,721 INFO 1098 [-/127.0.0.1/-/18ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0xt3B] #has_exist true
+2019-09-30 14:50:38,721 INFO 1098 [-/127.0.0.1/-/19ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0xt3B] #join 73
+2019-09-30 14:50:38,780 INFO 1098 [-/127.0.0.1/-/77ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0xt3B] #online_join [ 'NyWDBlAwQ2sZB5apAAAA' ]
+2019-09-30 14:50:45,688 INFO 1099 [-/127.0.0.1/-/2ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0xumZ] #user_info y02B7QcyVcpFfhpBAAAA 73 undefined
+2019-09-30 14:50:45,693 INFO 1099 [-/127.0.0.1/-/8ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0xumZ] #has_exist true
+2019-09-30 14:50:45,693 INFO 1099 [-/127.0.0.1/-/8ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0xumZ] #join 73
+2019-09-30 14:50:45,720 INFO 1099 [-/127.0.0.1/-/33ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0xumZ] #online_join [ 'y02B7QcyVcpFfhpBAAAA' ]
+2019-09-30 14:52:10,681 INFO 1099 [-/127.0.0.1/-/84995ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0xumZ] #leave 73
+2019-09-30 14:52:10,686 INFO 1099 [-/127.0.0.1/-/85001ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0xumZ] #online_leave []
+2019-09-30 14:52:12,082 INFO 1099 [-/127.0.0.1/-/1ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0yDsZ] #user_info 4FmaaXN8Vl9mVY-qAAAB 73 undefined
+2019-09-30 14:52:12,083 INFO 1099 [-/127.0.0.1/-/2ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0yDsZ] #has_exist true
+2019-09-30 14:52:12,084 INFO 1099 [-/127.0.0.1/-/3ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0yDsZ] #join 73
+2019-09-30 14:52:12,092 INFO 1099 [-/127.0.0.1/-/11ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0yDsZ] #online_join [ '4FmaaXN8Vl9mVY-qAAAB' ]
+2019-09-30 14:52:42,213 INFO 1099 [-/127.0.0.1/-/30132ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0yDsZ] #leave 73
+2019-09-30 14:52:42,218 INFO 1099 [-/127.0.0.1/-/30137ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0yDsZ] #online_leave []
+2019-09-30 14:52:43,872 INFO 1099 [-/127.0.0.1/-/1ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0yLdP] #user_info bzUfNCPPaJxEeqyLAAAC 73 undefined
+2019-09-30 14:52:43,875 INFO 1099 [-/127.0.0.1/-/4ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0yLdP] #has_exist true
+2019-09-30 14:52:43,875 INFO 1099 [-/127.0.0.1/-/4ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0yLdP] #join 73
+2019-09-30 14:52:43,881 INFO 1099 [-/127.0.0.1/-/10ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms0yLdP] #online_join [ 'bzUfNCPPaJxEeqyLAAAC' ]
+2019-10-01 21:15:01,586 ERROR 956 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 956
+hostname: jakedeMacBook-Air.local
+
+2019-10-01 21:15:33,290 ERROR 967 [-/127.0.0.1/-/1ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 967
+hostname: jakedeMacBook-Air.local
+
+2019-10-01 21:52:12,687 WARN 1393 [-/127.0.0.1/-/75ms POST /auth/registered] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-10-01 21:52:12,693 WARN 1393 [-/127.0.0.1/-/80ms POST /auth/registered] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/jake/egg-game/init/node_modules/_koa@2.8.2@koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/app/extend/context.js:154:19)
+    at csrf (/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at overrideMethod (/Users/jake/egg-game/init/node_modules/_koa-override@3.0.0@koa-override/index.js:38:12)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+message: "missing csrf token"
+pid: 1393
+hostname: jakedeMacBook-Air.local
+
+2019-10-01 21:52:12,942 INFO 1393 [-/127.0.0.1/-/78ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7by4_] #user_info SPWJOSvb3RSNZeY5AAAA 73 undefined
+2019-10-01 21:52:12,949 INFO 1393 [-/127.0.0.1/-/88ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7by4_] #has_exist null
+2019-10-01 21:52:12,951 INFO 1393 [-/127.0.0.1/-/89ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7by4_] #tick SPWJOSvb3RSNZeY5AAAA { type: 'deleted', message: 'deleted, room has been deleted.' }
+2019-10-01 21:52:13,009 ERROR 1393 [-/127.0.0.1/-/148ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7by4_] null
+2019-10-01 21:54:59,971 WARN 1456 [-/127.0.0.1/-/57ms POST /auth/getToken] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-10-01 21:54:59,975 WARN 1456 [-/127.0.0.1/-/61ms POST /auth/getToken] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/jake/egg-game/init/node_modules/_koa@2.8.2@koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/app/extend/context.js:154:19)
+    at csrf (/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at overrideMethod (/Users/jake/egg-game/init/node_modules/_koa-override@3.0.0@koa-override/index.js:38:12)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+message: "missing csrf token"
+pid: 1456
+hostname: jakedeMacBook-Air.local
+
+2019-10-01 21:55:00,114 INFO 1456 [-/127.0.0.1/-/10ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7cax4] #user_info Bi8VqEquf3Sah2XyAAAA 73 undefined
+2019-10-01 21:55:00,121 INFO 1456 [-/127.0.0.1/-/17ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7cax4] #has_exist null
+2019-10-01 21:55:00,121 INFO 1456 [-/127.0.0.1/-/17ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7cax4] #tick Bi8VqEquf3Sah2XyAAAA { type: 'deleted', message: 'deleted, room has been deleted.' }
+2019-10-01 21:55:00,163 ERROR 1456 [-/127.0.0.1/-/59ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7cax4] null
+2019-10-01 21:55:23,074 WARN 1456 [-/127.0.0.1/-/3ms POST /auth/getToken] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-10-01 21:55:23,076 WARN 1456 [-/127.0.0.1/-/5ms POST /auth/getToken] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/jake/egg-game/init/node_modules/_koa@2.8.2@koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/app/extend/context.js:154:19)
+    at csrf (/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at overrideMethod (/Users/jake/egg-game/init/node_modules/_koa-override@3.0.0@koa-override/index.js:38:12)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+message: "missing csrf token"
+pid: 1456
+hostname: jakedeMacBook-Air.local
+
+2019-10-01 21:55:23,178 INFO 1456 [-/127.0.0.1/-/70ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7cgaq] #user_info 6aSM0eq2bulGsKxKAAAB 73 undefined
+2019-10-01 21:55:23,182 INFO 1456 [-/127.0.0.1/-/74ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7cgaq] #has_exist null
+2019-10-01 21:55:23,183 INFO 1456 [-/127.0.0.1/-/74ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7cgaq] #tick 6aSM0eq2bulGsKxKAAAB { type: 'deleted', message: 'deleted, room has been deleted.' }
+2019-10-01 21:55:23,226 ERROR 1456 [-/127.0.0.1/-/117ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7cgaq] null
+2019-10-01 21:55:40,981 WARN 1456 [-/127.0.0.1/-/1ms POST /auth/getToken] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-10-01 21:55:40,984 WARN 1456 [-/127.0.0.1/-/2ms POST /auth/getToken] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/jake/egg-game/init/node_modules/_koa@2.8.2@koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/app/extend/context.js:154:19)
+    at csrf (/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at overrideMethod (/Users/jake/egg-game/init/node_modules/_koa-override@3.0.0@koa-override/index.js:38:12)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+message: "missing csrf token"
+pid: 1456
+hostname: jakedeMacBook-Air.local
+
+2019-10-01 21:55:41,067 INFO 1456 [-/127.0.0.1/-/44ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7ckyq] #user_info X52b9uiLAIoUvbz2AAAC 73 undefined
+2019-10-01 21:55:41,070 INFO 1456 [-/127.0.0.1/-/47ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7ckyq] #has_exist null
+2019-10-01 21:55:41,071 INFO 1456 [-/127.0.0.1/-/47ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7ckyq] #tick X52b9uiLAIoUvbz2AAAC { type: 'deleted', message: 'deleted, room has been deleted.' }
+2019-10-01 21:55:41,075 ERROR 1456 [-/127.0.0.1/-/51ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7ckyq] null
+2019-10-01 21:56:12,090 WARN 1456 [-/127.0.0.1/-/2ms POST /auth/getToken] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-10-01 21:56:12,090 WARN 1456 [-/127.0.0.1/-/3ms POST /auth/getToken] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/jake/egg-game/init/node_modules/_koa@2.8.2@koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/app/extend/context.js:154:19)
+    at csrf (/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at overrideMethod (/Users/jake/egg-game/init/node_modules/_koa-override@3.0.0@koa-override/index.js:38:12)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+message: "missing csrf token"
+pid: 1456
+hostname: jakedeMacBook-Air.local
+
+2019-10-01 21:56:12,192 INFO 1456 [-/127.0.0.1/-/86ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7csYl] #user_info oLE_wz2EtTiAPs4gAAAD 73 undefined
+2019-10-01 21:56:12,197 INFO 1456 [-/127.0.0.1/-/92ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7csYl] #has_exist null
+2019-10-01 21:56:12,201 INFO 1456 [-/127.0.0.1/-/95ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7csYl] #tick oLE_wz2EtTiAPs4gAAAD { type: 'deleted', message: 'deleted, room has been deleted.' }
+2019-10-01 21:56:12,244 ERROR 1456 [-/127.0.0.1/-/137ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7csYl] null
+2019-10-01 21:56:32,700 WARN 1481 [-/127.0.0.1/-/75ms POST /auth/getToken] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-10-01 21:56:32,706 WARN 1481 [-/127.0.0.1/-/81ms POST /auth/getToken] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/jake/egg-game/init/node_modules/_koa@2.8.2@koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/app/extend/context.js:154:19)
+    at csrf (/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at overrideMethod (/Users/jake/egg-game/init/node_modules/_koa-override@3.0.0@koa-override/index.js:38:12)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+message: "missing csrf token"
+pid: 1481
+hostname: jakedeMacBook-Air.local
+
+2019-10-01 21:56:32,841 INFO 1481 [-/127.0.0.1/-/55ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7cxZh] #user_info 1MpL6RHs8W6Ie3gRAAAA 73 undefined
+2019-10-01 21:56:32,856 INFO 1481 [-/127.0.0.1/-/71ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7cxZh] #has_exist null
+2019-10-01 21:56:32,857 INFO 1481 [-/127.0.0.1/-/72ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7cxZh] #tick 1MpL6RHs8W6Ie3gRAAAA { type: 'deleted', message: 'deleted, room has been deleted.' }
+2019-10-01 21:56:32,971 ERROR 1481 [-/127.0.0.1/-/185ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7cxZh] null
+2019-10-01 22:02:19,474 WARN 1536 [-/127.0.0.1/-/66ms POST /auth/getToken] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-10-01 22:02:19,483 WARN 1536 [-/127.0.0.1/-/75ms POST /auth/getToken] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/jake/egg-game/init/node_modules/_koa@2.8.2@koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/app/extend/context.js:154:19)
+    at csrf (/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at overrideMethod (/Users/jake/egg-game/init/node_modules/_koa-override@3.0.0@koa-override/index.js:38:12)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+message: "missing csrf token"
+pid: 1536
+hostname: jakedeMacBook-Air.local
+
+2019-10-01 22:02:19,690 INFO 1536 [-/127.0.0.1/-/37ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7eGEL] #user_info OEZe-89gSoNQ6yjJAAAA 73 undefined
+2019-10-01 22:02:19,705 INFO 1536 [-/127.0.0.1/-/52ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7eGEL] #has_exist null
+2019-10-01 22:02:19,705 INFO 1536 [-/127.0.0.1/-/52ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7eGEL] #tick OEZe-89gSoNQ6yjJAAAA { type: 'deleted', message: 'deleted, room has been deleted.' }
+2019-10-01 22:02:19,765 ERROR 1536 [-/127.0.0.1/-/111ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7eGEL] null
+2019-10-01 22:03:31,472 WARN 1556 [-/127.0.0.1/-/59ms POST /auth/getToken] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-10-01 22:03:31,483 WARN 1556 [-/127.0.0.1/-/70ms POST /auth/getToken] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/jake/egg-game/init/node_modules/_koa@2.8.2@koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/app/extend/context.js:154:19)
+    at csrf (/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at overrideMethod (/Users/jake/egg-game/init/node_modules/_koa-override@3.0.0@koa-override/index.js:38:12)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+message: "missing csrf token"
+pid: 1556
+hostname: jakedeMacBook-Air.local
+
+2019-10-01 22:03:31,638 INFO 1556 [-/127.0.0.1/-/44ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7eXpH] #user_info gFODbYSe0fscqCixAAAA 73 undefined
+2019-10-01 22:03:31,642 INFO 1556 [-/127.0.0.1/-/47ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7eXpH] #has_exist null
+2019-10-01 22:03:31,642 INFO 1556 [-/127.0.0.1/-/48ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7eXpH] #tick gFODbYSe0fscqCixAAAA { type: 'deleted', message: 'deleted, room has been deleted.' }
+2019-10-01 22:03:31,720 ERROR 1556 [-/127.0.0.1/-/120ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7eXpH] null
+2019-10-01 22:08:04,748 ERROR 1596 [-/127.0.0.1/-/8255ms POST /auth/getToken] nodejs.TypeError: Cannot read property 'sendData' of undefined
+    at authController.getToken (/Users/jake/egg-game/init/app/controller/auth.js:8:12)
+    at Object.callFn (/Users/jake/egg-game/init/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/jake/egg-game/init/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/jake/egg-game/init/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jake/egg-game/init/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/jake/egg-game/init/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 1596
+hostname: jakedeMacBook-Air.local
+
+2019-10-01 22:08:04,850 INFO 1596 [-/127.0.0.1/-/39ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7fYX1] #user_info eRB_qF21_ael2JzPAAAA 73 undefined
+2019-10-01 22:08:04,853 INFO 1596 [-/127.0.0.1/-/42ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7fYX1] #has_exist null
+2019-10-01 22:08:04,853 INFO 1596 [-/127.0.0.1/-/42ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7fYX1] #tick eRB_qF21_ael2JzPAAAA { type: 'deleted', message: 'deleted, room has been deleted.' }
+2019-10-01 22:08:04,880 ERROR 1596 [-/127.0.0.1/-/69ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7fYX1] null
+2019-10-01 22:08:42,784 ERROR 1596 [-/127.0.0.1/-/13148ms POST /auth/getToken] nodejs.TypeError: Cannot read property 'sendData' of undefined
+    at authController.getToken (/Users/jake/egg-game/init/app/controller/auth.js:8:12)
+    at Object.callFn (/Users/jake/egg-game/init/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/jake/egg-game/init/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/jake/egg-game/init/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jake/egg-game/init/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/jake/egg-game/init/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 1596
+hostname: jakedeMacBook-Air.local
+
+2019-10-01 22:08:42,832 INFO 1596 [-/127.0.0.1/-/27ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7fgcx] #user_info PbfPInuL1jNDOOe7AAAB 73 undefined
+2019-10-01 22:08:42,834 INFO 1596 [-/127.0.0.1/-/29ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7fgcx] #has_exist null
+2019-10-01 22:08:42,834 INFO 1596 [-/127.0.0.1/-/29ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7fgcx] #tick PbfPInuL1jNDOOe7AAAB { type: 'deleted', message: 'deleted, room has been deleted.' }
+2019-10-01 22:08:42,846 ERROR 1596 [-/127.0.0.1/-/41ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7fgcx] null
+2019-10-01 22:09:07,284 INFO 1612 [-/127.0.0.1/-/40ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7foek] #user_info 7qwnlj4JOI6UQYZJAAAA 73 undefined
+2019-10-01 22:09:07,287 INFO 1612 [-/127.0.0.1/-/43ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7foek] #has_exist null
+2019-10-01 22:09:07,288 INFO 1612 [-/127.0.0.1/-/43ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7foek] #tick 7qwnlj4JOI6UQYZJAAAA { type: 'deleted', message: 'deleted, room has been deleted.' }
+2019-10-01 22:09:07,302 ERROR 1612 [-/127.0.0.1/-/58ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7foek] null
+2019-10-01 22:09:43,876 INFO 1612 [-/127.0.0.1/-/26ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7fykM] #user_info VHuE1II9VQbLu5Q4AAAB 73 undefined
+2019-10-01 22:09:43,882 INFO 1612 [-/127.0.0.1/-/32ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7fykM] #has_exist null
+2019-10-01 22:09:43,883 INFO 1612 [-/127.0.0.1/-/33ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7fykM] #tick VHuE1II9VQbLu5Q4AAAB { type: 'deleted', message: 'deleted, room has been deleted.' }
+2019-10-01 22:09:43,892 ERROR 1612 [-/127.0.0.1/-/41ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7fykM] null
+2019-10-01 22:51:49,412 WARN 927 [-/127.0.0.1/-/80ms POST /auth/getToken] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-10-01 22:51:49,432 WARN 927 [-/127.0.0.1/-/101ms POST /auth/getToken] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/jake/egg-game/init/node_modules/_koa@2.8.2@koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/app/extend/context.js:154:19)
+    at csrf (/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at overrideMethod (/Users/jake/egg-game/init/node_modules/_koa-override@3.0.0@koa-override/index.js:38:12)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","vary":"Origin"}
+pid: 927
+hostname: jakedeMacBook-Air.local
+
+2019-10-01 23:23:43,110 ERROR 1221 [-/127.0.0.1/-/4750ms POST /auth/registered] nodejs.ER_WARN_DATA_OUT_OF_RANGEError: ER_WARN_DATA_OUT_OF_RANGE: Out of range value for column 'phone' at row 1
+    at Query.Sequence._packetToError (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:199:23)
+    at /Users/jake/egg-game/init/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/jake/egg-game/init/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/jake/egg-game/init/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/jake/egg-game/init/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/jake/egg-game/init/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/jake/egg-game/init/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/jake/egg-game/init/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: INSERT INTO `account_info`(`account`, `password`, `createTime`, `phone`, `id`) VALUES('jake', '111111', '2019-10-01 23:23:38', '15392129809', 0)
+code: "ER_WARN_DATA_OUT_OF_RANGE"
+errno: 1264
+sqlMessage: "Out of range value for column 'phone' at row 1"
+sqlState: "22003"
+index: 0
+sql: "INSERT INTO `account_info`(`account`, `password`, `createTime`, `phone`, `id`) VALUES('jake', '111111', '2019-10-01 23:23:38', '15392129809', 0)"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080/","vary":"Origin"}
+name: "ER_WARN_DATA_OUT_OF_RANGEError"
+pid: 1221
+hostname: jakedeMacBook-Air.local
+
+2019-10-01 23:24:01,078 ERROR 1221 [-/127.0.0.1/-/18ms POST /auth/registered] nodejs.ER_WARN_DATA_OUT_OF_RANGEError: ER_WARN_DATA_OUT_OF_RANGE: Out of range value for column 'phone' at row 1
+    at Query.Sequence._packetToError (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:199:23)
+    at /Users/jake/egg-game/init/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/jake/egg-game/init/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/jake/egg-game/init/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/jake/egg-game/init/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/jake/egg-game/init/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/jake/egg-game/init/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/jake/egg-game/init/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: INSERT INTO `account_info`(`account`, `password`, `createTime`, `phone`, `id`) VALUES('jake', '111111', '2019-10-01 23:24:01', '15392129809', 0)
+code: "ER_WARN_DATA_OUT_OF_RANGE"
+errno: 1264
+sqlMessage: "Out of range value for column 'phone' at row 1"
+sqlState: "22003"
+index: 0
+sql: "INSERT INTO `account_info`(`account`, `password`, `createTime`, `phone`, `id`) VALUES('jake', '111111', '2019-10-01 23:24:01', '15392129809', 0)"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080/","vary":"Origin"}
+name: "ER_WARN_DATA_OUT_OF_RANGEError"
+pid: 1221
+hostname: jakedeMacBook-Air.local
+
+2019-10-01 23:29:55,256 ERROR 1221 [-/127.0.0.1/-/18ms POST /auth/registered] nodejs.ER_WARN_DATA_OUT_OF_RANGEError: ER_WARN_DATA_OUT_OF_RANGE: Out of range value for column 'phone' at row 1
+    at Query.Sequence._packetToError (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:199:23)
+    at /Users/jake/egg-game/init/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/jake/egg-game/init/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/jake/egg-game/init/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/jake/egg-game/init/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/jake/egg-game/init/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/jake/egg-game/init/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/jake/egg-game/init/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: INSERT INTO `account_info`(`account`, `password`, `createTime`, `phone`, `id`) VALUES('jake', '111111', '2019-10-01 23:29:55', '15392129809', 0)
+code: "ER_WARN_DATA_OUT_OF_RANGE"
+errno: 1264
+sqlMessage: "Out of range value for column 'phone' at row 1"
+sqlState: "22003"
+index: 0
+sql: "INSERT INTO `account_info`(`account`, `password`, `createTime`, `phone`, `id`) VALUES('jake', '111111', '2019-10-01 23:29:55', '15392129809', 0)"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080/","vary":"Origin"}
+name: "ER_WARN_DATA_OUT_OF_RANGEError"
+pid: 1221
+hostname: jakedeMacBook-Air.local
+
+2019-10-01 23:30:09,683 ERROR 1264 [-/127.0.0.1/-/88ms POST /auth/registered] nodejs.ER_WARN_DATA_OUT_OF_RANGEError: ER_WARN_DATA_OUT_OF_RANGE: Out of range value for column 'phone' at row 1
+    at Query.Sequence._packetToError (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:199:23)
+    at /Users/jake/egg-game/init/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/jake/egg-game/init/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/jake/egg-game/init/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/jake/egg-game/init/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/jake/egg-game/init/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/jake/egg-game/init/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/jake/egg-game/init/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: INSERT INTO `account_info`(`account`, `password`, `createTime`, `phone`) VALUES('jake', '111111', '2019-10-01 23:30:09', '15392129809')
+code: "ER_WARN_DATA_OUT_OF_RANGE"
+errno: 1264
+sqlMessage: "Out of range value for column 'phone' at row 1"
+sqlState: "22003"
+index: 0
+sql: "INSERT INTO `account_info`(`account`, `password`, `createTime`, `phone`) VALUES('jake', '111111', '2019-10-01 23:30:09', '15392129809')"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080/","vary":"Origin"}
+name: "ER_WARN_DATA_OUT_OF_RANGEError"
+pid: 1264
+hostname: jakedeMacBook-Air.local
+

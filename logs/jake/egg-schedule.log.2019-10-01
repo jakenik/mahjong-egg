@@ -1,0 +1,663 @@
+2019-09-28 13:53:16,791 INFO 1883 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 52603221ms at 2019-09-29 04:30:00.011
+2019-09-28 13:53:16,792 INFO 1883 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 36403209ms at 2019-09-29 00:00:00.001
+2019-09-28 13:53:16,793 INFO 1883 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 36404208ms at 2019-09-29 00:00:01.001
+2019-09-28 13:53:16,622 INFO 1884 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 13:53:16,622 INFO 1884 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 13:53:16,622 INFO 1884 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 14:00:02,322 INFO 1934 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 14:00:02,322 INFO 1934 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 14:00:02,322 INFO 1934 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 14:00:03,916 INFO 1936 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 14:00:03,916 INFO 1936 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 14:00:03,916 INFO 1936 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 14:04:34,532 INFO 1996 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 51925474ms at 2019-09-29 04:30:00.006
+2019-09-28 14:04:34,533 INFO 1996 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 35725467ms at 2019-09-29 00:00:00.000
+2019-09-28 14:04:34,537 INFO 1996 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 35726467ms at 2019-09-29 00:00:01.004
+2019-09-28 14:04:34,325 INFO 1998 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 14:04:34,325 INFO 1998 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 14:04:34,325 INFO 1998 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 14:07:30,795 INFO 2038 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 14:07:30,795 INFO 2038 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 14:07:30,795 INFO 2038 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 14:08:51,191 INFO 2066 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 14:08:51,191 INFO 2066 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 14:08:51,191 INFO 2066 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 14:10:07,875 INFO 2071 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 14:10:07,875 INFO 2071 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 14:10:07,875 INFO 2071 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 14:10:09,383 INFO 2072 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 14:10:09,383 INFO 2072 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 14:10:09,383 INFO 2072 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 14:27:31,209 INFO 2180 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 50548799ms at 2019-09-29 04:30:00.008
+2019-09-28 14:27:31,210 INFO 2180 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 34348791ms at 2019-09-29 00:00:00.001
+2019-09-28 14:27:31,210 INFO 2180 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 34349790ms at 2019-09-29 00:00:01.000
+2019-09-28 14:27:30,999 INFO 2181 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 14:27:30,999 INFO 2181 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 14:27:30,999 INFO 2181 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 14:28:08,852 INFO 2191 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 14:28:08,852 INFO 2191 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 14:28:08,852 INFO 2191 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 14:28:27,215 INFO 2193 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 14:28:27,216 INFO 2193 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 14:28:27,216 INFO 2193 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 14:30:33,747 INFO 2210 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 14:30:33,747 INFO 2210 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 14:30:33,747 INFO 2210 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 14:31:23,498 INFO 2220 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 14:31:23,498 INFO 2220 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 14:31:23,498 INFO 2220 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 14:31:50,129 INFO 2223 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 14:31:50,129 INFO 2223 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 14:31:50,129 INFO 2223 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 14:32:38,744 INFO 2229 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 14:32:38,744 INFO 2229 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 14:32:38,744 INFO 2229 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 14:33:10,811 INFO 2233 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 14:33:10,811 INFO 2233 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 14:33:10,811 INFO 2233 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 14:33:30,750 INFO 2234 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 14:33:30,750 INFO 2234 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 14:33:30,750 INFO 2234 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 14:36:33,538 INFO 2242 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 14:36:33,538 INFO 2242 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 14:36:33,538 INFO 2242 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 14:36:35,275 INFO 2243 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 14:36:35,275 INFO 2243 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 14:36:35,275 INFO 2243 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 14:38:14,265 INFO 2252 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 14:38:14,265 INFO 2252 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 14:38:14,265 INFO 2252 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 14:39:26,057 INFO 2258 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 14:39:26,057 INFO 2258 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 14:39:26,057 INFO 2258 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 14:39:48,928 INFO 2267 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 14:39:48,928 INFO 2267 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 14:39:48,928 INFO 2267 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 14:41:14,856 INFO 2271 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 14:41:14,856 INFO 2271 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 14:41:14,856 INFO 2271 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 15:04:46,561 INFO 2321 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 15:04:46,561 INFO 2321 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 15:04:46,561 INFO 2321 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 15:04:46,948 INFO 2320 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 48313064ms at 2019-09-29 04:30:00.012
+2019-09-28 15:04:46,949 INFO 2320 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 32113052ms at 2019-09-29 00:00:00.001
+2019-09-28 15:04:46,949 INFO 2320 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 32114051ms at 2019-09-29 00:00:01.000
+2019-09-28 15:10:16,167 INFO 2326 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 15:10:16,167 INFO 2326 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 15:10:16,167 INFO 2326 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 15:11:12,362 INFO 2329 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 15:11:12,362 INFO 2329 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 15:11:12,362 INFO 2329 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 15:11:40,031 INFO 2331 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 15:11:40,031 INFO 2331 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 15:11:40,031 INFO 2331 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 15:13:56,294 INFO 2346 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 47763718ms at 2019-09-29 04:30:00.012
+2019-09-28 15:13:56,295 INFO 2346 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 31563705ms at 2019-09-29 00:00:00.000
+2019-09-28 15:13:56,296 INFO 2346 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 31564705ms at 2019-09-29 00:00:01.001
+2019-09-28 15:13:56,101 INFO 2347 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 15:13:56,102 INFO 2347 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 15:13:56,102 INFO 2347 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 15:16:49,376 INFO 2351 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 15:16:49,377 INFO 2351 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 15:16:49,377 INFO 2351 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 15:17:05,167 INFO 2355 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 15:17:05,167 INFO 2355 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 15:17:05,167 INFO 2355 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 15:18:44,634 INFO 2358 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 15:18:44,634 INFO 2358 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 15:18:44,634 INFO 2358 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 15:18:50,996 INFO 2361 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 15:18:50,996 INFO 2361 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 15:18:50,996 INFO 2361 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 15:20:33,210 INFO 2427 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 15:20:33,210 INFO 2427 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 15:20:33,210 INFO 2427 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 15:20:33,738 INFO 2426 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 47366268ms at 2019-09-29 04:30:00.006
+2019-09-28 15:20:33,739 INFO 2426 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 31166261ms at 2019-09-29 00:00:00.000
+2019-09-28 15:20:33,740 INFO 2426 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 31167261ms at 2019-09-29 00:00:01.001
+2019-09-28 15:42:19,636 INFO 4486 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 15:42:19,636 INFO 4486 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 15:42:19,636 INFO 4486 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 15:42:21,921 INFO 4488 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 15:42:21,921 INFO 4488 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 15:42:21,921 INFO 4488 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 15:44:23,167 INFO 4511 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 45936838ms at 2019-09-29 04:30:00.005
+2019-09-28 15:44:23,168 INFO 4511 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 29736832ms at 2019-09-29 00:00:00.000
+2019-09-28 15:44:23,169 INFO 4511 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 29737832ms at 2019-09-29 00:00:01.001
+2019-09-28 15:44:23,036 INFO 4512 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 15:44:23,036 INFO 4512 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 15:44:23,036 INFO 4512 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 15:49:44,898 INFO 4517 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 15:49:44,898 INFO 4517 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 15:49:44,898 INFO 4517 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 15:50:25,333 INFO 4519 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 15:50:25,333 INFO 4519 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 15:50:25,333 INFO 4519 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 15:50:42,340 INFO 4531 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 45557671ms at 2019-09-29 04:30:00.011
+2019-09-28 15:50:42,341 INFO 4531 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 29357660ms at 2019-09-29 00:00:00.001
+2019-09-28 15:50:42,341 INFO 4531 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 29358659ms at 2019-09-29 00:00:01.000
+2019-09-28 15:50:42,194 INFO 4532 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 15:50:42,194 INFO 4532 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 15:50:42,194 INFO 4532 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 15:50:54,774 INFO 4533 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 15:50:54,774 INFO 4533 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 15:50:54,774 INFO 4533 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 15:53:17,666 INFO 4535 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 15:53:17,666 INFO 4535 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 15:53:17,666 INFO 4535 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 15:56:33,909 INFO 4541 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 15:56:33,909 INFO 4541 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 15:56:33,909 INFO 4541 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 15:56:42,729 INFO 4543 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 15:56:42,729 INFO 4543 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 15:56:42,729 INFO 4543 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 15:56:50,087 INFO 4547 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 15:56:50,087 INFO 4547 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 15:56:50,087 INFO 4547 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 15:56:57,894 INFO 4550 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 15:56:57,894 INFO 4550 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 15:56:57,894 INFO 4550 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 15:57:29,867 INFO 4552 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 15:57:29,867 INFO 4552 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 15:57:29,867 INFO 4552 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 15:57:51,787 INFO 4555 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 15:57:51,787 INFO 4555 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 15:57:51,787 INFO 4555 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 15:58:11,842 INFO 4556 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 15:58:11,842 INFO 4556 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 15:58:11,842 INFO 4556 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 16:03:08,927 INFO 4572 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 16:03:08,927 INFO 4572 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 16:03:08,927 INFO 4572 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 16:04:09,093 INFO 4576 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 16:04:09,093 INFO 4576 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 16:04:09,093 INFO 4576 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 16:04:14,974 INFO 4577 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 16:04:14,974 INFO 4577 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 16:04:14,974 INFO 4577 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 16:06:19,418 INFO 4580 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 16:06:19,418 INFO 4580 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 16:06:19,418 INFO 4580 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 16:06:28,011 INFO 4581 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 16:06:28,011 INFO 4581 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 16:06:28,011 INFO 4581 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 16:07:09,408 INFO 4582 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 16:07:09,408 INFO 4582 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 16:07:09,408 INFO 4582 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 16:07:23,208 INFO 4584 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 16:07:23,208 INFO 4584 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 16:07:23,208 INFO 4584 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 16:07:54,381 INFO 4591 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 16:07:54,381 INFO 4591 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 16:07:54,381 INFO 4591 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 16:09:17,360 INFO 4596 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 16:09:17,360 INFO 4596 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 16:09:17,360 INFO 4596 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 16:15:00,360 INFO 4692 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 16:15:00,361 INFO 4692 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 16:15:00,361 INFO 4692 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 16:15:00,692 INFO 4691 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 44099314ms at 2019-09-29 04:30:00.006
+2019-09-28 16:15:00,692 INFO 4691 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 27899308ms at 2019-09-29 00:00:00.000
+2019-09-28 16:15:00,693 INFO 4691 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 27900308ms at 2019-09-29 00:00:01.001
+2019-09-28 16:39:17,001 INFO 4829 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 16:39:17,001 INFO 4829 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 16:39:17,001 INFO 4829 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 16:39:45,324 INFO 4843 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 42614681ms at 2019-09-29 04:30:00.005
+2019-09-28 16:39:45,325 INFO 4843 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 26414675ms at 2019-09-29 00:00:00.000
+2019-09-28 16:39:45,325 INFO 4843 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 26415675ms at 2019-09-29 00:00:01.000
+2019-09-28 16:39:45,041 INFO 4851 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 16:39:45,041 INFO 4851 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 16:39:45,041 INFO 4851 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 16:41:32,134 INFO 4861 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 16:41:32,134 INFO 4861 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 16:41:32,134 INFO 4861 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 16:45:17,488 INFO 4876 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 16:45:17,488 INFO 4876 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 16:45:17,488 INFO 4876 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 16:46:26,287 INFO 4879 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 16:46:26,287 INFO 4879 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 16:46:26,287 INFO 4879 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 20:47:56,624 INFO 4926 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 20:47:56,624 INFO 4926 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 20:47:56,624 INFO 4926 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 20:47:58,552 INFO 4928 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 20:47:58,552 INFO 4928 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 20:47:58,552 INFO 4928 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 20:48:18,726 INFO 4940 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 27701281ms at 2019-09-29 04:30:00.007
+2019-09-28 20:48:18,727 INFO 4940 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 11501273ms at 2019-09-29 00:00:00.000
+2019-09-28 20:48:18,728 INFO 4940 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 11502273ms at 2019-09-29 00:00:01.000
+2019-09-28 20:48:18,569 INFO 4941 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 20:48:18,569 INFO 4941 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 20:48:18,569 INFO 4941 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 20:57:11,470 INFO 4984 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 20:57:11,470 INFO 4984 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 20:57:11,470 INFO 4984 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 20:57:12,308 INFO 4983 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 27167700ms at 2019-09-29 04:30:00.008
+2019-09-28 20:57:12,309 INFO 4983 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 10967691ms at 2019-09-29 00:00:00.000
+2019-09-28 20:57:12,310 INFO 4983 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 10968690ms at 2019-09-29 00:00:01.000
+2019-09-28 20:58:43,695 INFO 5025 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 20:58:43,695 INFO 5025 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 20:58:43,695 INFO 5025 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 20:58:44,118 INFO 5024 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 27075891ms at 2019-09-29 04:30:00.008
+2019-09-28 20:58:44,118 INFO 5024 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 10875882ms at 2019-09-29 00:00:00.000
+2019-09-28 20:58:44,119 INFO 5024 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 10876882ms at 2019-09-29 00:00:01.001
+2019-09-28 21:00:15,973 INFO 5062 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 21:00:15,973 INFO 5062 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 21:00:16,001 INFO 5062 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 21:00:16,601 INFO 5061 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 26983406ms at 2019-09-29 04:30:00.007
+2019-09-28 21:00:16,602 INFO 5061 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 10783399ms at 2019-09-29 00:00:00.001
+2019-09-28 21:00:16,602 INFO 5061 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 10784398ms at 2019-09-29 00:00:01.000
+2019-09-28 21:03:29,759 INFO 5104 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 21:03:29,759 INFO 5104 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 21:03:29,759 INFO 5104 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 21:03:30,313 INFO 5096 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 26789698ms at 2019-09-29 04:30:00.010
+2019-09-28 21:03:30,313 INFO 5096 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 10589687ms at 2019-09-29 00:00:00.000
+2019-09-28 21:03:30,314 INFO 5096 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 10590686ms at 2019-09-29 00:00:01.000
+2019-09-28 21:05:31,890 INFO 5124 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 21:05:31,891 INFO 5124 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 21:05:31,891 INFO 5124 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 21:05:32,271 INFO 5122 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 26667738ms at 2019-09-29 04:30:00.009
+2019-09-28 21:05:32,272 INFO 5122 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 10467728ms at 2019-09-29 00:00:00.000
+2019-09-28 21:05:32,273 INFO 5122 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 10468728ms at 2019-09-29 00:00:01.001
+2019-09-28 21:06:00,864 INFO 5137 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 26639144ms at 2019-09-29 04:30:00.008
+2019-09-28 21:06:00,865 INFO 5137 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 10439135ms at 2019-09-29 00:00:00.000
+2019-09-28 21:06:00,866 INFO 5137 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 10440135ms at 2019-09-29 00:00:01.001
+2019-09-28 21:06:00,568 INFO 5138 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 21:06:00,568 INFO 5138 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 21:06:00,568 INFO 5138 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 21:06:51,445 INFO 5147 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 26588560ms at 2019-09-29 04:30:00.005
+2019-09-28 21:06:51,445 INFO 5147 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 10388555ms at 2019-09-29 00:00:00.000
+2019-09-28 21:06:51,446 INFO 5147 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 10389555ms at 2019-09-29 00:00:01.001
+2019-09-28 21:06:51,212 INFO 5148 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 21:06:51,212 INFO 5148 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 21:06:51,212 INFO 5148 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 21:50:09,685 INFO 712 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 21:50:09,685 INFO 712 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 21:50:09,685 INFO 712 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 21:50:10,068 INFO 711 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 23989940ms at 2019-09-29 04:30:00.008
+2019-09-28 21:50:10,068 INFO 711 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 7789932ms at 2019-09-29 00:00:00.000
+2019-09-28 21:50:10,069 INFO 711 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 7790932ms at 2019-09-29 00:00:01.001
+2019-09-28 21:52:20,882 INFO 733 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 21:52:20,882 INFO 733 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 21:52:20,882 INFO 733 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 21:52:21,188 INFO 732 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 23858816ms at 2019-09-29 04:30:00.004
+2019-09-28 21:52:21,188 INFO 732 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 7658812ms at 2019-09-29 00:00:00.000
+2019-09-28 21:52:21,189 INFO 732 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 7659812ms at 2019-09-29 00:00:01.001
+2019-09-28 21:55:51,358 INFO 767 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 21:55:51,358 INFO 767 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 21:55:51,358 INFO 767 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 21:55:51,601 INFO 766 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 23648404ms at 2019-09-29 04:30:00.004
+2019-09-28 21:55:51,601 INFO 766 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 7448399ms at 2019-09-29 00:00:00.000
+2019-09-28 21:55:51,601 INFO 766 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 7449399ms at 2019-09-29 00:00:01.000
+2019-09-28 22:01:21,874 INFO 887 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 22:01:21,874 INFO 887 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 22:01:21,874 INFO 887 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 22:02:56,758 INFO 898 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 22:02:56,758 INFO 898 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 22:02:56,758 INFO 898 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 22:02:57,008 INFO 897 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 23222999ms at 2019-09-29 04:30:00.007
+2019-09-28 22:02:57,008 INFO 897 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 7022992ms at 2019-09-29 00:00:00.000
+2019-09-28 22:02:57,009 INFO 897 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 7023992ms at 2019-09-29 00:00:01.001
+2019-09-28 22:36:55,866 INFO 980 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 21184138ms at 2019-09-29 04:30:00.004
+2019-09-28 22:36:55,867 INFO 980 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 4984133ms at 2019-09-29 00:00:00.000
+2019-09-28 22:36:55,867 INFO 980 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 4985133ms at 2019-09-29 00:00:01.000
+2019-09-28 22:36:55,421 INFO 981 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 22:36:55,421 INFO 981 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 22:36:55,421 INFO 981 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 22:49:00,964 INFO 1081 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 20459041ms at 2019-09-29 04:30:00.004
+2019-09-28 22:49:00,964 INFO 1081 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 4259036ms at 2019-09-29 00:00:00.000
+2019-09-28 22:49:00,964 INFO 1081 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 4260036ms at 2019-09-29 00:00:01.000
+2019-09-28 22:49:00,397 INFO 1082 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 22:49:00,397 INFO 1082 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 22:49:00,397 INFO 1082 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 22:54:06,620 INFO 1102 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 20153388ms at 2019-09-29 04:30:00.008
+2019-09-28 22:54:06,620 INFO 1102 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 3953380ms at 2019-09-29 00:00:00.000
+2019-09-28 22:54:06,621 INFO 1102 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 3954380ms at 2019-09-29 00:00:01.001
+2019-09-28 22:54:06,113 INFO 1103 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 22:54:06,113 INFO 1103 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 22:54:06,113 INFO 1103 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 23:00:14,830 INFO 1119 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 23:00:14,830 INFO 1119 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 23:00:14,830 INFO 1119 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 23:00:15,073 INFO 1118 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 19784932ms at 2019-09-29 04:30:00.005
+2019-09-28 23:00:15,074 INFO 1118 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 3584926ms at 2019-09-29 00:00:00.000
+2019-09-28 23:00:15,075 INFO 1118 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 3585926ms at 2019-09-29 00:00:01.001
+2019-09-28 23:05:41,468 INFO 1143 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 23:05:41,468 INFO 1143 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 23:05:41,468 INFO 1143 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 23:06:09,490 INFO 1153 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 19430515ms at 2019-09-29 04:30:00.005
+2019-09-28 23:06:09,490 INFO 1153 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 3230510ms at 2019-09-29 00:00:00.000
+2019-09-28 23:06:09,491 INFO 1153 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 3231509ms at 2019-09-29 00:00:01.000
+2019-09-28 23:06:09,264 INFO 1154 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 23:06:09,264 INFO 1154 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 23:06:09,264 INFO 1154 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-28 23:11:10,256 INFO 1160 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-28 23:11:10,256 INFO 1160 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-28 23:11:10,256 INFO 1160 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-30 12:30:38,679 INFO 923 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-30 12:30:38,679 INFO 923 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-30 12:30:38,679 INFO 923 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-30 12:30:39,190 INFO 922 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 57560819ms at 2019-10-01 04:30:00.009
+2019-09-30 12:30:39,191 INFO 922 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 41360810ms at 2019-10-01 00:00:00.001
+2019-09-30 12:30:39,192 INFO 922 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 41361809ms at 2019-10-01 00:00:01.001
+2019-09-30 14:24:50,439 INFO 959 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 50709569ms at 2019-10-01 04:30:00.008
+2019-09-30 14:24:50,442 INFO 959 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 34509560ms at 2019-10-01 00:00:00.002
+2019-09-30 14:24:50,444 INFO 959 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 34510557ms at 2019-10-01 00:00:01.000
+2019-09-30 14:24:50,176 INFO 960 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-30 14:24:50,176 INFO 960 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-30 14:24:50,176 INFO 960 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-30 14:40:51,607 INFO 1054 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-30 14:40:51,607 INFO 1054 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-30 14:40:51,607 INFO 1054 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-30 14:41:13,029 INFO 1058 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-30 14:41:13,029 INFO 1058 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-30 14:41:13,029 INFO 1058 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-30 14:42:27,810 INFO 1059 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-30 14:42:27,810 INFO 1059 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-30 14:42:27,810 INFO 1059 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-30 14:47:51,810 INFO 1088 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-30 14:47:51,811 INFO 1088 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-30 14:47:51,811 INFO 1088 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-30 14:48:14,458 INFO 1090 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-30 14:48:14,458 INFO 1090 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-30 14:48:14,458 INFO 1090 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-30 14:50:33,308 INFO 1097 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 49166696ms at 2019-10-01 04:30:00.004
+2019-09-30 14:50:33,309 INFO 1097 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 32966691ms at 2019-10-01 00:00:00.000
+2019-09-30 14:50:33,310 INFO 1097 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 32967691ms at 2019-10-01 00:00:01.001
+2019-09-30 14:50:33,152 INFO 1098 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-30 14:50:33,153 INFO 1098 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-30 14:50:33,153 INFO 1098 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-30 14:50:43,713 INFO 1099 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-30 14:50:43,713 INFO 1099 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-30 14:50:43,713 INFO 1099 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-30 15:42:33,690 INFO 558 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-30 15:42:33,690 INFO 558 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-30 15:42:33,690 INFO 558 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-30 15:42:34,314 INFO 557 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 46045693ms at 2019-10-01 04:30:00.007
+2019-09-30 15:42:34,315 INFO 557 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 29845685ms at 2019-10-01 00:00:00.000
+2019-09-30 15:42:34,316 INFO 557 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 29846685ms at 2019-10-01 00:00:01.001
+2019-09-30 15:43:11,295 INFO 562 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-30 15:43:11,295 INFO 562 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-30 15:43:11,295 INFO 562 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-30 15:46:25,113 INFO 611 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 45814892ms at 2019-10-01 04:30:00.005
+2019-09-30 15:46:25,114 INFO 611 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 29614887ms at 2019-10-01 00:00:00.001
+2019-09-30 15:46:25,114 INFO 611 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 29615886ms at 2019-10-01 00:00:01.000
+2019-09-30 15:46:24,765 INFO 612 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-30 15:46:24,765 INFO 612 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-30 15:46:24,766 INFO 612 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 21:15:00,864 INFO 956 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 21:15:00,864 INFO 956 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 21:15:00,864 INFO 956 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 21:15:32,900 INFO 967 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 21:15:32,900 INFO 967 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 21:15:32,900 INFO 967 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 21:16:57,587 INFO 993 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 21:16:57,587 INFO 993 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 21:16:57,587 INFO 993 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 21:16:58,050 INFO 992 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 25981956ms at 2019-10-02 04:30:00.006
+2019-10-01 21:16:58,051 INFO 992 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 9781949ms at 2019-10-02 00:00:00.000
+2019-10-01 21:16:58,051 INFO 992 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 9782949ms at 2019-10-02 00:00:01.000
+2019-10-01 21:22:14,391 INFO 1029 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 21:22:14,391 INFO 1029 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 21:22:14,392 INFO 1029 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 21:22:35,326 INFO 1032 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 21:22:35,326 INFO 1032 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 21:22:35,326 INFO 1032 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 21:22:46,749 INFO 1034 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 21:22:46,749 INFO 1034 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 21:22:46,749 INFO 1034 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 21:23:44,186 INFO 1042 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 21:23:44,186 INFO 1042 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 21:23:44,186 INFO 1042 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 21:24:57,841 INFO 1050 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 21:24:57,841 INFO 1050 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 21:24:57,841 INFO 1050 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 21:25:03,604 INFO 1052 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 21:25:03,604 INFO 1052 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 21:25:03,604 INFO 1052 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 21:30:39,095 INFO 1087 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 21:30:39,095 INFO 1087 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 21:30:39,095 INFO 1087 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 21:32:42,389 INFO 1103 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 21:32:42,389 INFO 1103 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 21:32:42,389 INFO 1103 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 21:34:38,602 INFO 1146 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 21:34:38,602 INFO 1146 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 21:34:38,602 INFO 1146 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 21:34:47,875 INFO 1148 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 21:34:47,875 INFO 1148 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 21:34:47,875 INFO 1148 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 21:35:37,773 INFO 1156 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 21:35:37,774 INFO 1156 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 21:35:37,774 INFO 1156 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 21:36:20,366 INFO 1163 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 21:36:20,366 INFO 1163 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 21:36:20,366 INFO 1163 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 21:36:55,972 INFO 1167 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 21:36:55,972 INFO 1167 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 21:36:55,972 INFO 1167 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 21:37:39,675 INFO 1172 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 21:37:39,675 INFO 1172 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 21:37:39,675 INFO 1172 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 21:45:06,698 INFO 1245 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 21:45:06,698 INFO 1245 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 21:45:06,698 INFO 1245 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 21:45:07,139 INFO 1244 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 24292865ms at 2019-10-02 04:30:00.004
+2019-10-01 21:45:07,139 INFO 1244 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 8092861ms at 2019-10-02 00:00:00.000
+2019-10-01 21:45:07,140 INFO 1244 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 8093861ms at 2019-10-02 00:00:01.001
+2019-10-01 21:45:43,175 INFO 1250 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 21:45:43,175 INFO 1250 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 21:45:43,175 INFO 1250 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 21:45:59,002 INFO 1252 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 21:45:59,002 INFO 1252 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 21:45:59,002 INFO 1252 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 21:50:12,684 INFO 1391 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 21:50:12,685 INFO 1391 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 21:50:12,685 INFO 1391 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 21:50:18,415 INFO 1393 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 21:50:18,415 INFO 1393 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 21:50:18,415 INFO 1393 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 21:54:49,488 INFO 1456 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 21:54:49,488 INFO 1456 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 21:54:49,488 INFO 1456 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 21:54:50,450 INFO 1455 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 23709555ms at 2019-10-02 04:30:00.005
+2019-10-01 21:54:50,451 INFO 1455 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 7509549ms at 2019-10-02 00:00:00.000
+2019-10-01 21:54:50,452 INFO 1455 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 7510549ms at 2019-10-02 00:00:01.001
+2019-10-01 21:56:29,972 INFO 1480 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 23610035ms at 2019-10-02 04:30:00.007
+2019-10-01 21:56:29,973 INFO 1480 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 7410027ms at 2019-10-02 00:00:00.000
+2019-10-01 21:56:29,973 INFO 1480 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 7411027ms at 2019-10-02 00:00:01.000
+2019-10-01 21:56:29,392 INFO 1481 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 21:56:29,392 INFO 1481 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 21:56:29,392 INFO 1481 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 22:01:18,267 INFO 1517 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 22:01:18,267 INFO 1517 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 22:01:18,267 INFO 1517 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 22:01:37,040 INFO 1521 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 22:01:37,040 INFO 1521 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 22:01:37,040 INFO 1521 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 22:02:00,170 INFO 1525 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 22:02:00,170 INFO 1525 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 22:02:00,170 INFO 1525 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 22:02:12,652 INFO 1534 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 23267353ms at 2019-10-02 04:30:00.005
+2019-10-01 22:02:12,653 INFO 1534 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 7067347ms at 2019-10-02 00:00:00.000
+2019-10-01 22:02:12,653 INFO 1534 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 7068347ms at 2019-10-02 00:00:01.000
+2019-10-01 22:02:11,997 INFO 1536 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 22:02:11,997 INFO 1536 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 22:02:11,997 INFO 1536 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 22:02:47,726 INFO 1540 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 22:02:47,726 INFO 1540 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 22:02:47,726 INFO 1540 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 22:03:04,925 INFO 1544 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 22:03:04,925 INFO 1544 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 22:03:04,925 INFO 1544 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 22:03:08,319 INFO 1546 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 22:03:08,319 INFO 1546 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 22:03:08,319 INFO 1546 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 22:03:24,970 INFO 1555 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 23195035ms at 2019-10-02 04:30:00.005
+2019-10-01 22:03:24,970 INFO 1555 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 6995030ms at 2019-10-02 00:00:00.000
+2019-10-01 22:03:24,971 INFO 1555 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 6996030ms at 2019-10-02 00:00:01.000
+2019-10-01 22:03:24,406 INFO 1556 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 22:03:24,406 INFO 1556 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 22:03:24,406 INFO 1556 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 22:07:51,678 INFO 1595 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 22928327ms at 2019-10-02 04:30:00.005
+2019-10-01 22:07:51,678 INFO 1595 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 6728322ms at 2019-10-02 00:00:00.000
+2019-10-01 22:07:51,679 INFO 1595 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 6729321ms at 2019-10-02 00:00:01.000
+2019-10-01 22:07:51,113 INFO 1596 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 22:07:51,113 INFO 1596 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 22:07:51,113 INFO 1596 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 22:08:58,229 INFO 1612 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 22:08:58,229 INFO 1612 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 22:08:58,229 INFO 1612 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 22:08:58,757 INFO 1611 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 22861247ms at 2019-10-02 04:30:00.004
+2019-10-01 22:08:58,758 INFO 1611 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 6661242ms at 2019-10-02 00:00:00.000
+2019-10-01 22:08:58,758 INFO 1611 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 6662242ms at 2019-10-02 00:00:01.000
+2019-10-01 22:11:01,124 INFO 1625 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 22:11:01,124 INFO 1625 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 22:11:01,124 INFO 1625 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 22:14:24,500 INFO 1663 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 22:14:24,500 INFO 1663 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 22:14:24,500 INFO 1663 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 22:15:10,845 INFO 1668 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 22:15:10,845 INFO 1668 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 22:15:10,845 INFO 1668 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 22:33:08,024 INFO 618 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 22:33:08,024 INFO 618 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 22:33:08,024 INFO 618 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 22:33:09,270 INFO 617 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 21410740ms at 2019-10-02 04:30:00.010
+2019-10-01 22:33:09,271 INFO 617 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 5210730ms at 2019-10-02 00:00:00.000
+2019-10-01 22:33:09,271 INFO 617 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 5211729ms at 2019-10-02 00:00:01.000
+2019-10-01 22:45:24,042 INFO 847 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 22:45:24,042 INFO 847 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 22:45:24,042 INFO 847 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 22:45:24,579 INFO 846 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 20675425ms at 2019-10-02 04:30:00.004
+2019-10-01 22:45:24,580 INFO 846 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 4475421ms at 2019-10-02 00:00:00.001
+2019-10-01 22:45:24,580 INFO 846 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 4476420ms at 2019-10-02 00:00:01.000
+2019-10-01 22:46:33,945 INFO 873 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 22:46:33,945 INFO 873 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 22:46:33,945 INFO 873 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 22:50:20,116 INFO 897 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 22:50:20,116 INFO 897 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 22:50:20,116 INFO 897 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 22:50:22,756 INFO 900 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 22:50:22,756 INFO 900 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 22:50:22,756 INFO 900 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 22:50:56,177 INFO 904 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 22:50:56,177 INFO 904 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 22:50:56,177 INFO 904 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 22:50:59,216 INFO 907 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 22:50:59,216 INFO 907 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 22:50:59,216 INFO 907 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 22:51:45,765 INFO 927 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 22:51:45,765 INFO 927 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 22:51:45,765 INFO 927 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 22:51:59,115 INFO 930 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 22:51:59,115 INFO 930 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 22:51:59,115 INFO 930 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 22:53:57,265 INFO 946 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 22:53:57,265 INFO 946 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 22:53:57,265 INFO 946 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 22:55:34,916 INFO 964 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 22:55:34,917 INFO 964 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 22:55:34,917 INFO 964 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 22:58:25,487 INFO 991 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 22:58:25,487 INFO 991 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 22:58:25,487 INFO 991 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 22:58:25,924 INFO 990 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 19894080ms at 2019-10-02 04:30:00.004
+2019-10-01 22:58:25,925 INFO 990 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 3694075ms at 2019-10-02 00:00:00.000
+2019-10-01 22:58:25,926 INFO 990 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 3695075ms at 2019-10-02 00:00:01.001
+2019-10-01 23:02:55,230 INFO 1030 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 23:02:55,230 INFO 1030 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 23:02:55,230 INFO 1030 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 23:04:38,951 INFO 1054 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 23:04:38,951 INFO 1054 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 23:04:38,951 INFO 1054 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 23:06:21,736 INFO 1072 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 23:06:21,736 INFO 1072 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 23:06:21,736 INFO 1072 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 23:07:14,433 INFO 1079 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 23:07:14,433 INFO 1079 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 23:07:14,433 INFO 1079 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 23:09:53,464 INFO 1099 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 23:09:53,464 INFO 1099 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 23:09:53,464 INFO 1099 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 23:10:57,077 INFO 1106 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 23:10:57,077 INFO 1106 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 23:10:57,077 INFO 1106 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 23:16:54,091 INFO 1160 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 23:16:54,091 INFO 1160 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 23:16:54,091 INFO 1160 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 23:16:54,523 INFO 1158 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 18785481ms at 2019-10-02 04:30:00.004
+2019-10-01 23:16:54,523 INFO 1158 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 2585477ms at 2019-10-02 00:00:00.000
+2019-10-01 23:16:54,524 INFO 1158 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 2586476ms at 2019-10-02 00:00:01.000
+2019-10-01 23:18:36,551 INFO 1182 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 23:18:36,551 INFO 1182 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 23:18:36,551 INFO 1182 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 23:18:36,991 INFO 1181 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 18683014ms at 2019-10-02 04:30:00.005
+2019-10-01 23:18:36,992 INFO 1181 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 2483009ms at 2019-10-02 00:00:00.001
+2019-10-01 23:18:36,992 INFO 1181 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 2484008ms at 2019-10-02 00:00:01.000
+2019-10-01 23:19:20,634 INFO 1187 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 23:19:20,634 INFO 1187 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 23:19:20,634 INFO 1187 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 23:20:32,713 INFO 1197 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 23:20:32,713 INFO 1197 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 23:20:32,713 INFO 1197 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 23:21:03,505 INFO 1201 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 23:21:03,505 INFO 1201 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 23:21:03,505 INFO 1201 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 23:21:40,077 INFO 1205 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 23:21:40,077 INFO 1205 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 23:21:40,077 INFO 1205 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 23:22:44,245 INFO 1213 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 23:22:44,245 INFO 1213 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 23:22:44,245 INFO 1213 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 23:22:53,879 INFO 1215 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 23:22:53,879 INFO 1215 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 23:22:53,879 INFO 1215 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 23:23:08,789 INFO 1217 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 23:23:08,789 INFO 1217 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 23:23:08,789 INFO 1217 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 23:23:33,544 INFO 1221 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 23:23:33,544 INFO 1221 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 23:23:33,544 INFO 1221 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 23:30:07,033 INFO 1264 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 23:30:07,033 INFO 1264 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 23:30:07,033 INFO 1264 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 23:30:23,999 INFO 1277 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 23:30:23,999 INFO 1277 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 23:30:23,999 INFO 1277 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 23:31:00,361 INFO 1281 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 23:31:00,361 INFO 1281 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 23:31:00,361 INFO 1281 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 23:31:23,342 INFO 1298 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 23:31:23,342 INFO 1298 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 23:31:23,342 INFO 1298 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 23:32:41,129 INFO 1316 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 23:32:41,129 INFO 1316 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 23:32:41,129 INFO 1316 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 23:35:19,474 INFO 1334 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 23:35:19,474 INFO 1334 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 23:35:19,474 INFO 1334 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 23:35:46,794 INFO 1339 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 23:35:46,794 INFO 1339 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 23:35:46,794 INFO 1339 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 23:36:07,353 INFO 1342 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 23:36:07,353 INFO 1342 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 23:36:07,353 INFO 1342 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 23:36:56,645 INFO 1355 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 23:36:56,645 INFO 1355 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 23:36:56,645 INFO 1355 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-01 23:36:57,074 INFO 1354 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 17582930ms at 2019-10-02 04:30:00.004
+2019-10-01 23:36:57,074 INFO 1354 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 1382926ms at 2019-10-02 00:00:00.000
+2019-10-01 23:36:57,075 INFO 1354 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 1383926ms at 2019-10-02 00:00:01.000
+2019-10-01 23:37:30,917 INFO 1359 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-01 23:37:30,917 INFO 1359 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-01 23:37:30,917 INFO 1359 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-02 09:42:26,874 INFO 1597 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-02 09:42:26,874 INFO 1597 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-02 09:42:26,874 INFO 1597 [egg-schedule]: register schedule /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-02 09:46:17,111 INFO 1597 [Job#156998077710753482455171471] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js executing by app
+2019-10-02 09:46:17,123 INFO 1597 [Job#156998077710753482455171471] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js execute succeed, used 11ms
+2019-10-02 09:46:17,120 INFO 1354 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 51222891ms at 2019-10-03 00:00:00.011
+2019-10-02 09:46:18,107 INFO 1597 [Job#156998077810653492433733731] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2019-10-02 09:46:18,119 INFO 1597 [Job#156998077810653492433733731] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 12ms
+2019-10-02 09:46:18,111 INFO 1354 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 51222894ms at 2019-10-03 00:00:01.005

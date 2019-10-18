@@ -1,0 +1,2620 @@
+2019-09-28 14:31:52,812 ERROR 2223 [-/127.0.0.1/-/10ms GET /index] nodejs.TypeError: this.ctx.logger is not a function
+    at HomeController.index (/Users/jake/egg-game/init/app/controller/home.js:8:14)
+    at Object.callFn (/Users/jake/egg-game/init/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/jake/egg-game/init/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/jake/egg-game/init/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jake/egg-game/init/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/jake/egg-game/init/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 2223
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 14:31:54,257 ERROR 2223 [-/127.0.0.1/-/1ms GET /index] nodejs.TypeError: this.ctx.logger is not a function
+    at HomeController.index (/Users/jake/egg-game/init/app/controller/home.js:8:14)
+    at Object.callFn (/Users/jake/egg-game/init/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/jake/egg-game/init/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/jake/egg-game/init/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jake/egg-game/init/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/jake/egg-game/init/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 2223
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:45:19,576 ERROR 4876 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4876
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:45:21,056 ERROR 4876 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4876
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:46:28,645 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:46:30,117 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:47:25,362 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:47:27,473 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:52:42,423 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:52:44,422 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:53:15,820 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:53:16,365 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:53:47,221 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:53:47,476 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:54:46,468 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:55:39,368 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:55:43,426 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:56:11,279 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:56:15,024 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:56:43,228 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:56:46,233 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:57:15,261 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:57:18,229 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:57:47,367 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:57:49,283 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:58:19,353 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:58:21,228 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:58:50,237 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:58:52,368 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:59:22,228 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:59:23,237 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:59:53,298 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 16:59:55,494 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 17:00:24,245 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 17:00:55,390 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 17:00:56,263 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 17:01:27,312 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 17:01:28,366 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 17:01:59,380 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 17:02:00,300 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 17:02:22,028 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 17:02:22,031 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 17:51:28,010 ERROR 4843 nodejs.ClusterClientNoResponseError: client no response in 2941276ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/jake/egg-game/init/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 4843
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 18:52:15,316 ERROR 4843 nodejs.ClusterClientNoResponseError: client no response in 3606643ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/jake/egg-game/init/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 4843
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 19:57:33,830 ERROR 4843 nodejs.ClusterClientNoResponseError: client no response in 3877147ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/jake/egg-game/init/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 4843
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 19:58:18,750 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 19:58:18,755 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 19:58:50,744 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 19:58:50,747 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 19:59:22,676 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 19:59:24,136 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 19:59:54,318 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:00:25,748 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:01:17,438 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:01:48,711 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:01:49,641 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:02:46,747 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:03:12,545 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:03:18,728 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:03:44,662 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:03:50,756 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:04:45,646 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:04:47,802 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:05:17,810 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:05:21,195 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:05:49,676 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:05:53,609 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:06:21,726 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:06:25,705 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:07:20,751 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:07:28,226 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:07:52,753 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:07:59,753 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:08:24,747 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:08:31,759 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:08:56,671 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:09:03,708 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:09:28,716 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:09:35,756 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:09:59,565 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:10:07,674 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:10:31,676 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:10:39,676 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:11:03,681 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:11:11,676 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:11:34,567 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:12:10,766 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:12:31,761 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:12:42,776 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:13:03,757 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:13:14,759 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:13:35,780 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:13:46,689 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:14:07,706 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:14:18,709 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:14:30,391 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:14:30,394 ERROR 4879 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4879
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:45:48,119 ERROR 4843 nodejs.ClusterClientNoResponseError: client no response in 1874036ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/jake/egg-game/init/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 4843
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:47:59,412 ERROR 4928 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:40
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4928
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:47:59,419 ERROR 4928 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:40
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4928
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:48:22,492 ERROR 4941 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:40
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4941
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:48:23,210 ERROR 4941 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:40
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4941
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:57:13,654 ERROR 4984 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:40
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 4984
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 20:58:45,697 ERROR 5025 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:40
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 5025
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:00:24,843 ERROR 5062 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:40
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 5062
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:03:33,670 ERROR 5104 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:40
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 5104
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:05:38,666 ERROR 5124 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:40
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 5124
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:06:02,592 ERROR 5138 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:40
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 5138
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:06:59,568 ERROR 5148 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:40
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 5148
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:11:00,137 ERROR 5148 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:40
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 5148
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:50:09,967 ERROR 712 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 712
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:50:09,970 ERROR 712 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 712
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:50:10,178 ERROR 712 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 712
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:50:10,180 ERROR 712 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 712
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:50:10,523 ERROR 712 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 712
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:50:10,524 ERROR 712 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 712
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:50:11,110 ERROR 712 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 712
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:50:11,111 ERROR 712 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 712
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:50:12,097 ERROR 712 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 712
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:50:12,099 ERROR 712 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 712
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:50:13,776 ERROR 712 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 712
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:50:13,777 ERROR 712 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 712
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:50:16,623 ERROR 712 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 712
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:50:16,624 ERROR 712 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 712
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:50:21,459 ERROR 712 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 712
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:50:21,460 ERROR 712 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 712
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:50:29,677 ERROR 712 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 712
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:50:29,678 ERROR 712 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 712
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:50:43,645 ERROR 712 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 712
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:50:43,646 ERROR 712 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 712
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:51:07,378 ERROR 712 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 712
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:51:07,379 ERROR 712 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 712
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:52:21,109 ERROR 733 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 733
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:52:21,113 ERROR 733 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 733
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:52:21,317 ERROR 733 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 733
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:52:21,319 ERROR 733 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 733
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:52:21,665 ERROR 733 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 733
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:52:21,667 ERROR 733 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 733
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:52:22,249 ERROR 733 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 733
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:52:22,250 ERROR 733 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 733
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:52:23,238 ERROR 733 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 733
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:52:23,239 ERROR 733 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 733
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:52:24,916 ERROR 733 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 733
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:52:24,921 ERROR 733 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 733
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:52:27,762 ERROR 733 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 733
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:52:27,764 ERROR 733 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 733
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:52:32,596 ERROR 733 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 733
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:52:32,598 ERROR 733 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 733
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:52:40,811 ERROR 733 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 733
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:52:40,813 ERROR 733 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 733
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:52:54,777 ERROR 733 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 733
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:52:54,778 ERROR 733 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 733
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:53:18,510 ERROR 733 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 733
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:53:18,511 ERROR 733 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 733
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:53:58,856 ERROR 733 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 733
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:53:58,857 ERROR 733 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 733
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:55:07,445 ERROR 733 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 733
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:55:07,446 ERROR 733 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 733
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:57:58,536 ERROR 767 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:40
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 767
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 21:59:09,559 ERROR 766 nodejs.ClusterClientNoResponseError: client no response in 77986ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/jake/egg-game/init/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 766
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 22:00:19,840 ERROR 767 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:40
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 767
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 22:00:21,911 ERROR 767 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:40
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 767
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 22:00:24,749 ERROR 767 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:40
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 767
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 22:00:24,756 ERROR 767 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:40
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 767
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 22:00:24,763 ERROR 767 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:40
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 767
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 22:01:25,890 ERROR 887 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:40
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 887
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 22:03:01,945 ERROR 898 nodejs.TypeError: Cannot read property 'get' of undefined
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:30:37
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/jake/egg-game/init/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at module.exports (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/connectionMiddlewareInit.js:14:3)
+    at Array.nsp.use (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:121:7)
+    at run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:124:11)
+    at Namespace.run (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:136:3)
+    at Namespace.add (/Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/namespace.js:164:8)
+
+pid: 898
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 22:49:10,614 ERROR 1082 nodejs.TypeError: helper.parseMsg is not a function
+    at tick (/Users/jake/egg-game/init/app/io/middleware/auth.js:20:30)
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:35:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 1082
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 22:49:37,614 ERROR 1082 nodejs.TypeError: helper.parseMsg is not a function
+    at tick (/Users/jake/egg-game/init/app/io/middleware/auth.js:20:30)
+    at /Users/jake/egg-game/init/app/io/middleware/auth.js:35:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 1082
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 22:54:12,697 ERROR 1103 [-/127.0.0.1/-/25ms GET /socket.io/?token=cde&EIO=3&transport=polling&t=MruNN2g] null
+2019-09-28 22:54:13,970 ERROR 1103 [-/127.0.0.1/-/5ms GET /socket.io/?token=cde&EIO=3&transport=polling&t=MruNNN1] null
+2019-09-28 22:55:28,768 ERROR 1103 [-/127.0.0.1/-/16ms GET /socket.io/?token=cde&EIO=3&transport=polling&t=MruNbYT] null
+2019-09-28 22:55:33,736 ERROR 1103 [-/127.0.0.1/-/56708ms GET /socket.io/?token=cde&EIO=3&transport=polling&t=MruNS_Q] nodejs.Error: timeout reached while waiting for remoteDisconnect response
+    at Timeout._onTimeout (/Users/jake/egg-game/init/node_modules/_socket.io-redis@5.2.0@socket.io-redis/index.js:673:46)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+
+pid: 1103
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 22:55:41,293 ERROR 1103 [-/127.0.0.1/-/8ms GET /socket.io/?token=cde&EIO=3&transport=polling&t=MruNihP] null
+2019-09-28 22:59:59,169 ERROR 1103 [-/127.0.0.1/-/34470ms GET /socket.io/?token=cde&EIO=3&transport=polling&t=MruOZEH] nodejs.Error: timeout reached while waiting for remoteDisconnect response
+    at Timeout._onTimeout (/Users/jake/egg-game/init/node_modules/_socket.io-redis@5.2.0@socket.io-redis/index.js:673:46)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+
+pid: 1103
+hostname: jakedeMacBook-Air.local
+
+2019-09-28 23:00:17,085 ERROR 1119 [-/127.0.0.1/-/28ms GET /socket.io/?token=cde&EIO=3&transport=polling&t=MruOm0B] null
+2019-09-28 23:00:49,991 ERROR 1119 [-/127.0.0.1/-/6ms GET /socket.io/?token=cde&EIO=3&transport=polling&t=MruOu2e] null
+2019-09-30 14:24:05,370 ERROR 922 nodejs.ClusterClientNoResponseError: client no response in 6526208ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/jake/egg-game/init/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 922
+hostname: jakedeMacBook-Air.local
+
+2019-09-30 14:43:06,093 ERROR 1059 nodejs.TypeError: [egg-socket.io] controller execute error: Cannot read property 'info' of undefined
+    at HomeController.getUser (/Users/jake/egg-game/init/app/io/controller/home.js:13:23)
+    at Object.callFn (/Users/jake/egg-game/init/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/jake/egg-game/init/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Socket.socket.on.args (/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/lib/io.js:104:23)
+    at Socket.emit (events.js:198:13)
+    at /Users/jake/egg-game/init/node_modules/_socket.io@2.3.0@socket.io/lib/socket.js:528:12
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+
+pid: 1059
+hostname: jakedeMacBook-Air.local
+
+2019-10-01 21:15:01,572 ERROR 956 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 956
+hostname: jakedeMacBook-Air.local
+
+2019-10-01 21:15:01,575 ERROR 956 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 956
+hostname: jakedeMacBook-Air.local
+
+2019-10-01 21:15:01,577 ERROR 956 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-10-01 21:15:01,577 ERROR 956 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 956
+hostname: jakedeMacBook-Air.local
+
+2019-10-01 21:15:01,585 ERROR 956 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 956
+hostname: jakedeMacBook-Air.local
+
+2019-10-01 21:15:33,279 ERROR 967 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 967
+hostname: jakedeMacBook-Air.local
+
+2019-10-01 21:15:33,283 ERROR 967 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 967
+hostname: jakedeMacBook-Air.local
+
+2019-10-01 21:15:33,284 ERROR 967 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+2019-10-01 21:15:33,285 ERROR 967 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 967
+hostname: jakedeMacBook-Air.local
+
+2019-10-01 21:15:33,290 ERROR 967 [-/127.0.0.1/-/1ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 967
+hostname: jakedeMacBook-Air.local
+
+2019-10-01 21:52:13,009 ERROR 1393 [-/127.0.0.1/-/148ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7by4_] null
+2019-10-01 21:55:00,163 ERROR 1456 [-/127.0.0.1/-/59ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7cax4] null
+2019-10-01 21:55:23,225 ERROR 1456 [-/127.0.0.1/-/117ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7cgaq] null
+2019-10-01 21:55:41,074 ERROR 1456 [-/127.0.0.1/-/51ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7ckyq] null
+2019-10-01 21:56:12,242 ERROR 1456 [-/127.0.0.1/-/137ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7csYl] null
+2019-10-01 21:56:32,970 ERROR 1481 [-/127.0.0.1/-/185ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7cxZh] null
+2019-10-01 22:02:19,764 ERROR 1536 [-/127.0.0.1/-/111ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7eGEL] null
+2019-10-01 22:03:31,714 ERROR 1556 [-/127.0.0.1/-/120ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7eXpH] null
+2019-10-01 22:08:04,748 ERROR 1596 [-/127.0.0.1/-/8255ms POST /auth/getToken] nodejs.TypeError: Cannot read property 'sendData' of undefined
+    at authController.getToken (/Users/jake/egg-game/init/app/controller/auth.js:8:12)
+    at Object.callFn (/Users/jake/egg-game/init/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/jake/egg-game/init/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/jake/egg-game/init/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jake/egg-game/init/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/jake/egg-game/init/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 1596
+hostname: jakedeMacBook-Air.local
+
+2019-10-01 22:08:04,880 ERROR 1596 [-/127.0.0.1/-/69ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7fYX1] null
+2019-10-01 22:08:42,782 ERROR 1596 [-/127.0.0.1/-/13148ms POST /auth/getToken] nodejs.TypeError: Cannot read property 'sendData' of undefined
+    at authController.getToken (/Users/jake/egg-game/init/app/controller/auth.js:8:12)
+    at Object.callFn (/Users/jake/egg-game/init/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/jake/egg-game/init/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/jake/egg-game/init/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jake/egg-game/init/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/jake/egg-game/init/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/jake/egg-game/init/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 1596
+hostname: jakedeMacBook-Air.local
+
+2019-10-01 22:08:42,846 ERROR 1596 [-/127.0.0.1/-/41ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7fgcx] null
+2019-10-01 22:09:07,302 ERROR 1612 [-/127.0.0.1/-/58ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7foek] null
+2019-10-01 22:09:43,891 ERROR 1612 [-/127.0.0.1/-/41ms GET /socket.io/?token=cde&room=73&EIO=3&transport=polling&t=Ms7fykM] null
+2019-10-01 23:23:43,100 ERROR 1221 [-/127.0.0.1/-/4750ms POST /auth/registered] nodejs.ER_WARN_DATA_OUT_OF_RANGEError: ER_WARN_DATA_OUT_OF_RANGE: Out of range value for column 'phone' at row 1
+    at Query.Sequence._packetToError (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:199:23)
+    at /Users/jake/egg-game/init/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/jake/egg-game/init/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/jake/egg-game/init/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/jake/egg-game/init/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/jake/egg-game/init/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/jake/egg-game/init/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/jake/egg-game/init/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: INSERT INTO `account_info`(`account`, `password`, `createTime`, `phone`, `id`) VALUES('jake', '111111', '2019-10-01 23:23:38', '15392129809', 0)
+code: "ER_WARN_DATA_OUT_OF_RANGE"
+errno: 1264
+sqlMessage: "Out of range value for column 'phone' at row 1"
+sqlState: "22003"
+index: 0
+sql: "INSERT INTO `account_info`(`account`, `password`, `createTime`, `phone`, `id`) VALUES('jake', '111111', '2019-10-01 23:23:38', '15392129809', 0)"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080/","vary":"Origin"}
+name: "ER_WARN_DATA_OUT_OF_RANGEError"
+pid: 1221
+hostname: jakedeMacBook-Air.local
+
+2019-10-01 23:24:01,072 ERROR 1221 [-/127.0.0.1/-/18ms POST /auth/registered] nodejs.ER_WARN_DATA_OUT_OF_RANGEError: ER_WARN_DATA_OUT_OF_RANGE: Out of range value for column 'phone' at row 1
+    at Query.Sequence._packetToError (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:199:23)
+    at /Users/jake/egg-game/init/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/jake/egg-game/init/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/jake/egg-game/init/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/jake/egg-game/init/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/jake/egg-game/init/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/jake/egg-game/init/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/jake/egg-game/init/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: INSERT INTO `account_info`(`account`, `password`, `createTime`, `phone`, `id`) VALUES('jake', '111111', '2019-10-01 23:24:01', '15392129809', 0)
+code: "ER_WARN_DATA_OUT_OF_RANGE"
+errno: 1264
+sqlMessage: "Out of range value for column 'phone' at row 1"
+sqlState: "22003"
+index: 0
+sql: "INSERT INTO `account_info`(`account`, `password`, `createTime`, `phone`, `id`) VALUES('jake', '111111', '2019-10-01 23:24:01', '15392129809', 0)"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080/","vary":"Origin"}
+name: "ER_WARN_DATA_OUT_OF_RANGEError"
+pid: 1221
+hostname: jakedeMacBook-Air.local
+
+2019-10-01 23:29:55,244 ERROR 1221 [-/127.0.0.1/-/18ms POST /auth/registered] nodejs.ER_WARN_DATA_OUT_OF_RANGEError: ER_WARN_DATA_OUT_OF_RANGE: Out of range value for column 'phone' at row 1
+    at Query.Sequence._packetToError (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:199:23)
+    at /Users/jake/egg-game/init/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/jake/egg-game/init/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/jake/egg-game/init/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/jake/egg-game/init/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/jake/egg-game/init/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/jake/egg-game/init/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/jake/egg-game/init/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: INSERT INTO `account_info`(`account`, `password`, `createTime`, `phone`, `id`) VALUES('jake', '111111', '2019-10-01 23:29:55', '15392129809', 0)
+code: "ER_WARN_DATA_OUT_OF_RANGE"
+errno: 1264
+sqlMessage: "Out of range value for column 'phone' at row 1"
+sqlState: "22003"
+index: 0
+sql: "INSERT INTO `account_info`(`account`, `password`, `createTime`, `phone`, `id`) VALUES('jake', '111111', '2019-10-01 23:29:55', '15392129809', 0)"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080/","vary":"Origin"}
+name: "ER_WARN_DATA_OUT_OF_RANGEError"
+pid: 1221
+hostname: jakedeMacBook-Air.local
+
+2019-10-01 23:30:09,681 ERROR 1264 [-/127.0.0.1/-/88ms POST /auth/registered] nodejs.ER_WARN_DATA_OUT_OF_RANGEError: ER_WARN_DATA_OUT_OF_RANGE: Out of range value for column 'phone' at row 1
+    at Query.Sequence._packetToError (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    --------------------
+    at Pool.query (/Users/jake/egg-game/init/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:199:23)
+    at /Users/jake/egg-game/init/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/jake/egg-game/init/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/jake/egg-game/init/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/jake/egg-game/init/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/jake/egg-game/init/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/jake/egg-game/init/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/jake/egg-game/init/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: INSERT INTO `account_info`(`account`, `password`, `createTime`, `phone`) VALUES('jake', '111111', '2019-10-01 23:30:09', '15392129809')
+code: "ER_WARN_DATA_OUT_OF_RANGE"
+errno: 1264
+sqlMessage: "Out of range value for column 'phone' at row 1"
+sqlState: "22003"
+index: 0
+sql: "INSERT INTO `account_info`(`account`, `password`, `createTime`, `phone`) VALUES('jake', '111111', '2019-10-01 23:30:09', '15392129809')"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080/","vary":"Origin"}
+name: "ER_WARN_DATA_OUT_OF_RANGEError"
+pid: 1264
+hostname: jakedeMacBook-Air.local
+

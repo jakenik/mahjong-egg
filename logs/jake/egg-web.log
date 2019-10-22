@@ -3945,3 +3945,21 @@
 2019-10-03 11:15:21,478 INFO 1655 [egg-watcher:application] watcher start success
 2019-10-03 11:15:21,482 INFO 1655 [egg-mysql] instance[0] status OK, rds currentTime: Thu Oct 03 2019 11:15:21 GMT+0800 (China Standard Time)
 2019-10-03 11:15:21,527 INFO 1655 [egg:core] dump config after ready, 7ms
+2019-10-22 20:39:59,050 INFO 2585 [egg:logger] init all loggers with options: {"dir":"/Users/wangjiahui/git/mahjong-egg/logs/jake","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"jake-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-22 20:39:59,075 INFO 2585 [egg-multipart] stream mode enable
+2019-10-22 20:39:59,132 INFO 2585 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2019-10-22 20:39:59,134 INFO 2585 [egg-mysql] connecting root@127.0.0.1:3306/db
+2019-10-22 20:39:59,258 INFO 2585 [egg-static] starting static serve /public/ -> /Users/wangjiahui/git/mahjong-egg/app/public
+2019-10-22 20:39:59,261 INFO 2585 [egg-security] use csrf middleware
+2019-10-22 20:39:59,261 INFO 2585 [egg-security] use methodnoallow middleware
+2019-10-22 20:39:59,262 INFO 2585 [egg-security] use noopen middleware
+2019-10-22 20:39:59,263 INFO 2585 [egg-security] use nosniff middleware
+2019-10-22 20:39:59,263 INFO 2585 [egg-security] use xssProtection middleware
+2019-10-22 20:39:59,264 INFO 2585 [egg-security] use xframe middleware
+2019-10-22 20:39:59,264 INFO 2585 [egg-security] use dta middleware
+2019-10-22 20:39:59,265 INFO 2585 [egg-security] compose 7 middlewares into one security middleware
+2019-10-22 20:39:59,273 INFO 2585 [egg:core] dump config after load, 4ms
+2019-10-22 20:39:59,283 INFO 2585 [egg-redis] client connect success
+2019-10-22 20:39:59,288 INFO 2585 [egg-redis] instance[0] status OK, client ready
+2019-10-22 20:39:59,294 INFO 2585 [egg-watcher:application] watcher start success
+2019-10-22 20:39:59,301 INFO 2585 [egg:core] dump config after ready, 4ms

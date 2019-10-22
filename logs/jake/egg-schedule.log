@@ -661,3 +661,6 @@
 2019-10-03 11:15:21,537 INFO 1654 [Timer] /Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 62078467ms at 2019-10-04 04:30:00.004
 2019-10-03 11:15:21,538 INFO 1654 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 45878463ms at 2019-10-04 00:00:00.000
 2019-10-03 11:15:21,538 INFO 1654 [Timer] /Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 45879462ms at 2019-10-04 00:00:01.000
+2019-10-22 20:39:59,074 INFO 2585 [egg-schedule]: register schedule /Users/wangjiahui/git/mahjong-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-22 20:39:59,074 INFO 2585 [egg-schedule]: register schedule /Users/wangjiahui/git/mahjong-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-22 20:39:59,074 INFO 2585 [egg-schedule]: register schedule /Users/wangjiahui/git/mahjong-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js

@@ -1,352 +1,352 @@
 {
-  "keys": "/Users/jake/egg-game/init/config/config.default.js",
-  "middleware": "/Users/jake/egg-game/init/config/config.default.js",
+  "keys": "/Users/wangjiahui/git/mahjong-egg/config/config.default.js",
+  "middleware": "/Users/wangjiahui/git/mahjong-egg/config/config.default.js",
   "jwt": {
-    "enable": "/Users/jake/egg-game/init/config/config.default.js",
-    "ignore": "/Users/jake/egg-game/init/config/config.default.js"
+    "enable": "/Users/wangjiahui/git/mahjong-egg/config/config.default.js",
+    "ignore": "/Users/wangjiahui/git/mahjong-egg/config/config.default.js"
   },
   "io": {
-    "init": "/Users/jake/egg-game/init/config/config.default.js",
+    "init": "/Users/wangjiahui/git/mahjong-egg/config/config.default.js",
     "namespace": {
       "/": {
-        "connectionMiddleware": "/Users/jake/egg-game/init/config/config.default.js",
-        "packetMiddleware": "/Users/jake/egg-game/init/config/config.default.js"
+        "connectionMiddleware": "/Users/wangjiahui/git/mahjong-egg/config/config.default.js",
+        "packetMiddleware": "/Users/wangjiahui/git/mahjong-egg/config/config.default.js"
       }
     },
     "redis": {
-      "host": "/Users/jake/egg-game/init/config/config.default.js",
-      "port": "/Users/jake/egg-game/init/config/config.default.js",
-      "db": "/Users/jake/egg-game/init/config/config.default.js"
+      "host": "/Users/wangjiahui/git/mahjong-egg/config/config.default.js",
+      "port": "/Users/wangjiahui/git/mahjong-egg/config/config.default.js",
+      "db": "/Users/wangjiahui/git/mahjong-egg/config/config.default.js"
     }
   },
   "redis": {
     "clients": {
       "loginToken": {
-        "port": "/Users/jake/egg-game/init/config/config.default.js",
-        "host": "/Users/jake/egg-game/init/config/config.default.js",
-        "password": "/Users/jake/egg-game/init/config/config.default.js",
-        "db": "/Users/jake/egg-game/init/config/config.default.js"
+        "port": "/Users/wangjiahui/git/mahjong-egg/config/config.default.js",
+        "host": "/Users/wangjiahui/git/mahjong-egg/config/config.default.js",
+        "password": "/Users/wangjiahui/git/mahjong-egg/config/config.default.js",
+        "db": "/Users/wangjiahui/git/mahjong-egg/config/config.default.js"
       }
     },
-    "default": "/Users/jake/egg-game/init/node_modules/_egg-redis@2.4.0@egg-redis/config/config.default.js",
-    "app": "/Users/jake/egg-game/init/node_modules/_egg-redis@2.4.0@egg-redis/config/config.default.js",
-    "agent": "/Users/jake/egg-game/init/node_modules/_egg-redis@2.4.0@egg-redis/config/config.default.js",
-    "supportTimeCommand": "/Users/jake/egg-game/init/node_modules/_egg-redis@2.4.0@egg-redis/config/config.default.js"
+    "default": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-redis@2.4.0@egg-redis/config/config.default.js",
+    "app": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-redis@2.4.0@egg-redis/config/config.default.js",
+    "agent": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-redis@2.4.0@egg-redis/config/config.default.js",
+    "supportTimeCommand": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-redis@2.4.0@egg-redis/config/config.default.js"
   },
   "mysql": {
     "clients": {
       "db": {
-        "host": "/Users/jake/egg-game/init/config/config.default.js",
-        "port": "/Users/jake/egg-game/init/config/config.default.js",
-        "user": "/Users/jake/egg-game/init/config/config.default.js",
-        "password": "/Users/jake/egg-game/init/config/config.default.js",
-        "database": "/Users/jake/egg-game/init/config/config.default.js"
+        "host": "/Users/wangjiahui/git/mahjong-egg/config/config.default.js",
+        "port": "/Users/wangjiahui/git/mahjong-egg/config/config.default.js",
+        "user": "/Users/wangjiahui/git/mahjong-egg/config/config.default.js",
+        "password": "/Users/wangjiahui/git/mahjong-egg/config/config.default.js",
+        "database": "/Users/wangjiahui/git/mahjong-egg/config/config.default.js"
       }
     },
-    "app": "/Users/jake/egg-game/init/config/config.default.js",
-    "agent": "/Users/jake/egg-game/init/config/config.default.js",
+    "app": "/Users/wangjiahui/git/mahjong-egg/config/config.default.js",
+    "agent": "/Users/wangjiahui/git/mahjong-egg/config/config.default.js",
     "default": {
-      "database": "/Users/jake/egg-game/init/node_modules/_egg-mysql@3.0.0@egg-mysql/config/config.default.js",
-      "connectionLimit": "/Users/jake/egg-game/init/node_modules/_egg-mysql@3.0.0@egg-mysql/config/config.default.js"
+      "database": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-mysql@3.0.0@egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-mysql@3.0.0@egg-mysql/config/config.default.js"
     }
   },
   "security": {
     "csrf": {
-      "enable": "/Users/jake/egg-game/init/config/config.default.js",
-      "ignore": "/Users/jake/egg-game/init/config/config.default.js",
-      "type": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
-      "ignoreJSON": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
-      "useSession": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
-      "cookieName": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
-      "sessionName": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
-      "headerName": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
-      "bodyName": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
-      "queryName": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
-      "refererWhiteList": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
+      "enable": "/Users/wangjiahui/git/mahjong-egg/config/config.default.js",
+      "ignore": "/Users/wangjiahui/git/mahjong-egg/config/config.default.js",
+      "type": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+      "useSession": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+      "cookieName": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+      "sessionName": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+      "headerName": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+      "bodyName": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+      "queryName": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
     },
-    "domainWhiteList": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
-    "protocolWhiteList": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
-    "defaultMiddleware": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+    "domainWhiteList": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
     "xframe": {
-      "enable": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
-      "value": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
+      "enable": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+      "value": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
     },
     "hsts": {
-      "enable": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/config.local.js",
-      "maxAge": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
-      "includeSubdomains": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
+      "enable": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/config.local.js",
+      "maxAge": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
     },
     "dta": {
-      "enable": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
+      "enable": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
     },
     "methodnoallow": {
-      "enable": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
+      "enable": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
     },
     "noopen": {
-      "enable": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
+      "enable": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
     },
     "nosniff": {
-      "enable": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
+      "enable": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
     },
     "referrerPolicy": {
-      "enable": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
-      "value": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
+      "enable": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+      "value": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
     },
     "xssProtection": {
-      "enable": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
-      "value": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
+      "enable": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+      "value": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
     },
     "csp": {
-      "enable": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
-      "policy": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
+      "enable": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+      "policy": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
-      "checkAddress": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
+      "ipBlackList": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+      "checkAddress": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
     }
   },
   "i18n": {
-    "defaultLocale": "/Users/jake/egg-game/init/config/config.default.js",
-    "dirs": "/Users/jake/egg-game/init/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
-    "queryField": "/Users/jake/egg-game/init/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
-    "cookieField": "/Users/jake/egg-game/init/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
-    "cookieDomain": "/Users/jake/egg-game/init/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
-    "cookieMaxAge": "/Users/jake/egg-game/init/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js"
+    "defaultLocale": "/Users/wangjiahui/git/mahjong-egg/config/config.default.js",
+    "dirs": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "queryField": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieField": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js"
   },
   "cors": {
-    "origin": "/Users/jake/egg-game/init/config/config.default.js",
-    "allowMethods": "/Users/jake/egg-game/init/config/config.default.js"
+    "origin": "/Users/wangjiahui/git/mahjong-egg/config/config.default.js",
+    "allowMethods": "/Users/wangjiahui/git/mahjong-egg/config/config.default.js"
   },
   "session": {
-    "maxAge": "/Users/jake/egg-game/init/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
-    "key": "/Users/jake/egg-game/init/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
-    "httpOnly": "/Users/jake/egg-game/init/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
-    "encrypt": "/Users/jake/egg-game/init/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js"
+    "maxAge": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "key": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "httpOnly": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "encrypt": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js"
   },
   "helper": {
-    "shtml": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
+    "shtml": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
   },
   "jsonp": {
-    "limit": "/Users/jake/egg-game/init/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
-    "callback": "/Users/jake/egg-game/init/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
-    "csrf": "/Users/jake/egg-game/init/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js"
+    "limit": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "callback": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "csrf": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "/Users/jake/egg-game/init/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
-    "appErrorFilter": "/Users/jake/egg-game/init/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
-    "templatePath": "/Users/jake/egg-game/init/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js"
+    "errorPageUrl": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "templatePath": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js"
   },
   "watcher": {
-    "type": "/Users/jake/egg-game/init/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.local.js",
+    "type": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.local.js",
     "eventSources": {
-      "default": "/Users/jake/egg-game/init/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js",
-      "development": "/Users/jake/egg-game/init/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js"
+      "default": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js",
+      "development": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js"
     }
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "/Users/jake/egg-game/init/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js",
-      "file": "/Users/jake/egg-game/init/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js"
+      "consoleLevel": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js",
+      "file": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js"
     }
   },
   "schedule": {
-    "directory": "/Users/jake/egg-game/init/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js"
+    "directory": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js"
   },
   "multipart": {
-    "mode": "/Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
-    "autoFields": "/Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
-    "defaultCharset": "/Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
-    "fieldNameSize": "/Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
-    "fieldSize": "/Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
-    "fields": "/Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
-    "fileSize": "/Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
-    "files": "/Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
-    "fileExtensions": "/Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
-    "whitelist": "/Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
-    "tmpdir": "/Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
+    "mode": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
+    "autoFields": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
+    "fields": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
+    "fileSize": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
+    "files": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
+    "whitelist": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
     "cleanSchedule": {
-      "cron": "/Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js"
+      "cron": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js"
     }
   },
   "development": {
-    "watchDirs": "/Users/jake/egg-game/init/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
-    "ignoreDirs": "/Users/jake/egg-game/init/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
-    "fastReady": "/Users/jake/egg-game/init/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
-    "reloadOnDebug": "/Users/jake/egg-game/init/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
-    "overrideDefault": "/Users/jake/egg-game/init/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js"
+    "watchDirs": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "fastReady": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "overrideDefault": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js"
   },
   "logrotator": {
-    "filesRotateByHour": "/Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
-    "hourDelimiter": "/Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
-    "filesRotateBySize": "/Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
-    "maxFileSize": "/Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
-    "maxFiles": "/Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
-    "rotateDuration": "/Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
-    "maxDays": "/Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js"
+    "filesRotateByHour": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js"
   },
   "static": {
-    "prefix": "/Users/jake/egg-game/init/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
-    "dir": "/Users/jake/egg-game/init/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
-    "dynamic": "/Users/jake/egg-game/init/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
-    "preload": "/Users/jake/egg-game/init/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
-    "buffer": "/Users/jake/egg-game/init/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
-    "maxFiles": "/Users/jake/egg-game/init/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js"
+    "prefix": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "dir": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "dynamic": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "preload": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "buffer": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "maxFiles": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js"
   },
   "view": {
-    "root": "/Users/jake/egg-game/init/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
-    "cache": "/Users/jake/egg-game/init/node_modules/_egg-view@2.1.2@egg-view/config/config.local.js",
-    "defaultExtension": "/Users/jake/egg-game/init/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
-    "defaultViewEngine": "/Users/jake/egg-game/init/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
-    "mapping": "/Users/jake/egg-game/init/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js"
+    "root": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "cache": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-view@2.1.2@egg-view/config/config.local.js",
+    "defaultExtension": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "mapping": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js"
   },
-  "validate": "/Users/jake/egg-game/init/node_modules/_egg-validate@2.0.2@egg-validate/config/config.default.js",
-  "env": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-  "name": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-  "proxy": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-  "maxProxyCount": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-  "protocolHeaders": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-  "ipHeaders": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-  "hostHeaders": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "validate": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-validate@2.0.2@egg-validate/config/config.default.js",
+  "env": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "name": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "proxy": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "maxProxyCount": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "protocolHeaders": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "ipHeaders": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "hostHeaders": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
   "pkg": {
-    "name": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "version": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "description": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "private": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "name": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "version": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "description": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "private": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
     "egg": {
-      "declarations": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js"
+      "declarations": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
     },
     "dependencies": {
-      "egg": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "egg-cors": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "egg-mysql": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "egg-redis": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "egg-scripts": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "egg-socket.io": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "egg-validate": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "jsonwebtoken": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "moment": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js"
+      "egg": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "egg-cors": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "egg-mysql": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "egg-redis": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "egg-scripts": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "egg-socket.io": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "egg-validate": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "jsonwebtoken": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "moment": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
     },
     "devDependencies": {
-      "autod": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "autod-egg": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "egg-bin": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "egg-ci": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "egg-mock": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "eslint": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "eslint-config-egg": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js"
+      "autod": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "autod-egg": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "egg-bin": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "egg-ci": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "egg-mock": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "eslint": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "eslint-config-egg": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
     },
     "engines": {
-      "node": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js"
+      "node": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
     },
     "scripts": {
-      "start": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "stop": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "dev": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "debug": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "test": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "test-local": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "cov": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "lint": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "ci": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "autod": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js"
+      "start": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "stop": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "dev": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "debug": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "test": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "test-local": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "cov": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "lint": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "ci": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "autod": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
     },
     "ci": {
-      "version": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js"
+      "version": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
     },
     "repository": {
-      "type": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "url": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js"
+      "type": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "url": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
     },
-    "author": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "license": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    "author": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "license": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
   },
-  "baseDir": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-  "HOME": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-  "rundir": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "baseDir": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "HOME": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "rundir": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
   "dump": {
-    "ignore": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    "ignore": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "notFound": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "sitefile": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "middlewares": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "httpClient": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    "bodyparser": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "notFound": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "sitefile": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "middlewares": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "httpClient": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
   },
   "notfound": {
-    "pageUrl": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    "pageUrl": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    "/favicon.ico": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
   },
   "bodyParser": {
-    "enable": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "encoding": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "formLimit": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "jsonLimit": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "strict": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "enable": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "encoding": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "formLimit": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "jsonLimit": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "strict": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
     "queryString": {
-      "arrayLimit": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "depth": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "parameterLimit": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js"
+      "arrayLimit": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "depth": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "parameterLimit": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
     },
-    "onerror": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    "onerror": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
   },
   "logger": {
-    "dir": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "encoding": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "env": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "level": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "consoleLevel": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "disableConsoleAfterReady": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "outputJSON": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "buffer": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "appLogName": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "coreLogName": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "agentLogName": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "errorLogName": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "dir": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "encoding": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "env": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "level": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "consoleLevel": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "outputJSON": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "buffer": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "appLogName": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "coreLogName": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "agentLogName": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "errorLogName": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
     "coreLogger": {
-      "consoleLevel": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.local.js"
+      "consoleLevel": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.local.js"
     },
-    "allowDebugAtProd": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    "allowDebugAtProd": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "dnsCacheLookupInterval": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "dnsCacheMaxLength": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "enableDNSCache": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
     "request": {
-      "timeout": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js"
+      "timeout": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "freeSocketTimeout": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "maxSockets": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "maxFreeSockets": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js"
+      "keepAlive": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "maxSockets": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "freeSocketTimeout": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "maxSockets": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "maxFreeSockets": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js"
+      "keepAlive": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "maxSockets": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
     }
   },
   "meta": {
-    "enable": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "logging": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    "enable": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "logging": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
   },
-  "coreMiddleware": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-  "workerStartTimeout": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-  "serverTimeout": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "coreMiddleware": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "workerStartTimeout": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "serverTimeout": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
   "cluster": {
     "listen": {
-      "path": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "port": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "hostname": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js"
+      "path": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "port": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "hostname": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "responseTimeout": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    "maxWaitTime": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "responseTimeout": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
   },
-  "onClientError": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/config.default.js"
+  "onClientError": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
 }

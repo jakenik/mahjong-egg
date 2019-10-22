@@ -92,30 +92,30 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/jake/egg-game/init/node_modules/_egg-onerror@2.1.0@egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-onerror@2.1.0@egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "zh-CN",
       "dirs": [
-        "/Users/jake/egg-game/init/node_modules/_egg-session@3.1.0@egg-session/config/locales",
-        "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security/config/locales",
-        "/Users/jake/egg-game/init/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/locales",
-        "/Users/jake/egg-game/init/node_modules/_egg-onerror@2.1.0@egg-onerror/config/locales",
-        "/Users/jake/egg-game/init/node_modules/_egg-i18n@2.1.1@egg-i18n/config/locales",
-        "/Users/jake/egg-game/init/node_modules/_egg-watcher@3.1.0@egg-watcher/config/locales",
-        "/Users/jake/egg-game/init/node_modules/_egg-schedule@3.6.4@egg-schedule/config/locales",
-        "/Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart/config/locales",
-        "/Users/jake/egg-game/init/node_modules/_egg-development@2.4.3@egg-development/config/locales",
-        "/Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/locales",
-        "/Users/jake/egg-game/init/node_modules/_egg-static@2.2.0@egg-static/config/locales",
-        "/Users/jake/egg-game/init/node_modules/_egg-view@2.1.2@egg-view/config/locales",
-        "/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io/config/locales",
-        "/Users/jake/egg-game/init/node_modules/_egg-redis@2.4.0@egg-redis/config/locales",
-        "/Users/jake/egg-game/init/node_modules/_egg-mysql@3.0.0@egg-mysql/config/locales",
-        "/Users/jake/egg-game/init/node_modules/_egg-cors@2.2.0@egg-cors/config/locales",
-        "/Users/jake/egg-game/init/node_modules/_egg-validate@2.0.2@egg-validate/config/locales",
-        "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/locales",
-        "/Users/jake/egg-game/init/config/locale"
+        "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-session@3.1.0@egg-session/config/locales",
+        "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/config/locales",
+        "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/locales",
+        "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-onerror@2.1.0@egg-onerror/config/locales",
+        "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-i18n@2.1.1@egg-i18n/config/locales",
+        "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-watcher@3.1.0@egg-watcher/config/locales",
+        "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-schedule@3.6.4@egg-schedule/config/locales",
+        "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/config/locales",
+        "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-development@2.4.3@egg-development/config/locales",
+        "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/locales",
+        "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-static@2.2.0@egg-static/config/locales",
+        "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-view@2.1.2@egg-view/config/locales",
+        "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-socket.io@4.1.6@egg-socket.io/config/locales",
+        "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-redis@2.4.0@egg-redis/config/locales",
+        "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-mysql@3.0.0@egg-mysql/config/locales",
+        "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-cors@2.2.0@egg-cors/config/locales",
+        "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-validate@2.0.2@egg-validate/config/locales",
+        "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/locales",
+        "/Users/wangjiahui/git/mahjong-egg/config/locale"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -126,8 +126,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/jake/egg-game/init/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/default",
-        "development": "/Users/jake/egg-game/init/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/development"
+        "default": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/default",
+        "development": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
@@ -150,7 +150,7 @@
       "files": 10,
       "fileExtensions": [],
       "whitelist": null,
-      "tmpdir": "/var/folders/r0/7g12m76d3bs7p4xxh34gtc3h0000gn/T/egg-multipart-tmp/jake",
+      "tmpdir": "/var/folders/2s/qcfd07wj3qb31rwz9m9y7mj80000gn/T/egg-multipart-tmp/jake",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
@@ -173,24 +173,21 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/jake/egg-game/init/app/public",
+      "dir": "/Users/wangjiahui/git/mahjong-egg/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "/Users/jake/egg-game/init/app/view",
+      "root": "/Users/wangjiahui/git/mahjong-egg/app/view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {}
     },
     "io": {
-      "init": {
-        "path": "/socket.io",
-        "allowRequest": "<Function bound >"
-      },
+      "init": {},
       "namespace": {
         "/": {
           "connectionMiddleware": [
@@ -302,9 +299,9 @@
       "author": "jake",
       "license": "MIT"
     },
-    "baseDir": "/Users/jake/egg-game/init",
-    "HOME": "/Users/jake",
-    "rundir": "/Users/jake/egg-game/init/run",
+    "baseDir": "/Users/wangjiahui/git/mahjong-egg",
+    "HOME": "/Users/wangjiahui",
+    "rundir": "/Users/wangjiahui/git/mahjong-egg/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -335,7 +332,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/jake/egg-game/init/logs/jake",
+      "dir": "/Users/wangjiahui/git/mahjong-egg/logs/jake",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -438,8 +435,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/plugin.js",
-      "path": "/Users/jake/egg-game/init/node_modules/_egg-session@3.1.0@egg-session",
+      "from": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
+      "path": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-session@3.1.0@egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -451,8 +448,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/plugin.js",
-      "path": "/Users/jake/egg-game/init/node_modules/_egg-security@2.6.1@egg-security",
+      "from": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
+      "path": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security",
       "version": "2.6.1"
     },
     "jsonp": {
@@ -464,8 +461,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/plugin.js",
-      "path": "/Users/jake/egg-game/init/node_modules/_egg-jsonp@2.0.0@egg-jsonp",
+      "from": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
+      "path": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-jsonp@2.0.0@egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -477,8 +474,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/plugin.js",
-      "path": "/Users/jake/egg-game/init/node_modules/_egg-onerror@2.1.0@egg-onerror",
+      "from": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
+      "path": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-onerror@2.1.0@egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -488,8 +485,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/plugin.js",
-      "path": "/Users/jake/egg-game/init/node_modules/_egg-i18n@2.1.1@egg-i18n",
+      "from": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
+      "path": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-i18n@2.1.1@egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -499,8 +496,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/plugin.js",
-      "path": "/Users/jake/egg-game/init/node_modules/_egg-watcher@3.1.0@egg-watcher",
+      "from": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
+      "path": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-watcher@3.1.0@egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -510,8 +507,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/plugin.js",
-      "path": "/Users/jake/egg-game/init/node_modules/_egg-schedule@3.6.4@egg-schedule",
+      "from": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
+      "path": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-schedule@3.6.4@egg-schedule",
       "version": "3.6.4"
     },
     "multipart": {
@@ -523,8 +520,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/plugin.js",
-      "path": "/Users/jake/egg-game/init/node_modules/_egg-multipart@2.9.0@egg-multipart",
+      "from": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
+      "path": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-multipart@2.9.0@egg-multipart",
       "version": "2.9.0"
     },
     "development": {
@@ -538,8 +535,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/plugin.js",
-      "path": "/Users/jake/egg-game/init/node_modules/_egg-development@2.4.3@egg-development",
+      "from": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
+      "path": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-development@2.4.3@egg-development",
       "version": "2.4.3"
     },
     "logrotator": {
@@ -551,8 +548,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/plugin.js",
-      "path": "/Users/jake/egg-game/init/node_modules/_egg-logrotator@3.1.0@egg-logrotator",
+      "from": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
+      "path": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator",
       "version": "3.1.0"
     },
     "static": {
@@ -562,8 +559,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/plugin.js",
-      "path": "/Users/jake/egg-game/init/node_modules/_egg-static@2.2.0@egg-static",
+      "from": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
+      "path": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-static@2.2.0@egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -573,8 +570,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/jake/egg-game/init/node_modules/_egg@2.23.0@egg/config/plugin.js",
-      "path": "/Users/jake/egg-game/init/node_modules/_egg-view@2.1.2@egg-view",
+      "from": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
+      "path": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-view@2.1.2@egg-view",
       "version": "2.1.2"
     },
     "io": {
@@ -586,8 +583,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/jake/egg-game/init/config/plugin.js",
-      "path": "/Users/jake/egg-game/init/node_modules/_egg-socket.io@4.1.6@egg-socket.io",
+      "from": "/Users/wangjiahui/git/mahjong-egg/config/plugin.js",
+      "path": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-socket.io@4.1.6@egg-socket.io",
       "version": "4.1.6"
     },
     "redis": {
@@ -597,8 +594,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/jake/egg-game/init/config/plugin.js",
-      "path": "/Users/jake/egg-game/init/node_modules/_egg-redis@2.4.0@egg-redis",
+      "from": "/Users/wangjiahui/git/mahjong-egg/config/plugin.js",
+      "path": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-redis@2.4.0@egg-redis",
       "version": "2.4.0"
     },
     "mysql": {
@@ -608,8 +605,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/jake/egg-game/init/config/plugin.js",
-      "path": "/Users/jake/egg-game/init/node_modules/_egg-mysql@3.0.0@egg-mysql",
+      "from": "/Users/wangjiahui/git/mahjong-egg/config/plugin.js",
+      "path": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-mysql@3.0.0@egg-mysql",
       "version": "3.0.0"
     },
     "cors": {
@@ -619,8 +616,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/jake/egg-game/init/config/plugin.js",
-      "path": "/Users/jake/egg-game/init/node_modules/_egg-cors@2.2.0@egg-cors",
+      "from": "/Users/wangjiahui/git/mahjong-egg/config/plugin.js",
+      "path": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-cors@2.2.0@egg-cors",
       "version": "2.2.0"
     },
     "validate": {
@@ -630,8 +627,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/jake/egg-game/init/config/plugin.js",
-      "path": "/Users/jake/egg-game/init/node_modules/_egg-validate@2.0.2@egg-validate",
+      "from": "/Users/wangjiahui/git/mahjong-egg/config/plugin.js",
+      "path": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-validate@2.0.2@egg-validate",
       "version": "2.0.2"
     }
   }

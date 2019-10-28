@@ -21,7 +21,8 @@ module.exports = {
     };
   },
   getUUID: () => UUID.v1(),
-  createToken(data, expires = 7200) {
+  createToken(data, expires = 7200)
+  {
     // 文档地址 https://github.com/auth0/node-jsonwebtoken
     const exp = Math.floor(Date.now() / 1000) + expires;
     const cert = fs.readFileSync(path.join(__dirname, '../public/rsa_private_key.pem')); // 私钥，看后面生成方法

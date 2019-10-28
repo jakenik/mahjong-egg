@@ -6,16 +6,20 @@ class authController extends Controller {
   async getToken() { // 根据手机号获取token
     const { helper, service, app } = this.ctx;
     const data = this.ctx.request.body;
-    const timeOut = 60;
+    const timeOut = 7200;
     const {
-      phone
+      account,
+      password
     } = data;
-    await helper.sendData({ phone: 'phone' }, async () => {
-      if (!phone) return { errorMsg: '请填写手机号码' };
-      if (!await service.auth.checkPhone(phone)) return { errorMsg: '您的手机未注册账号，请先注册！' };
-      const userId = await service.auth.getUserId(phone);
+    await helper.sendData({  account: 'account', password: 'password' }, async () => {
+
+      if (!await service.auth.checkAccount(account)) return { errorMsg: '您的账号有误' };
+      if (!password) return { errorMsg: '请填写密码' };
+      const userId = await service.auth.getUserId(data);
+      if(!userId) return { errorMsg: '请检查账号或者密码' };
       const token = await helper.createToken({
-        phone,
+        account,
+        password,
         userId
       }, timeOut);
       await app.redis.get('loginToken')

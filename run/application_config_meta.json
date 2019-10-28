@@ -200,153 +200,154 @@
     "mapping": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js"
   },
   "validate": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-validate@2.0.2@egg-validate/config/config.default.js",
-  "env": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-  "name": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-  "proxy": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-  "maxProxyCount": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-  "protocolHeaders": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-  "ipHeaders": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-  "hostHeaders": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "env": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+  "name": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+  "proxy": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+  "maxProxyCount": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+  "protocolHeaders": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+  "ipHeaders": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+  "hostHeaders": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
   "pkg": {
-    "name": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "version": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "description": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "private": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "name": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+    "version": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+    "description": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+    "private": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
     "egg": {
-      "declarations": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+      "declarations": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js"
     },
     "dependencies": {
-      "egg": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "egg-cors": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "egg-mysql": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "egg-redis": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "egg-scripts": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "egg-socket.io": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "egg-validate": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "jsonwebtoken": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "moment": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+      "egg": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "egg-cors": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "egg-mysql": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "egg-redis": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "egg-scripts": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "egg-socket.io": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "egg-validate": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "jsonwebtoken": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "moment": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js"
     },
     "devDependencies": {
-      "autod": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "autod-egg": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "egg-bin": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "egg-ci": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "egg-mock": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "eslint": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "eslint-config-egg": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+      "autod": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "autod-egg": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "egg-bin": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "egg-ci": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "egg-mock": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "eslint": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "eslint-config-egg": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js"
     },
     "engines": {
-      "node": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+      "node": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js"
     },
     "scripts": {
-      "start": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "stop": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "dev": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "debug": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "test": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "test-local": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "cov": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "lint": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "ci": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "autod": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+      "start": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "stop": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "dev": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "debug": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "test": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "test-local": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "cov": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "lint": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "ci": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "autod": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js"
     },
     "ci": {
-      "version": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+      "version": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js"
     },
     "repository": {
-      "type": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "url": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+      "type": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "url": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js"
     },
-    "author": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "license": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    "author": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+    "license": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js"
   },
-  "baseDir": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-  "HOME": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-  "rundir": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "baseDir": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+  "HOME": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+  "rundir": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
   "dump": {
-    "ignore": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    "ignore": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "notFound": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "sitefile": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "middlewares": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "httpClient": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    "bodyparser": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+    "notFound": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+    "sitefile": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+    "middlewares": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+    "httpClient": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js"
   },
   "notfound": {
-    "pageUrl": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    "pageUrl": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    "/favicon.ico": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js"
   },
   "bodyParser": {
-    "enable": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "encoding": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "formLimit": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "jsonLimit": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "strict": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "enable": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+    "encoding": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+    "formLimit": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+    "jsonLimit": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+    "textLimit": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+    "strict": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
     "queryString": {
-      "arrayLimit": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "depth": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "parameterLimit": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+      "arrayLimit": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "depth": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "parameterLimit": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js"
     },
-    "onerror": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    "onerror": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js"
   },
   "logger": {
-    "dir": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "encoding": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "env": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "level": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "consoleLevel": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "disableConsoleAfterReady": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "outputJSON": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "buffer": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "appLogName": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "coreLogName": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "agentLogName": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "errorLogName": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "dir": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+    "encoding": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+    "env": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+    "level": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+    "consoleLevel": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+    "outputJSON": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+    "buffer": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+    "appLogName": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+    "coreLogName": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+    "agentLogName": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+    "errorLogName": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
     "coreLogger": {
-      "consoleLevel": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.local.js"
+      "consoleLevel": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.local.js"
     },
-    "allowDebugAtProd": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    "allowDebugAtProd": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "dnsCacheLookupInterval": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "dnsCacheMaxLength": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "enableDNSCache": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
     "request": {
-      "timeout": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+      "timeout": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "freeSocketTimeout": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "maxSockets": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "maxFreeSockets": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+      "keepAlive": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "maxSockets": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "freeSocketTimeout": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "maxSockets": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "maxFreeSockets": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+      "keepAlive": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "maxSockets": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js"
     }
   },
   "meta": {
-    "enable": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "logging": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    "enable": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+    "logging": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js"
   },
-  "coreMiddleware": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-  "workerStartTimeout": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-  "serverTimeout": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "coreMiddleware": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+  "workerStartTimeout": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+  "serverTimeout": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
   "cluster": {
     "listen": {
-      "path": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "port": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-      "hostname": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+      "path": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "port": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+      "hostname": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
-    "responseTimeout": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    "maxWaitTime": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js",
+    "responseTimeout": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js"
   },
-  "onClientError": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+  "onClientError": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/config.default.js"
 }

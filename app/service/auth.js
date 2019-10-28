@@ -14,8 +14,8 @@ class AuthService extends Service {
       : false;
   }
 
-  async getUserId(phone) {
-    const info = await this.getInfo({ phone });
+  async getUserId({account, password}) {
+    const info = await this.getInfo({account, password});
     return info
       ? info.user_id
       : false;

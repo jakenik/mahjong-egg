@@ -23,7 +23,8 @@
         "refererWhiteList": [],
         "ignore": [
           "/auth/registered",
-          "/auth/getToken"
+          "/auth/getToken",
+          "/getOrder"
         ]
       },
       "xframe": {
@@ -369,7 +370,8 @@
       "enable": true,
       "ignore": [
         "/auth/registered",
-        "/auth/getToken"
+        "/auth/getToken",
+        "/getOrder"
       ]
     },
     "coreMiddlewares": "~config~coreMiddleware",

@@ -18,6 +18,18 @@
       "POST"
     ],
     "paramNames": [],
+    "path": "/getOrder",
+    "regexp": "/^\\/getOrder(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
     "path": "/auth/getToken",
     "regexp": "/^\\/auth\\/getToken(?:\\/(?=$))?$/",
     "stack": [

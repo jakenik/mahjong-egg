@@ -29,7 +29,8 @@
         "refererWhiteList": [],
         "ignore": [
           "/auth/registered",
-          "/auth/getToken"
+          "/auth/getToken",
+          "/getOrder"
         ],
         "matching": "<Function pathMatch>"
       },
@@ -412,7 +413,8 @@
       "enable": true,
       "ignore": [
         "/auth/registered",
-        "/auth/getToken"
+        "/auth/getToken",
+        "/getOrder"
       ]
     },
     "coreMiddlewares": "~config~coreMiddleware",

@@ -1,0 +1,880 @@
+2019-10-28 21:43:27,181 ERROR 905 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1128:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 905
+hostname: wangjiahuideMacBook-Pro.local
+
+2019-10-28 21:43:27,187 ERROR 905 [-/127.0.0.1/-/1ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1128:14)
+    --------------------
+    at Protocol._enqueue (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:48:16)
+    at /Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at Pool.query (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:202:8)
+    at /Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 905
+hostname: wangjiahuideMacBook-Pro.local
+
+2020-02-24 19:11:29,066 WARN 3109 [-/127.0.0.1/-/17ms POST /getOrder] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-02-24 19:11:29,067 WARN 3109 [-/127.0.0.1/-/18ms POST /getOrder] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa@2.10.0@koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/app/extend/context.js:154:19)
+    at csrf (/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/wangjiahui/git/mahjong-egg/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa-override@3.0.0@koa-override/index.js:38:12)
+    at dispatch (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:7001","vary":"Origin"}
+pid: 3109
+hostname: wangjiahuideMacBook-Pro.local
+
+2020-02-24 19:12:21,972 WARN 3146 [-/127.0.0.1/-/19ms POST /getOrder] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-02-24 19:12:21,974 WARN 3146 [-/127.0.0.1/-/20ms POST /getOrder] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa@2.10.0@koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/app/extend/context.js:154:19)
+    at csrf (/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/wangjiahui/git/mahjong-egg/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa-override@3.0.0@koa-override/index.js:38:12)
+    at dispatch (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","vary":"Origin"}
+pid: 3146
+hostname: wangjiahuideMacBook-Pro.local
+
+2020-02-24 19:13:03,726 WARN 3146 [-/127.0.0.1/-/1ms POST /getOrder] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-02-24 19:13:03,727 WARN 3146 [-/127.0.0.1/-/2ms POST /getOrder] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa@2.10.0@koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/app/extend/context.js:154:19)
+    at csrf (/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-security@2.6.1@egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/wangjiahui/git/mahjong-egg/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at session (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa-session@5.12.3@koa-session/index.js:41:13)
+    at dispatch (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa-override@3.0.0@koa-override/index.js:38:12)
+    at dispatch (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","vary":"Origin"}
+pid: 3146
+hostname: wangjiahuideMacBook-Pro.local
+
+2020-02-24 19:14:00,440 INFO 3173 [-/127.0.0.1/-/14ms POST /getOrder] 当前请求参数 { date: '2017-01-02' }
+2020-02-24 19:14:00,442 ERROR 3173 [-/127.0.0.1/-/16ms POST /getOrder] nodejs.TypeError: rule type must be one of number, int, integer, string, id, date, dateTime, datetime, boolean, bool, array, object, enum, email, password, url, phone, account, but the following type was passed: 2017-01-02
+    at Parameter.validate (/Users/wangjiahui/git/mahjong-egg/node_modules/_parameter@3.6.0@parameter/index.js:106:15)
+    at Helper.sendData (/Users/wangjiahui/git/mahjong-egg/app/extend/helper.js:39:39)
+    at OrderController.getOrder (/Users/wangjiahui/git/mahjong-egg/app/controller/order.js:9:18)
+    at Object.callFn (/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wangjiahui/git/mahjong-egg/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/wangjiahui/git/mahjong-egg/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/wangjiahui/git/mahjong-egg/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","vary":"Origin"}
+pid: 3173
+hostname: wangjiahuideMacBook-Pro.local
+
+2020-02-24 19:14:02,066 INFO 3173 [-/127.0.0.1/-/1ms POST /getOrder] 当前请求参数 { date: '2017-01-02' }
+2020-02-24 19:14:02,067 ERROR 3173 [-/127.0.0.1/-/1ms POST /getOrder] nodejs.TypeError: rule type must be one of number, int, integer, string, id, date, dateTime, datetime, boolean, bool, array, object, enum, email, password, url, phone, account, but the following type was passed: 2017-01-02
+    at Parameter.validate (/Users/wangjiahui/git/mahjong-egg/node_modules/_parameter@3.6.0@parameter/index.js:106:15)
+    at Helper.sendData (/Users/wangjiahui/git/mahjong-egg/app/extend/helper.js:39:39)
+    at OrderController.getOrder (/Users/wangjiahui/git/mahjong-egg/app/controller/order.js:9:18)
+    at Object.callFn (/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wangjiahui/git/mahjong-egg/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/wangjiahui/git/mahjong-egg/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/wangjiahui/git/mahjong-egg/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","vary":"Origin"}
+pid: 3173
+hostname: wangjiahuideMacBook-Pro.local
+
+2020-02-24 19:14:30,522 INFO 3210 [-/127.0.0.1/-/12ms POST /getOrder] 当前请求参数 { date: '2017-01-02' }
+2020-02-24 19:14:30,524 ERROR 3210 [-/127.0.0.1/-/14ms POST /getOrder] nodejs.TypeError: rule type must be one of number, int, integer, string, id, date, dateTime, datetime, boolean, bool, array, object, enum, email, password, url, phone, account, but the following type was passed: 2017-01-02
+    at Parameter.validate (/Users/wangjiahui/git/mahjong-egg/node_modules/_parameter@3.6.0@parameter/index.js:106:15)
+    at Helper.sendData (/Users/wangjiahui/git/mahjong-egg/app/extend/helper.js:39:39)
+    at OrderController.getOrder (/Users/wangjiahui/git/mahjong-egg/app/controller/order.js:9:18)
+    at Object.callFn (/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wangjiahui/git/mahjong-egg/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/wangjiahui/git/mahjong-egg/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/wangjiahui/git/mahjong-egg/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","vary":"Origin"}
+pid: 3210
+hostname: wangjiahuideMacBook-Pro.local
+
+2020-02-24 19:16:02,656 INFO 3226 [-/127.0.0.1/-/17ms POST /getOrder] 当前请求参数 { date: '2017-01-02' }
+2020-02-24 19:16:02,661 ERROR 3226 [-/127.0.0.1/-/23ms POST /getOrder] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'db.order_statistics' doesn't exist
+    at Query.Sequence._packetToError (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Pool.query (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:199:23)
+    at /Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/wangjiahui/git/mahjong-egg/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/wangjiahui/git/mahjong-egg/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/wangjiahui/git/mahjong-egg/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/wangjiahui/git/mahjong-egg/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: SELECT * FROM `order_statistics` WHERE `date` = '2017-01-02' LIMIT 0, 1
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'db.order_statistics' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `order_statistics` WHERE `date` = '2017-01-02' LIMIT 0, 1"
+name: "ER_NO_SUCH_TABLEError"
+pid: 3226
+hostname: wangjiahuideMacBook-Pro.local
+
+2020-02-24 19:16:02,663 ERROR 3226 [-/127.0.0.1/-/24ms POST /getOrder] {
+  success: false,
+  data: null,
+  error: "Error: ER_NO_SUCH_TABLE: Table 'db.order_statistics' doesn't exist\n" +
+    '    at Query.Sequence._packetToError (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)\n' +
+    '    at Query.ErrorPacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Query.js:77:18)\n' +
+    '    at Protocol._parsePacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)\n' +
+    '    at Parser._parsePacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)\n' +
+    '    at Parser.write (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)\n' +
+    '    at Protocol.write (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)\n' +
+    '    at Socket.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)\n' +
+    '    at Socket.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)\n' +
+    '    at Socket.emit (events.js:210:5)\n' +
+    '    at addChunk (_stream_readable.js:308:12)\n' +
+    '    --------------------\n' +
+    '    at Pool.query (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:199:23)\n' +
+    '    at /Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:29:7\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Pool.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:12:10)\n' +
+    '    at Pool.ret [as query] (/Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:56:34)\n' +
+    '    at RDSClient.proto._query (/Users/wangjiahui/git/mahjong-egg/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)\n' +
+    '    at RDSClient.proto.query (/Users/wangjiahui/git/mahjong-egg/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)\n' +
+    '    at proto.query.next (<anonymous>)\n' +
+    '    at onFulfilled (/Users/wangjiahui/git/mahjong-egg/node_modules/_co@4.6.0@co/index.js:65:19)\n' +
+    '    at /Users/wangjiahui/git/mahjong-egg/node_modules/_co@4.6.0@co/index.js:54:5\n' +
+    "    sql: SELECT * FROM `order_statistics` WHERE `date` = '2017-01-02' LIMIT 0, 1"
+}
+2020-02-24 19:21:51,777 INFO 3226 [-/127.0.0.1/-/1ms POST /auth/getToken] 当前请求参数 {
+  account: 'jakewang',
+  password: 'wangjiahui11A',
+  phone: '18557530997'
+}
+2020-02-24 19:21:51,790 INFO 3226 [-/127.0.0.1/-/14ms POST /auth/getToken] {
+  success: true,
+  data: {
+    token: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImFjY291bnQiOiJqYWtld2FuZyIsInBhc3N3b3JkIjoid2FuZ2ppYWh1aTExQSIsInVzZXJJZCI6IjBmNzI3ZGIwLWY4YTMtMTFlOS05ZWI2LWJiYTZmZGU0YzNkYiJ9LCJleHAiOjE1ODI1NTA1MTEsImlhdCI6MTU4MjU0MzMxMX0.VHpsN-Rl_fsD0sXNgr5UI-ViGjpksULSDTpszJzZPXe64IsSYN9UheOff3vxL6gri0zjWnAaavmAIjWU6Ngb_bs4SRAnsczBv1ZeEElLNCrySHT6kZBggNXoU3ClVCMuFPIckFEqmaUXNOiLIPtccGugV1fwD1Md-ZBbLjmz7H8'
+  },
+  msg: undefined
+}
+2020-02-24 19:22:04,251 INFO 3226 [-/127.0.0.1/-/1ms POST /auth/getToken] 当前请求参数 {
+  account: 'jakewang',
+  password: 'wangjiahui11A',
+  phone: '18557530997'
+}
+2020-02-24 19:22:04,255 INFO 3226 [-/127.0.0.1/-/5ms POST /auth/getToken] {
+  success: true,
+  data: {
+    token: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImFjY291bnQiOiJqYWtld2FuZyIsInBhc3N3b3JkIjoid2FuZ2ppYWh1aTExQSIsInVzZXJJZCI6IjBmNzI3ZGIwLWY4YTMtMTFlOS05ZWI2LWJiYTZmZGU0YzNkYiJ9LCJleHAiOjE1ODI1NTA1MjQsImlhdCI6MTU4MjU0MzMyNH0.6OUtmrLX3zhV5ulmAYeEOtbuvN3aMAmpIpICrZZyvmYF0q2OBvWEz_RfZO4H-4IDBzqkDW7Hdp5l_oWcuAIpaaSzaSBsNrI-NOU8TEolbpfR5dFvf-qYnOZAjIdv5uFNkW27hYnyNtpaemHjBqMpIy0omosWx1RmAkpYlS-JHWA'
+  },
+  msg: undefined
+}
+2020-02-24 20:45:26,841 INFO 3226 [-/127.0.0.1/-/1ms POST /getOrder] 当前请求参数 { date: '2017-01-02' }
+2020-02-24 20:45:26,844 ERROR 3226 [-/127.0.0.1/-/3ms POST /getOrder] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'db.order_statistics' doesn't exist
+    at Query.Sequence._packetToError (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Pool.query (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:199:23)
+    at /Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/wangjiahui/git/mahjong-egg/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/wangjiahui/git/mahjong-egg/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/wangjiahui/git/mahjong-egg/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/wangjiahui/git/mahjong-egg/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: SELECT * FROM `order_statistics` WHERE `date` = '2017-01-02' LIMIT 0, 1
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'db.order_statistics' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `order_statistics` WHERE `date` = '2017-01-02' LIMIT 0, 1"
+name: "ER_NO_SUCH_TABLEError"
+pid: 3226
+hostname: wangjiahuideMacBook-Pro.local
+
+2020-02-24 20:45:26,847 ERROR 3226 [-/127.0.0.1/-/5ms POST /getOrder] {
+  success: false,
+  data: null,
+  error: "Error: ER_NO_SUCH_TABLE: Table 'db.order_statistics' doesn't exist\n" +
+    '    at Query.Sequence._packetToError (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)\n' +
+    '    at Query.ErrorPacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Query.js:77:18)\n' +
+    '    at Protocol._parsePacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)\n' +
+    '    at Parser._parsePacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)\n' +
+    '    at Parser.write (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)\n' +
+    '    at Protocol.write (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)\n' +
+    '    at Socket.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)\n' +
+    '    at Socket.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)\n' +
+    '    at Socket.emit (events.js:210:5)\n' +
+    '    at addChunk (_stream_readable.js:308:12)\n' +
+    '    --------------------\n' +
+    '    at Pool.query (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:199:23)\n' +
+    '    at /Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:29:7\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Pool.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:12:10)\n' +
+    '    at Pool.ret [as query] (/Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:56:34)\n' +
+    '    at RDSClient.proto._query (/Users/wangjiahui/git/mahjong-egg/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)\n' +
+    '    at RDSClient.proto.query (/Users/wangjiahui/git/mahjong-egg/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)\n' +
+    '    at proto.query.next (<anonymous>)\n' +
+    '    at onFulfilled (/Users/wangjiahui/git/mahjong-egg/node_modules/_co@4.6.0@co/index.js:65:19)\n' +
+    '    at /Users/wangjiahui/git/mahjong-egg/node_modules/_co@4.6.0@co/index.js:54:5\n' +
+    "    sql: SELECT * FROM `order_statistics` WHERE `date` = '2017-01-02' LIMIT 0, 1"
+}
+2020-02-24 20:51:03,688 INFO 818 [-/127.0.0.1/-/17ms POST /getOrder] 当前请求参数 { date: '2017-01-02' }
+2020-02-24 20:51:03,693 ERROR 818 [-/127.0.0.1/-/23ms POST /getOrder] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'db.order_statistics' doesn't exist
+    at Query.Sequence._packetToError (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Pool.query (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:199:23)
+    at /Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/wangjiahui/git/mahjong-egg/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/wangjiahui/git/mahjong-egg/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/wangjiahui/git/mahjong-egg/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/wangjiahui/git/mahjong-egg/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: SELECT * FROM `order_statistics` WHERE `date` = '2017-01-02' LIMIT 0, 1
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'db.order_statistics' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `order_statistics` WHERE `date` = '2017-01-02' LIMIT 0, 1"
+name: "ER_NO_SUCH_TABLEError"
+pid: 818
+hostname: wangjiahuideMacBook-Pro.local
+
+2020-02-24 20:51:03,695 ERROR 818 [-/127.0.0.1/-/24ms POST /getOrder] {
+  success: false,
+  data: null,
+  error: "Error: ER_NO_SUCH_TABLE: Table 'db.order_statistics' doesn't exist\n" +
+    '    at Query.Sequence._packetToError (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)\n' +
+    '    at Query.ErrorPacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Query.js:77:18)\n' +
+    '    at Protocol._parsePacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)\n' +
+    '    at Parser._parsePacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)\n' +
+    '    at Parser.write (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)\n' +
+    '    at Protocol.write (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)\n' +
+    '    at Socket.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)\n' +
+    '    at Socket.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)\n' +
+    '    at Socket.emit (events.js:210:5)\n' +
+    '    at addChunk (_stream_readable.js:308:12)\n' +
+    '    --------------------\n' +
+    '    at Pool.query (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:199:23)\n' +
+    '    at /Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:29:7\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Pool.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:12:10)\n' +
+    '    at Pool.ret [as query] (/Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:56:34)\n' +
+    '    at RDSClient.proto._query (/Users/wangjiahui/git/mahjong-egg/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)\n' +
+    '    at RDSClient.proto.query (/Users/wangjiahui/git/mahjong-egg/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)\n' +
+    '    at proto.query.next (<anonymous>)\n' +
+    '    at onFulfilled (/Users/wangjiahui/git/mahjong-egg/node_modules/_co@4.6.0@co/index.js:65:19)\n' +
+    '    at /Users/wangjiahui/git/mahjong-egg/node_modules/_co@4.6.0@co/index.js:54:5\n' +
+    "    sql: SELECT * FROM `order_statistics` WHERE `date` = '2017-01-02' LIMIT 0, 1"
+}
+2020-02-24 20:54:44,458 INFO 818 [-/127.0.0.1/-/1ms POST /auth/getToken] 当前请求参数 {
+  account: 'jakewang',
+  password: 'wangjiahui11A',
+  phone: '18557530997'
+}
+2020-02-24 20:54:44,480 INFO 818 [-/127.0.0.1/-/23ms POST /auth/getToken] {
+  success: true,
+  data: {
+    token: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImFjY291bnQiOiJqYWtld2FuZyIsInBhc3N3b3JkIjoid2FuZ2ppYWh1aTExQSIsInVzZXJJZCI6IjBmNzI3ZGIwLWY4YTMtMTFlOS05ZWI2LWJiYTZmZGU0YzNkYiJ9LCJleHAiOjE1ODI1NTYwODQsImlhdCI6MTU4MjU0ODg4NH0.HJAmwFGCstNGG-C7HTCJLYzfxweWp8OaSwJfl5D5K9D3Iqp8hlp8faorgOo4dpjgAe5pYz1qK2SzPRiIbH55CaV1S1VzmaZeCVi7FHsXhzVrXWWq6hkejpDR7ri5ptUNfDDnzeQuMb1d6kxsceJNzPHN0uDKlGKZq0KWnS8KvYU'
+  },
+  msg: undefined
+}
+2020-02-24 20:55:01,747 INFO 818 [-/127.0.0.1/-/1ms POST /auth/registered] 当前请求参数 {
+  account: 'jakewang',
+  password: 'wangjiahui11A',
+  phone: '18557530997'
+}
+2020-02-24 20:55:01,750 INFO 818 [-/127.0.0.1/-/4ms POST /auth/registered] { success: false, data: { errorMsg: '手机号已经被注册了！' }, msg: '手机号已经被注册了！' }
+2020-02-24 21:15:21,891 INFO 818 [-/127.0.0.1/-/1ms POST /getOrder] 当前请求参数 { date: '2017-01-02' }
+2020-02-24 21:15:21,894 INFO 818 [-/127.0.0.1/-/4ms POST /getOrder] {
+  success: true,
+  data: RowDataPacket {
+    date: '2017-01-02',
+    agency: '赖昌金',
+    client: '阿旺',
+    channel: '大陆DHL',
+    order_form: '9163932531',
+    transfer_order_1: '5268342100',
+    transfer_order_2: null,
+    transition_3: null,
+    transition_date: '2017-01-04',
+    extraction_time: '2017-01-04',
+    negotiation_time: '2017-01-06',
+    countries: '美国',
+    weight: '4',
+    goods: '1阿达',
+    note: null,
+    entry: '陈智峰',
+    note_1: null,
+    code: '77489',
+    customs_clearance: 'HOUSTON, TX',
+    city: null
+  },
+  msg: undefined
+}
+2020-02-24 21:49:04,836 INFO 818 [-/127.0.0.1/-/1ms POST /getOrder] 当前请求参数 { code: '45682' }
+2020-02-24 21:49:04,838 INFO 818 [-/127.0.0.1/-/3ms POST /getOrder] {
+  success: false,
+  data: [ { message: 'required', field: 'date', code: 'missing_field' } ],
+  msg: 'daterequired'
+}
+2020-02-24 21:50:27,199 INFO 1286 [-/127.0.0.1/-/16ms POST /getOrder] 当前请求参数 { code: '45682' }
+2020-02-24 21:50:27,202 INFO 1286 [-/127.0.0.1/-/19ms POST /getOrder] {
+  success: false,
+  data: [ { message: 'should be a number', code: 'invalid', field: 'code' } ],
+  msg: 'codeshould be a number'
+}
+2020-02-24 21:50:49,255 INFO 1308 [-/127.0.0.1/-/11ms POST /getOrder] 当前请求参数 { code: '45682' }
+2020-02-24 21:50:49,275 INFO 1308 [-/127.0.0.1/-/32ms POST /getOrder] {
+  success: true,
+  data: RowDataPacket {
+    date: '2017-04-25',
+    agency: '深圳老林',
+    client: '刘芷楠',
+    channel: '大陆DHL',
+    order_form: '8340573850',
+    transfer_order_1: '4070603563',
+    transfer_order_2: null,
+    transition_3: null,
+    transition_date: '2017-04-26',
+    extraction_time: '2017-04-26',
+    negotiation_time: '2017-04-29',
+    countries: '美国',
+    weight: '1.614',
+    goods: '一线鞋子',
+    note: null,
+    entry: '吴陈平',
+    note_1: null,
+    code: '45682',
+    customs_clearance: 'COLUMBUS - WEST, OH',
+    city: null
+  },
+  msg: undefined
+}
+2020-02-24 21:51:31,827 INFO 1316 [-/127.0.0.1/-/16ms POST /getOrder] 当前请求参数 { code: '45682' }
+2020-02-24 21:51:31,848 INFO 1316 [-/127.0.0.1/-/38ms POST /getOrder] {
+  success: true,
+  data: RowDataPacket {
+    date: '2017-04-25',
+    agency: '深圳老林',
+    client: '刘芷楠',
+    channel: '大陆DHL',
+    order_form: '8340573850',
+    transfer_order_1: '4070603563',
+    transfer_order_2: null,
+    transition_3: null,
+    transition_date: '2017-04-26',
+    extraction_time: '2017-04-26',
+    negotiation_time: '2017-04-29',
+    countries: '美国',
+    weight: '1.614',
+    goods: '一线鞋子',
+    note: null,
+    entry: '吴陈平',
+    note_1: null,
+    code: '45682',
+    customs_clearance: 'COLUMBUS - WEST, OH',
+    city: null
+  },
+  msg: undefined
+}
+2020-02-24 22:00:46,151 INFO 1398 [-/127.0.0.1/-/15ms POST /getOrder] 当前请求参数 { code: '45682' }
+2020-02-24 22:00:46,214 INFO 1398 [-/127.0.0.1/-/78ms POST /getOrder] {
+  success: true,
+  data: [
+    RowDataPacket { code: '45682' },
+    RowDataPacket { code: '45682' },
+    RowDataPacket { code: '45682' },
+    RowDataPacket { code: '45682' }
+  ],
+  msg: undefined
+}
+2020-02-24 22:01:09,721 INFO 1408 [-/127.0.0.1/-/17ms POST /getOrder] 当前请求参数 { code: '45682' }
+2020-02-24 22:01:09,837 INFO 1408 [-/127.0.0.1/-/134ms POST /getOrder] {
+  success: true,
+  data: [
+    RowDataPacket {
+      date: '2017-04-25',
+      agency: '深圳老林',
+      client: '刘芷楠',
+      channel: '大陆DHL',
+      order_form: '8340573850',
+      transfer_order_1: '4070603563',
+      transfer_order_2: null,
+      transition_3: null,
+      transition_date: '2017-04-26',
+      extraction_time: '2017-04-26',
+      negotiation_time: '2017-04-29',
+      countries: '美国',
+      weight: '1.614',
+      goods: '一线鞋子',
+      note: null,
+      entry: '吴陈平',
+      note_1: null,
+      code: '45682',
+      customs_clearance: 'COLUMBUS - WEST, OH',
+      city: null
+    },
+    RowDataPacket {
+      date: '2017-05-05',
+      agency: '深圳老林',
+      client: '刘芷楠',
+      channel: '大陆DHL',
+      order_form: '8340603401',
+      transfer_order_1: '2546577504',
+      transfer_order_2: null,
+      transition_3: null,
+      transition_date: '2017-05-06',
+      extraction_time: '2017-05-07',
+      negotiation_time: '2017-05-11',
+      countries: '美国',
+      weight: '1.476',
+      goods: '一线鞋子',
+      note: null,
+      entry: '吴陈平',
+      note_1: null,
+      code: '45682',
+      customs_clearance: 'COLUMBUS - WEST, OH',
+      city: null
+    },
+    RowDataPacket {
+      date: '2018-01-25',
+      agency: '赖昌金',
+      client: '瑾年',
+      channel: '大陆DHL',
+      order_form: '8584104900',
+      transfer_order_1: '5368152053',
+      transfer_order_2: null,
+      transition_3: null,
+      transition_date: '2018-01-26',
+      extraction_time: '2018-01-27',
+      negotiation_time: '2018-01-30',
+      countries: '美国',
+      weight: '1.832',
+      goods: '1一线真标鞋',
+      note: null,
+      entry: '吴陈平',
+      note_1: null,
+      code: '45682',
+      customs_clearance: 'COLUMBUS - WEST, OH',
+      city: null
+    },
+    RowDataPacket {
+      date: '2019-07-18',
+      agency: '赖昌金',
+      client: '瑾年',
+      channel: '新加坡DHL',
+      order_form: '5010638533',
+      transfer_order_1: '5010638533',
+      transfer_order_2: null,
+      transition_3: null,
+      transition_date: '2019-07-19',
+      extraction_time: '2019-07-21',
+      negotiation_time: '2019-07-24',
+      countries: '美国',
+      weight: '2.43',
+      goods: '一线真标',
+      note: null,
+      entry: '陈智峰',
+      note_1: null,
+      code: '45682',
+      customs_clearance: '\tCOLUMBUS - WEST, OH',
+      city: null
+    }
+  ],
+  msg: undefined
+}
+2020-02-24 22:01:13,791 INFO 1408 [-/127.0.0.1/-/2ms POST /getOrder] 当前请求参数 { code: '45682' }
+2020-02-24 22:01:13,910 INFO 1408 [-/127.0.0.1/-/121ms POST /getOrder] {
+  success: true,
+  data: [
+    RowDataPacket {
+      date: '2017-04-25',
+      agency: '深圳老林',
+      client: '刘芷楠',
+      channel: '大陆DHL',
+      order_form: '8340573850',
+      transfer_order_1: '4070603563',
+      transfer_order_2: null,
+      transition_3: null,
+      transition_date: '2017-04-26',
+      extraction_time: '2017-04-26',
+      negotiation_time: '2017-04-29',
+      countries: '美国',
+      weight: '1.614',
+      goods: '一线鞋子',
+      note: null,
+      entry: '吴陈平',
+      note_1: null,
+      code: '45682',
+      customs_clearance: 'COLUMBUS - WEST, OH',
+      city: null
+    },
+    RowDataPacket {
+      date: '2017-05-05',
+      agency: '深圳老林',
+      client: '刘芷楠',
+      channel: '大陆DHL',
+      order_form: '8340603401',
+      transfer_order_1: '2546577504',
+      transfer_order_2: null,
+      transition_3: null,
+      transition_date: '2017-05-06',
+      extraction_time: '2017-05-07',
+      negotiation_time: '2017-05-11',
+      countries: '美国',
+      weight: '1.476',
+      goods: '一线鞋子',
+      note: null,
+      entry: '吴陈平',
+      note_1: null,
+      code: '45682',
+      customs_clearance: 'COLUMBUS - WEST, OH',
+      city: null
+    },
+    RowDataPacket {
+      date: '2018-01-25',
+      agency: '赖昌金',
+      client: '瑾年',
+      channel: '大陆DHL',
+      order_form: '8584104900',
+      transfer_order_1: '5368152053',
+      transfer_order_2: null,
+      transition_3: null,
+      transition_date: '2018-01-26',
+      extraction_time: '2018-01-27',
+      negotiation_time: '2018-01-30',
+      countries: '美国',
+      weight: '1.832',
+      goods: '1一线真标鞋',
+      note: null,
+      entry: '吴陈平',
+      note_1: null,
+      code: '45682',
+      customs_clearance: 'COLUMBUS - WEST, OH',
+      city: null
+    },
+    RowDataPacket {
+      date: '2019-07-18',
+      agency: '赖昌金',
+      client: '瑾年',
+      channel: '新加坡DHL',
+      order_form: '5010638533',
+      transfer_order_1: '5010638533',
+      transfer_order_2: null,
+      transition_3: null,
+      transition_date: '2019-07-19',
+      extraction_time: '2019-07-21',
+      negotiation_time: '2019-07-24',
+      countries: '美国',
+      weight: '2.43',
+      goods: '一线真标',
+      note: null,
+      entry: '陈智峰',
+      note_1: null,
+      code: '45682',
+      customs_clearance: '\tCOLUMBUS - WEST, OH',
+      city: null
+    }
+  ],
+  msg: undefined
+}
+2020-02-24 22:01:19,158 INFO 1417 [-/127.0.0.1/-/18ms POST /getOrder] 当前请求参数 { code: '45682' }
+2020-02-24 22:01:19,274 INFO 1417 [-/127.0.0.1/-/135ms POST /getOrder] {
+  success: true,
+  data: [
+    RowDataPacket {
+      date: '2017-04-25',
+      agency: '深圳老林',
+      client: '刘芷楠',
+      channel: '大陆DHL',
+      order_form: '8340573850',
+      transfer_order_1: '4070603563',
+      transfer_order_2: null,
+      transition_3: null,
+      transition_date: '2017-04-26',
+      extraction_time: '2017-04-26',
+      negotiation_time: '2017-04-29',
+      countries: '美国',
+      weight: '1.614',
+      goods: '一线鞋子',
+      note: null,
+      entry: '吴陈平',
+      note_1: null,
+      code: '45682',
+      customs_clearance: 'COLUMBUS - WEST, OH',
+      city: null
+    },
+    RowDataPacket {
+      date: '2017-05-05',
+      agency: '深圳老林',
+      client: '刘芷楠',
+      channel: '大陆DHL',
+      order_form: '8340603401',
+      transfer_order_1: '2546577504',
+      transfer_order_2: null,
+      transition_3: null,
+      transition_date: '2017-05-06',
+      extraction_time: '2017-05-07',
+      negotiation_time: '2017-05-11',
+      countries: '美国',
+      weight: '1.476',
+      goods: '一线鞋子',
+      note: null,
+      entry: '吴陈平',
+      note_1: null,
+      code: '45682',
+      customs_clearance: 'COLUMBUS - WEST, OH',
+      city: null
+    },
+    RowDataPacket {
+      date: '2018-01-25',
+      agency: '赖昌金',
+      client: '瑾年',
+      channel: '大陆DHL',
+      order_form: '8584104900',
+      transfer_order_1: '5368152053',
+      transfer_order_2: null,
+      transition_3: null,
+      transition_date: '2018-01-26',
+      extraction_time: '2018-01-27',
+      negotiation_time: '2018-01-30',
+      countries: '美国',
+      weight: '1.832',
+      goods: '1一线真标鞋',
+      note: null,
+      entry: '吴陈平',
+      note_1: null,
+      code: '45682',
+      customs_clearance: 'COLUMBUS - WEST, OH',
+      city: null
+    },
+    RowDataPacket {
+      date: '2019-07-18',
+      agency: '赖昌金',
+      client: '瑾年',
+      channel: '新加坡DHL',
+      order_form: '5010638533',
+      transfer_order_1: '5010638533',
+      transfer_order_2: null,
+      transition_3: null,
+      transition_date: '2019-07-19',
+      extraction_time: '2019-07-21',
+      negotiation_time: '2019-07-24',
+      countries: '美国',
+      weight: '2.43',
+      goods: '一线真标',
+      note: null,
+      entry: '陈智峰',
+      note_1: null,
+      code: '45682',
+      customs_clearance: '\tCOLUMBUS - WEST, OH',
+      city: null
+    }
+  ],
+  msg: undefined
+}
+2020-02-24 22:10:01,662 INFO 1455 [-/127.0.0.1/-/17ms POST /getOrder] 当前请求参数 { code: '45682' }
+2020-02-24 22:10:01,780 INFO 1455 [-/127.0.0.1/-/136ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'COLUMBUS - WEST, OH', ratio: 1 },
+  msg: undefined
+}
+2020-02-24 22:13:02,255 INFO 1476 [-/127.0.0.1/-/14ms POST /getOrder] 当前请求参数 { code: '45682' }
+2020-02-24 22:13:02,376 INFO 1476 [-/127.0.0.1/-/136ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'COLUMBUS - WEST, OH', ratio: 1 },
+  msg: undefined
+}
+2020-02-24 22:13:09,642 INFO 1476 [-/127.0.0.1/-/1ms POST /getOrder] 当前请求参数 { code: '45682' }
+2020-02-24 22:13:09,760 INFO 1476 [-/127.0.0.1/-/119ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'COLUMBUS - WEST, OH', ratio: 1 },
+  msg: undefined
+}
+2020-02-24 22:13:13,693 INFO 1476 [-/127.0.0.1/-/1ms POST /getOrder] 当前请求参数 { code: '45682' }
+2020-02-24 22:13:13,814 INFO 1476 [-/127.0.0.1/-/122ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'COLUMBUS - WEST, OH', ratio: 1 },
+  msg: undefined
+}
+2020-02-24 22:13:33,903 INFO 1493 [-/127.0.0.1/-/15ms POST /getOrder] 当前请求参数 { code: '45682' }
+2020-02-24 22:13:34,021 INFO 1493 [-/127.0.0.1/-/134ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'COLUMBUS - WEST, OH', ratio: 1 },
+  msg: undefined
+}
+2020-02-24 22:14:08,340 INFO 1508 [-/127.0.0.1/-/15ms POST /getOrder] 当前请求参数 { code: '45682' }
+2020-02-24 22:14:08,461 INFO 1508 [-/127.0.0.1/-/137ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'COLUMBUS - WEST, OH', ratio: 1 },
+  msg: undefined
+}
+2020-02-24 22:14:44,007 INFO 1520 [-/127.0.0.1/-/16ms POST /getOrder] 当前请求参数 { code: '45682' }
+2020-02-24 22:14:44,123 INFO 1520 [-/127.0.0.1/-/134ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'COLUMBUS - WEST, OH', ratio: 1 },
+  msg: undefined
+}
+2020-02-24 22:14:47,290 INFO 1520 [-/127.0.0.1/-/1ms POST /getOrder] 当前请求参数 { code: '45682' }
+2020-02-24 22:14:47,408 INFO 1520 [-/127.0.0.1/-/119ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'COLUMBUS - WEST, OH', ratio: 1 },
+  msg: undefined
+}
+2020-02-24 22:15:20,998 INFO 1530 [-/127.0.0.1/-/17ms POST /getOrder] 当前请求参数 { code: '45682' }
+2020-02-24 22:15:21,114 INFO 1530 [-/127.0.0.1/-/134ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'COLUMBUS - WEST, OH', ratio: 1 },
+  msg: undefined
+}
+2020-02-24 22:16:23,189 INFO 1543 [-/127.0.0.1/-/18ms POST /getOrder] 当前请求参数 { code: '45682' }
+2020-02-24 22:16:23,305 INFO 1543 [-/127.0.0.1/-/135ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'COLUMBUS - WEST, OH', ratio: 1 },
+  msg: undefined
+}
+2020-02-24 22:16:39,837 INFO 1552 [-/127.0.0.1/-/16ms POST /getOrder] 当前请求参数 { code: '45682' }
+2020-02-24 22:16:39,951 INFO 1552 [-/127.0.0.1/-/131ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'COLUMBUS - WEST, OH', ratio: 1 },
+  msg: undefined
+}
+2020-02-24 22:16:58,476 INFO 1564 [-/127.0.0.1/-/16ms POST /getOrder] 当前请求参数 { code: '45682' }
+2020-02-24 22:16:58,588 INFO 1564 [-/127.0.0.1/-/129ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'COLUMBUS - WEST, OH', ratio: 1 },
+  msg: undefined
+}
+2020-02-24 22:17:32,203 INFO 1573 [-/127.0.0.1/-/17ms POST /getOrder] 当前请求参数 { code: '45682' }
+2020-02-24 22:17:32,317 INFO 1573 [-/127.0.0.1/-/132ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'COLUMBUS - WEST, OH', ratio: 1 },
+  msg: undefined
+}
+2020-02-24 22:18:04,680 INFO 1581 [-/127.0.0.1/-/15ms POST /getOrder] 当前请求参数 { code: '45682' }
+2020-02-24 22:18:04,796 INFO 1581 [-/127.0.0.1/-/132ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'COLUMBUS - WEST, OH', ratio: NaN },
+  msg: undefined
+}
+2020-02-24 22:18:46,051 INFO 1589 [-/127.0.0.1/-/18ms POST /getOrder] 当前请求参数 { code: '45682' }
+2020-02-24 22:18:46,166 INFO 1589 [-/127.0.0.1/-/134ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'COLUMBUS - WEST, OH', ratio: 0 },
+  msg: undefined
+}
+2020-02-24 22:22:10,550 INFO 1597 [-/127.0.0.1/-/12ms POST /getOrder] 当前请求参数 { code: '45682' }
+2020-02-24 22:22:10,666 INFO 1597 [-/127.0.0.1/-/129ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'COLUMBUS - WEST, OH', ratio: 0 },
+  msg: undefined
+}
+2020-02-24 22:22:55,456 INFO 1597 [-/127.0.0.1/-/1ms POST /getOrder] 当前请求参数 { code: '45682' }
+2020-02-24 22:22:55,577 INFO 1597 [-/127.0.0.1/-/122ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'COLUMBUS - WEST, OH', ratio: 0 },
+  msg: undefined
+}
+2020-02-24 22:26:51,684 INFO 1597 [-/127.0.0.1/-/1ms POST /getOrder] 当前请求参数 { code: '46368' }
+2020-02-24 22:26:51,797 INFO 1597 [-/127.0.0.1/-/114ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'NORTHEAST INDIANAPOLIS, IN', ratio: 0 },
+  msg: undefined
+}
+2020-02-24 22:27:15,639 INFO 1597 [-/127.0.0.1/-/1ms POST /getOrder] 当前请求参数 { code: '33195' }
+2020-02-24 22:27:15,763 INFO 1597 [-/127.0.0.1/-/125ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'MIAMI, FL', ratio: 0.03 },
+  msg: undefined
+}
+2020-02-24 22:27:53,673 INFO 1597 [-/127.0.0.1/-/1ms POST /getOrder] 当前请求参数 { code: '33195' }
+2020-02-24 22:27:53,797 INFO 1597 [-/127.0.0.1/-/125ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'MIAMI, FL', ratio: 0.03 },
+  msg: undefined
+}
+2020-02-24 22:27:58,422 INFO 1597 [-/127.0.0.1/-/1ms POST /getOrder] 当前请求参数 { code: '33195' }
+2020-02-24 22:27:58,543 INFO 1597 [-/127.0.0.1/-/122ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'MIAMI, FL', ratio: 0.03 },
+  msg: undefined
+}
+2020-02-24 22:30:27,516 INFO 1597 [-/127.0.0.1/-/1ms POST /getOrder] 当前请求参数 { code: '33195' }
+2020-02-24 22:30:27,637 INFO 1597 [-/127.0.0.1/-/122ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'MIAMI, FL', ratio: 0.03 },
+  msg: undefined
+}

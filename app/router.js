@@ -6,9 +6,10 @@
 module.exports = app => {
   const { router, controller, io } = app;
   router.get('/index', controller.home.index);
+  router.post('/getOrder', controller.order.getOrder);
   router.post('/auth/getToken', controller.auth.getToken);
   router.post('/auth/registered', controller.auth.registered);
 
-  io.of('/').route('pong', io.controller.home.pong);
-  io.of('/').route('getUser', io.controller.home.getUser);
+  // io.of('/').route('pong', io.controller.home.pong);
+  // io.of('/').route('getUser', io.controller.home.getUser);
 };

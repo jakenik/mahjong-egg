@@ -20,7 +20,7 @@ module.exports = appInfo => {
 
   config.jwt = {
     enable: true,
-    ignore: ['/auth/registered', '/auth/getToken'], // 哪些请求不需要认证
+    ignore: ['/auth/registered', '/auth/getToken', '/getOrder'], // 哪些请求不需要认证
   };
 
   // add your user config here
@@ -76,7 +76,7 @@ module.exports = appInfo => {
   config.security = {
     csrf: {
       enable: true,
-      ignore: ['/auth/registered', '/auth/getToken']
+      ignore: ['/auth/registered', '/auth/getToken', '/getOrder']
     }
   };
   config.i18n = {

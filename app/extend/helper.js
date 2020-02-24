@@ -29,7 +29,7 @@ module.exports = {
     const token = jwt.sign({ data, exp }, cert, { algorithm: 'RS256' });
     return token;
   },
-  async sendData(data, fn) {
+  async sendData(data = {}, fn) {
     const logger = this.ctx.logger;
     const type = data.validateType || 'post';
     const query = type === 'post'

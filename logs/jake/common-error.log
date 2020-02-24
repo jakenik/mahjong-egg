@@ -30,3 +30,304 @@ name: "ClusterClientNoResponseError"
 pid: 1159
 hostname: wangjiahuideMacBook-Pro.local
 
+2019-10-28 21:43:27,176 ERROR 905 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1128:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 905
+hostname: wangjiahuideMacBook-Pro.local
+
+2019-10-28 21:43:27,178 ERROR 905 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1128:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 905
+hostname: wangjiahuideMacBook-Pro.local
+
+2019-10-28 21:43:27,179 ERROR 905 [egg-redis] client error: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1128:14) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 6379
+}
+2019-10-28 21:43:27,179 ERROR 905 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1128:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 905
+hostname: wangjiahuideMacBook-Pro.local
+
+2019-10-28 21:43:27,181 ERROR 905 [-/127.0.0.1/-/0ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1128:14)
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 905
+hostname: wangjiahuideMacBook-Pro.local
+
+2019-10-28 21:43:27,187 ERROR 905 [-/127.0.0.1/-/1ms GET /] nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1128:14)
+    --------------------
+    at Protocol._enqueue (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:119:18)
+    at Pool.getConnection (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:48:16)
+    at /Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at Pool.query (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:202:8)
+    at /Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:29:7
+    sql: select now() as currentTime;
+errno: "ECONNREFUSED"
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 3306
+fatal: true
+name: "ECONNREFUSEDError"
+pid: 905
+hostname: wangjiahuideMacBook-Pro.local
+
+2020-02-24 19:14:00,442 ERROR 3173 [-/127.0.0.1/-/16ms POST /getOrder] nodejs.TypeError: rule type must be one of number, int, integer, string, id, date, dateTime, datetime, boolean, bool, array, object, enum, email, password, url, phone, account, but the following type was passed: 2017-01-02
+    at Parameter.validate (/Users/wangjiahui/git/mahjong-egg/node_modules/_parameter@3.6.0@parameter/index.js:106:15)
+    at Helper.sendData (/Users/wangjiahui/git/mahjong-egg/app/extend/helper.js:39:39)
+    at OrderController.getOrder (/Users/wangjiahui/git/mahjong-egg/app/controller/order.js:9:18)
+    at Object.callFn (/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wangjiahui/git/mahjong-egg/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/wangjiahui/git/mahjong-egg/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/wangjiahui/git/mahjong-egg/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","vary":"Origin"}
+pid: 3173
+hostname: wangjiahuideMacBook-Pro.local
+
+2020-02-24 19:14:02,066 ERROR 3173 [-/127.0.0.1/-/1ms POST /getOrder] nodejs.TypeError: rule type must be one of number, int, integer, string, id, date, dateTime, datetime, boolean, bool, array, object, enum, email, password, url, phone, account, but the following type was passed: 2017-01-02
+    at Parameter.validate (/Users/wangjiahui/git/mahjong-egg/node_modules/_parameter@3.6.0@parameter/index.js:106:15)
+    at Helper.sendData (/Users/wangjiahui/git/mahjong-egg/app/extend/helper.js:39:39)
+    at OrderController.getOrder (/Users/wangjiahui/git/mahjong-egg/app/controller/order.js:9:18)
+    at Object.callFn (/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wangjiahui/git/mahjong-egg/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/wangjiahui/git/mahjong-egg/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/wangjiahui/git/mahjong-egg/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","vary":"Origin"}
+pid: 3173
+hostname: wangjiahuideMacBook-Pro.local
+
+2020-02-24 19:14:30,523 ERROR 3210 [-/127.0.0.1/-/14ms POST /getOrder] nodejs.TypeError: rule type must be one of number, int, integer, string, id, date, dateTime, datetime, boolean, bool, array, object, enum, email, password, url, phone, account, but the following type was passed: 2017-01-02
+    at Parameter.validate (/Users/wangjiahui/git/mahjong-egg/node_modules/_parameter@3.6.0@parameter/index.js:106:15)
+    at Helper.sendData (/Users/wangjiahui/git/mahjong-egg/app/extend/helper.js:39:39)
+    at OrderController.getOrder (/Users/wangjiahui/git/mahjong-egg/app/controller/order.js:9:18)
+    at Object.callFn (/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wangjiahui/git/mahjong-egg/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/wangjiahui/git/mahjong-egg/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/wangjiahui/git/mahjong-egg/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/wangjiahui/git/mahjong-egg/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:8080","vary":"Origin"}
+pid: 3210
+hostname: wangjiahuideMacBook-Pro.local
+
+2020-02-24 19:16:02,661 ERROR 3226 [-/127.0.0.1/-/23ms POST /getOrder] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'db.order_statistics' doesn't exist
+    at Query.Sequence._packetToError (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Pool.query (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:199:23)
+    at /Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/wangjiahui/git/mahjong-egg/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/wangjiahui/git/mahjong-egg/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/wangjiahui/git/mahjong-egg/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/wangjiahui/git/mahjong-egg/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: SELECT * FROM `order_statistics` WHERE `date` = '2017-01-02' LIMIT 0, 1
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'db.order_statistics' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `order_statistics` WHERE `date` = '2017-01-02' LIMIT 0, 1"
+name: "ER_NO_SUCH_TABLEError"
+pid: 3226
+hostname: wangjiahuideMacBook-Pro.local
+
+2020-02-24 19:16:02,662 ERROR 3226 [-/127.0.0.1/-/24ms POST /getOrder] {
+  success: false,
+  data: null,
+  error: "Error: ER_NO_SUCH_TABLE: Table 'db.order_statistics' doesn't exist\n" +
+    '    at Query.Sequence._packetToError (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)\n' +
+    '    at Query.ErrorPacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Query.js:77:18)\n' +
+    '    at Protocol._parsePacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)\n' +
+    '    at Parser._parsePacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)\n' +
+    '    at Parser.write (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)\n' +
+    '    at Protocol.write (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)\n' +
+    '    at Socket.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)\n' +
+    '    at Socket.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)\n' +
+    '    at Socket.emit (events.js:210:5)\n' +
+    '    at addChunk (_stream_readable.js:308:12)\n' +
+    '    --------------------\n' +
+    '    at Pool.query (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:199:23)\n' +
+    '    at /Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:29:7\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Pool.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:12:10)\n' +
+    '    at Pool.ret [as query] (/Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:56:34)\n' +
+    '    at RDSClient.proto._query (/Users/wangjiahui/git/mahjong-egg/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)\n' +
+    '    at RDSClient.proto.query (/Users/wangjiahui/git/mahjong-egg/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)\n' +
+    '    at proto.query.next (<anonymous>)\n' +
+    '    at onFulfilled (/Users/wangjiahui/git/mahjong-egg/node_modules/_co@4.6.0@co/index.js:65:19)\n' +
+    '    at /Users/wangjiahui/git/mahjong-egg/node_modules/_co@4.6.0@co/index.js:54:5\n' +
+    "    sql: SELECT * FROM `order_statistics` WHERE `date` = '2017-01-02' LIMIT 0, 1"
+}
+2020-02-24 20:45:26,843 ERROR 3226 [-/127.0.0.1/-/3ms POST /getOrder] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'db.order_statistics' doesn't exist
+    at Query.Sequence._packetToError (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Pool.query (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:199:23)
+    at /Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/wangjiahui/git/mahjong-egg/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/wangjiahui/git/mahjong-egg/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/wangjiahui/git/mahjong-egg/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/wangjiahui/git/mahjong-egg/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: SELECT * FROM `order_statistics` WHERE `date` = '2017-01-02' LIMIT 0, 1
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'db.order_statistics' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `order_statistics` WHERE `date` = '2017-01-02' LIMIT 0, 1"
+name: "ER_NO_SUCH_TABLEError"
+pid: 3226
+hostname: wangjiahuideMacBook-Pro.local
+
+2020-02-24 20:45:26,846 ERROR 3226 [-/127.0.0.1/-/5ms POST /getOrder] {
+  success: false,
+  data: null,
+  error: "Error: ER_NO_SUCH_TABLE: Table 'db.order_statistics' doesn't exist\n" +
+    '    at Query.Sequence._packetToError (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)\n' +
+    '    at Query.ErrorPacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Query.js:77:18)\n' +
+    '    at Protocol._parsePacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)\n' +
+    '    at Parser._parsePacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)\n' +
+    '    at Parser.write (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)\n' +
+    '    at Protocol.write (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)\n' +
+    '    at Socket.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)\n' +
+    '    at Socket.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)\n' +
+    '    at Socket.emit (events.js:210:5)\n' +
+    '    at addChunk (_stream_readable.js:308:12)\n' +
+    '    --------------------\n' +
+    '    at Pool.query (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:199:23)\n' +
+    '    at /Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:29:7\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Pool.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:12:10)\n' +
+    '    at Pool.ret [as query] (/Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:56:34)\n' +
+    '    at RDSClient.proto._query (/Users/wangjiahui/git/mahjong-egg/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)\n' +
+    '    at RDSClient.proto.query (/Users/wangjiahui/git/mahjong-egg/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)\n' +
+    '    at proto.query.next (<anonymous>)\n' +
+    '    at onFulfilled (/Users/wangjiahui/git/mahjong-egg/node_modules/_co@4.6.0@co/index.js:65:19)\n' +
+    '    at /Users/wangjiahui/git/mahjong-egg/node_modules/_co@4.6.0@co/index.js:54:5\n' +
+    "    sql: SELECT * FROM `order_statistics` WHERE `date` = '2017-01-02' LIMIT 0, 1"
+}
+2020-02-24 20:51:03,693 ERROR 818 [-/127.0.0.1/-/23ms POST /getOrder] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'db.order_statistics' doesn't exist
+    at Query.Sequence._packetToError (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:308:12)
+    --------------------
+    at Pool.query (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:199:23)
+    at /Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/wangjiahui/git/mahjong-egg/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/wangjiahui/git/mahjong-egg/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/wangjiahui/git/mahjong-egg/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/wangjiahui/git/mahjong-egg/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: SELECT * FROM `order_statistics` WHERE `date` = '2017-01-02' LIMIT 0, 1
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'db.order_statistics' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `order_statistics` WHERE `date` = '2017-01-02' LIMIT 0, 1"
+name: "ER_NO_SUCH_TABLEError"
+pid: 818
+hostname: wangjiahuideMacBook-Pro.local
+
+2020-02-24 20:51:03,695 ERROR 818 [-/127.0.0.1/-/24ms POST /getOrder] {
+  success: false,
+  data: null,
+  error: "Error: ER_NO_SUCH_TABLE: Table 'db.order_statistics' doesn't exist\n" +
+    '    at Query.Sequence._packetToError (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Sequence.js:47:14)\n' +
+    '    at Query.ErrorPacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/sequences/Query.js:77:18)\n' +
+    '    at Protocol._parsePacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:291:23)\n' +
+    '    at Parser._parsePacket (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:433:10)\n' +
+    '    at Parser.write (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Parser.js:43:10)\n' +
+    '    at Protocol.write (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/protocol/Protocol.js:38:16)\n' +
+    '    at Socket.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:91:28)\n' +
+    '    at Socket.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Connection.js:525:10)\n' +
+    '    at Socket.emit (events.js:210:5)\n' +
+    '    at addChunk (_stream_readable.js:308:12)\n' +
+    '    --------------------\n' +
+    '    at Pool.query (/Users/wangjiahui/git/mahjong-egg/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:199:23)\n' +
+    '    at /Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:29:7\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Pool.<anonymous> (/Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:12:10)\n' +
+    '    at Pool.ret [as query] (/Users/wangjiahui/git/mahjong-egg/node_modules/_pify@2.3.0@pify/index.js:56:34)\n' +
+    '    at RDSClient.proto._query (/Users/wangjiahui/git/mahjong-egg/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)\n' +
+    '    at RDSClient.proto.query (/Users/wangjiahui/git/mahjong-egg/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)\n' +
+    '    at proto.query.next (<anonymous>)\n' +
+    '    at onFulfilled (/Users/wangjiahui/git/mahjong-egg/node_modules/_co@4.6.0@co/index.js:65:19)\n' +
+    '    at /Users/wangjiahui/git/mahjong-egg/node_modules/_co@4.6.0@co/index.js:54:5\n' +
+    "    sql: SELECT * FROM `order_statistics` WHERE `date` = '2017-01-02' LIMIT 0, 1"
+}

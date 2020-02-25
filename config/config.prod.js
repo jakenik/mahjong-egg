@@ -16,31 +16,31 @@ module.exports = appInfo => {
   config.keys = appInfo.name + '_1569649534802_9422';
 
   // add your middleware config here
-  // config.middleware = ['jwt'];
+  config.middleware = ['jwt'];
 
-  // config.jwt = {
-  //   enable: true,
-  //   ignore: ['/auth/registered', '/auth/getToken', '/getOrder'], // 哪些请求不需要认证
-  // };
+  config.jwt = {
+    enable: true,
+    ignore: ['/auth/registered', '/auth/getToken', '/getOrder'], // 哪些请求不需要认证
+  };
 
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',
   };
 
-  // config.io = {
-  //   init: {}, // passed to engine.io
-  //   namespace: {
-  //     '/': {
-  //       connectionMiddleware: ['auth'],
-  //       packetMiddleware: [],
-  //     },
-  //   },
-  //   redis: {
-  //     host: '127.0.0.1',
-  //     port: 6379, db: 0
-  //   }
-  // };
+  config.io = {
+    init: {}, // passed to engine.io
+    namespace: {
+      '/': {
+        connectionMiddleware: ['auth'],
+        packetMiddleware: [],
+      },
+    },
+    redis: {
+      host: '127.0.0.1',
+      port: 6379, db: 0
+    }
+  };
 
   config.redis = {
     clients: {

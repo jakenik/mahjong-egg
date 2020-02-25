@@ -1,10 +1,5 @@
 {
   "keys": "/Users/wangjiahui/git/mahjong-egg/config/config.prod.js",
-  "middleware": "/Users/wangjiahui/git/mahjong-egg/config/config.prod.js",
-  "jwt": {
-    "enable": "/Users/wangjiahui/git/mahjong-egg/config/config.default.js",
-    "ignore": "/Users/wangjiahui/git/mahjong-egg/config/config.default.js"
-  },
   "io": {
     "init": "/Users/wangjiahui/git/mahjong-egg/config/config.prod.js",
     "namespace": {

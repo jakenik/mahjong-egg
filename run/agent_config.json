@@ -356,20 +356,9 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
-    "middleware": [
-      "jwt"
-    ],
-    "jwt": {
-      "enable": true,
-      "ignore": [
-        "/auth/registered",
-        "/auth/getToken",
-        "/getOrder"
-      ]
-    },
     "coreMiddlewares": "~config~coreMiddleware",
-    "appMiddlewares": "~config~middleware",
-    "appMiddleware": "~config~middleware"
+    "appMiddlewares": [],
+    "appMiddleware": "~config~appMiddlewares"
   },
   "plugins": {
     "session": {

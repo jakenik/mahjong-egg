@@ -339,3 +339,11 @@ name: "ClusterClientNoResponseError"
 pid: 3547
 hostname: wangjiahuideMacBook-Pro.local
 
+2020-02-25 17:50:04,487 ERROR 1585 nodejs.ClusterClientNoResponseError: client no response in 78370ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiahui/git/mahjong-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 1585
+hostname: wangjiahuideMacBook-Pro.local
+

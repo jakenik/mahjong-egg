@@ -106,6 +106,7 @@
         "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-watcher@3.1.0@egg-watcher/config/locales",
         "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-schedule@3.6.4@egg-schedule/config/locales",
         "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/config/locales",
+        "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-development@2.4.3@egg-development/config/locales",
         "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/locales",
         "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-static@2.2.0@egg-static/config/locales",
         "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-view@2.1.2@egg-view/config/locales",
@@ -124,7 +125,7 @@
       "functionName": "__"
     },
     "watcher": {
-      "type": "default",
+      "type": "development",
       "eventSources": {
         "default": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/default",
         "development": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/development"
@@ -155,6 +156,13 @@
         "cron": "0 30 4 * * *"
       }
     },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false
+    },
     "logrotator": {
       "filesRotateByHour": null,
       "hourDelimiter": "-",
@@ -169,13 +177,12 @@
       "dir": "/Users/wangjiahui/git/mahjong-egg/app/public",
       "dynamic": true,
       "preload": false,
-      "buffer": true,
-      "maxFiles": 1000,
-      "maxAge": 31536000
+      "buffer": false,
+      "maxFiles": 1000
     },
     "view": {
       "root": "/Users/wangjiahui/git/mahjong-egg/app/view",
-      "cache": true,
+      "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {}
@@ -187,16 +194,9 @@
       },
       "namespace": {
         "/": {
-          "connectionMiddleware": [
-            "auth"
-          ],
+          "connectionMiddleware": [],
           "packetMiddleware": []
         }
-      },
-      "redis": {
-        "host": "127.0.0.1",
-        "port": 6379,
-        "db": 0
       }
     },
     "redis": {
@@ -222,7 +222,7 @@
       "agent": false,
       "clients": {
         "db": {
-          "host": "121.199.13.2",
+          "host": "127.0.0.1",
           "port": "3306",
           "user": "root",
           "password": "<String len: 6>",
@@ -235,7 +235,7 @@
       "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH"
     },
     "validate": {},
-    "env": "prod",
+    "env": "local",
     "name": "jake",
     "keys": "<String len: 23>",
     "proxy": false,
@@ -331,19 +331,21 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/wangjiahui/logs/jake",
+      "dir": "/Users/wangjiahui/git/mahjong-egg/logs/jake",
       "encoding": "utf8",
-      "env": "prod",
+      "env": "local",
       "level": "INFO",
       "consoleLevel": "INFO",
-      "disableConsoleAfterReady": true,
+      "disableConsoleAfterReady": false,
       "outputJSON": false,
       "buffer": true,
       "appLogName": "jake-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {},
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
       "allowDebugAtProd": false,
       "type": "application"
     },
@@ -381,7 +383,8 @@
       "overrideMethod",
       "session",
       "securities",
-      "i18n"
+      "i18n",
+      "eggLoaderTrace"
     ],
     "workerStartTimeout": 600000,
     "serverTimeout": null,
@@ -509,6 +512,21 @@
       "from": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/plugin.js",
       "path": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-multipart@2.9.0@egg-multipart",
       "version": "2.9.0"
+    },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/plugin.js",
+      "path": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-development@2.4.3@egg-development",
+      "version": "2.4.3"
     },
     "logrotator": {
       "enable": true,

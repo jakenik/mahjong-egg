@@ -14,12 +14,15 @@ class OrderController extends Controller {
         customs_clearance: '无',
         ratio: '无'
       }
-      const fn = (n) => Math.floor(n * 100) / 100
-      const invalid = list.filter( item => item.negotiation_time === '' || !item.negotiation_time).length
-      const ratio = fn(invalid / list.length)
+      const customs_clearance = list[0].customs_clearance
+      const list2 = await service.order.getOrder({
+        customs_clearance
+      });
+      const invalid = list2.filter( item => item.negotiation_time === '' || !item.negotiation_time).length
+      const ratio = invalid / list2.length * 100
       return {
-        customs_clearance: list[0].customs_clearance,
-        ratio
+        customs_clearance,
+        ratio: ratio.toFixed(2)
       }
     });
   }

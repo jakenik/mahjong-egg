@@ -890,3 +890,327 @@ hostname: wangjiahuideMacBook-Pro.local
   data: { customs_clearance: '无', ratio: '无' },
   msg: undefined
 }
+2020-02-25 16:46:07,631 INFO 1087 [-/127.0.0.1/-/19ms POST /getOrder] 当前请求参数 { code: '-1' }
+2020-02-25 16:46:07,748 INFO 1087 [-/127.0.0.1/-/137ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: '无', ratio: '无' },
+  msg: undefined
+}
+2020-02-25 16:46:19,171 INFO 1087 [-/127.0.0.1/-/3ms POST /getOrder] 当前请求参数 { code: '-1' }
+2020-02-25 16:46:19,294 INFO 1087 [-/127.0.0.1/-/126ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: '无', ratio: '无' },
+  msg: undefined
+}
+2020-02-25 16:47:32,485 INFO 1087 [-/127.0.0.1/-/1ms POST /getOrder] 当前请求参数 { code: '111' }
+2020-02-25 16:47:32,603 INFO 1087 [-/127.0.0.1/-/120ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: '无', ratio: '无' },
+  msg: undefined
+}
+2020-02-25 17:00:45,052 INFO 1087 [-/127.0.0.1/-/4ms POST /getOrder] 当前请求参数 { code: '111' }
+2020-02-25 17:00:45,220 INFO 1087 [-/127.0.0.1/-/172ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: '无', ratio: '无' },
+  msg: undefined
+}
+2020-02-25 17:01:30,768 INFO 1087 [-/127.0.0.1/-/2ms POST /getOrder] 当前请求参数 { code: '13605' }
+2020-02-25 17:01:30,945 INFO 1087 [-/127.0.0.1/-/180ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'ROCHESTER - MONROE, NY', ratio: 0 },
+  msg: undefined
+}
+2020-02-25 17:02:45,059 INFO 1087 [-/127.0.0.1/-/2ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:02:45,238 INFO 1087 [-/127.0.0.1/-/181ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: 0 },
+  msg: undefined
+}
+2020-02-25 17:11:33,502 INFO 1087 [-/127.0.0.1/-/2ms POST /getOrder] 当前请求参数 { code: '43203' }
+2020-02-25 17:11:33,679 INFO 1087 [-/127.0.0.1/-/180ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'COLUMBUS - WEST, OH', ratio: 0.02 },
+  msg: undefined
+}
+2020-02-25 17:23:12,136 INFO 1087 [-/127.0.0.1/-/3ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:23:12,310 INFO 1087 [-/127.0.0.1/-/177ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: 0 },
+  msg: undefined
+}
+2020-02-25 17:29:21,732 INFO 1390 [-/127.0.0.1/-/22ms POST /getOrder] 当前请求参数 { code: '43203' }
+2020-02-25 17:29:21,905 INFO 1390 [-/127.0.0.1/-/194ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'COLUMBUS - WEST, OH', ratio: 2 },
+  msg: undefined
+}
+2020-02-25 17:29:46,006 INFO 1390 [-/127.0.0.1/-/3ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:29:46,192 INFO 1390 [-/127.0.0.1/-/189ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: 0 },
+  msg: undefined
+}
+2020-02-25 17:45:14,212 INFO 1524 [-/127.0.0.1/-/24ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:45:14,527 INFO 1524 [-/127.0.0.1/-/340ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: 0 },
+  msg: undefined
+}
+2020-02-25 17:45:15,100 INFO 1524 [-/127.0.0.1/-/2ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:45:15,424 INFO 1524 [-/127.0.0.1/-/326ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: 0 },
+  msg: undefined
+}
+2020-02-25 17:45:15,559 INFO 1524 [-/127.0.0.1/-/2ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:45:15,886 INFO 1524 [-/127.0.0.1/-/329ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: 0 },
+  msg: undefined
+}
+2020-02-25 17:45:15,926 INFO 1524 [-/127.0.0.1/-/1ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:45:16,241 INFO 1524 [-/127.0.0.1/-/316ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: 0 },
+  msg: undefined
+}
+2020-02-25 17:45:16,308 INFO 1524 [-/127.0.0.1/-/3ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:45:16,627 INFO 1524 [-/127.0.0.1/-/322ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: 0 },
+  msg: undefined
+}
+2020-02-25 17:45:16,725 INFO 1524 [-/127.0.0.1/-/2ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:45:17,050 INFO 1524 [-/127.0.0.1/-/327ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: 0 },
+  msg: undefined
+}
+2020-02-25 17:45:17,255 INFO 1524 [-/127.0.0.1/-/2ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:45:17,573 INFO 1524 [-/127.0.0.1/-/320ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: 0 },
+  msg: undefined
+}
+2020-02-25 17:45:36,229 INFO 1551 [-/127.0.0.1/-/24ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:45:36,544 INFO 1551 [-/127.0.0.1/-/340ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: 0 },
+  msg: undefined
+}
+2020-02-25 17:46:39,164 INFO 1551 [-/127.0.0.1/-/9ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:47:17,142 INFO 1551 [-/127.0.0.1/-/37988ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: 0 },
+  msg: undefined
+}
+2020-02-25 17:47:52,824 INFO 1562 [-/127.0.0.1/-/20ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:47:53,150 INFO 1562 [-/127.0.0.1/-/347ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: 1 },
+  msg: undefined
+}
+2020-02-25 17:47:53,548 INFO 1562 [-/127.0.0.1/-/2ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:47:53,880 INFO 1562 [-/127.0.0.1/-/334ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: 1 },
+  msg: undefined
+}
+2020-02-25 17:48:31,397 INFO 1562 [-/127.0.0.1/-/2ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:48:31,740 INFO 1562 [-/127.0.0.1/-/344ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: 1 },
+  msg: undefined
+}
+2020-02-25 17:48:48,991 INFO 1590 [-/127.0.0.1/-/25ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:50:14,781 INFO 1590 [-/127.0.0.1/-/85816ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: 1 },
+  msg: undefined
+}
+2020-02-25 17:50:40,002 INFO 1606 [-/127.0.0.1/-/18ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:50:40,327 INFO 1606 [-/127.0.0.1/-/344ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: 1.3940907199334167 },
+  msg: undefined
+}
+2020-02-25 17:50:40,646 INFO 1606 [-/127.0.0.1/-/2ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:50:40,977 INFO 1606 [-/127.0.0.1/-/333ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: 1.3940907199334167 },
+  msg: undefined
+}
+2020-02-25 17:52:57,593 INFO 1651 [-/127.0.0.1/-/27ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:52:57,921 INFO 1651 [-/127.0.0.1/-/356ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: '1' },
+  msg: undefined
+}
+2020-02-25 17:52:58,175 INFO 1651 [-/127.0.0.1/-/3ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:52:58,505 INFO 1651 [-/127.0.0.1/-/333ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: '1' },
+  msg: undefined
+}
+2020-02-25 17:53:00,957 INFO 1651 [-/127.0.0.1/-/2ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:53:01,286 INFO 1651 [-/127.0.0.1/-/332ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: '1' },
+  msg: undefined
+}
+2020-02-25 17:53:01,634 INFO 1651 [-/127.0.0.1/-/3ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:53:01,984 INFO 1651 [-/127.0.0.1/-/353ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: '1' },
+  msg: undefined
+}
+2020-02-25 17:53:15,403 INFO 1667 [-/127.0.0.1/-/23ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:53:15,731 INFO 1667 [-/127.0.0.1/-/352ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: '1' },
+  msg: undefined
+}
+2020-02-25 17:53:15,922 INFO 1667 [-/127.0.0.1/-/2ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:53:16,252 INFO 1667 [-/127.0.0.1/-/332ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: '1' },
+  msg: undefined
+}
+2020-02-25 17:53:16,329 INFO 1667 [-/127.0.0.1/-/2ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:53:16,663 INFO 1667 [-/127.0.0.1/-/336ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: '1' },
+  msg: undefined
+}
+2020-02-25 17:53:16,791 INFO 1667 [-/127.0.0.1/-/2ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:53:17,124 INFO 1667 [-/127.0.0.1/-/335ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: '1' },
+  msg: undefined
+}
+2020-02-25 17:53:17,178 INFO 1667 [-/127.0.0.1/-/3ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:53:17,499 INFO 1667 [-/127.0.0.1/-/1ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:53:17,511 INFO 1667 [-/127.0.0.1/-/336ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: '1' },
+  msg: undefined
+}
+2020-02-25 17:53:17,825 INFO 1667 [-/127.0.0.1/-/327ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: '1' },
+  msg: undefined
+}
+2020-02-25 17:53:17,832 INFO 1667 [-/127.0.0.1/-/1ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:53:18,156 INFO 1667 [-/127.0.0.1/-/324ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: '1' },
+  msg: undefined
+}
+2020-02-25 17:53:18,246 INFO 1667 [-/127.0.0.1/-/2ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:53:18,532 INFO 1667 [-/127.0.0.1/-/0ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:53:18,581 INFO 1667 [-/127.0.0.1/-/337ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: '1' },
+  msg: undefined
+}
+2020-02-25 17:53:18,723 INFO 1667 [-/127.0.0.1/-/1ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:53:18,862 INFO 1667 [-/127.0.0.1/-/330ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: '1' },
+  msg: undefined
+}
+2020-02-25 17:53:18,946 INFO 1667 [-/127.0.0.1/-/1ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:53:19,056 INFO 1667 [-/127.0.0.1/-/334ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: '1' },
+  msg: undefined
+}
+2020-02-25 17:53:19,152 INFO 1667 [-/127.0.0.1/-/0ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:53:19,279 INFO 1667 [-/127.0.0.1/-/334ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: '1' },
+  msg: undefined
+}
+2020-02-25 17:53:19,369 INFO 1667 [-/127.0.0.1/-/0ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:53:19,486 INFO 1667 [-/127.0.0.1/-/334ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: '1' },
+  msg: undefined
+}
+2020-02-25 17:53:19,542 INFO 1667 [-/127.0.0.1/-/1ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:53:19,702 INFO 1667 [-/127.0.0.1/-/334ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: '1' },
+  msg: undefined
+}
+2020-02-25 17:53:19,749 INFO 1667 [-/127.0.0.1/-/1ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:53:19,872 INFO 1667 [-/127.0.0.1/-/331ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: '1' },
+  msg: undefined
+}
+2020-02-25 17:53:20,075 INFO 1667 [-/127.0.0.1/-/327ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: '1' },
+  msg: undefined
+}
+2020-02-25 17:53:25,315 INFO 1678 [-/127.0.0.1/-/19ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:53:25,641 INFO 1678 [-/127.0.0.1/-/346ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: '1.39' },
+  msg: undefined
+}
+2020-02-25 17:53:25,897 INFO 1678 [-/127.0.0.1/-/2ms POST /getOrder] 当前请求参数 { code: '77077' }
+2020-02-25 17:53:26,233 INFO 1678 [-/127.0.0.1/-/338ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: '1.39' },
+  msg: undefined
+}
+2020-02-25 17:53:41,486 INFO 1678 [-/127.0.0.1/-/2ms POST /getOrder] 当前请求参数 { code: '77090' }
+2020-02-25 17:53:41,832 INFO 1678 [-/127.0.0.1/-/348ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: '1.39' },
+  msg: undefined
+}
+2020-02-25 17:53:42,846 INFO 1678 [-/127.0.0.1/-/3ms POST /getOrder] 当前请求参数 { code: '77090' }
+2020-02-25 17:53:43,141 INFO 1678 [-/127.0.0.1/-/0ms POST /getOrder] 当前请求参数 { code: '77090' }
+2020-02-25 17:53:43,184 INFO 1678 [-/127.0.0.1/-/342ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: '1.39' },
+  msg: undefined
+}
+2020-02-25 17:53:43,339 INFO 1678 [-/127.0.0.1/-/1ms POST /getOrder] 当前请求参数 { code: '77090' }
+2020-02-25 17:53:43,488 INFO 1678 [-/127.0.0.1/-/348ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: '1.39' },
+  msg: undefined
+}
+2020-02-25 17:53:43,697 INFO 1678 [-/127.0.0.1/-/359ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'HOUSTON, TX', ratio: '1.39' },
+  msg: undefined
+}
+2020-02-25 17:53:53,968 INFO 1678 [-/127.0.0.1/-/2ms POST /getOrder] 当前请求参数 { code: '32333' }
+2020-02-25 17:53:54,294 INFO 1678 [-/127.0.0.1/-/328ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'JACKSONVILLE, FL', ratio: '4.82' },
+  msg: undefined
+}
+2020-02-25 17:54:24,066 INFO 1689 [-/127.0.0.1/-/14ms POST /getOrder] 当前请求参数 { code: '32333' }
+2020-02-25 17:54:24,391 INFO 1689 [-/127.0.0.1/-/340ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'JACKSONVILLE, FL', ratio: 4.821894005212858 },
+  msg: undefined
+}
+2020-02-25 17:54:24,795 INFO 1689 [-/127.0.0.1/-/2ms POST /getOrder] 当前请求参数 { code: '32333' }
+2020-02-25 17:54:25,120 INFO 1689 [-/127.0.0.1/-/328ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'JACKSONVILLE, FL', ratio: 4.821894005212858 },
+  msg: undefined
+}
+2020-02-25 17:55:27,071 INFO 1700 [-/127.0.0.1/-/16ms POST /getOrder] 当前请求参数 { code: '32333' }
+2020-02-25 17:55:27,391 INFO 1700 [-/127.0.0.1/-/337ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: 'JACKSONVILLE, FL', ratio: '4.82' },
+  msg: undefined
+}

@@ -28,19 +28,19 @@ module.exports = appInfo => {
     // myAppName: 'egg',
   };
 
-  config.io = {
-    init: {}, // passed to engine.io
-    namespace: {
-      '/': {
-        connectionMiddleware: ['auth'],
-        packetMiddleware: [],
-      },
-    },
-    redis: {
-      host: '127.0.0.1',
-      port: 6379, db: 0
-    }
-  };
+  // config.io = {
+  //   init: {}, // passed to engine.io
+  //   namespace: {
+  //     '/': {
+  //       connectionMiddleware: ['auth'],
+  //       packetMiddleware: [],
+  //     },
+  //   },
+  //   redis: {
+  //     host: '127.0.0.1',
+  //     port: 6379, db: 0
+  //   }
+  // };
 
   config.redis = {
     clients: {

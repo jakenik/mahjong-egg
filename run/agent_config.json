@@ -91,7 +91,7 @@
       "cookieMaxAge": "1y"
     },
     "watcher": {
-      "type": "development",
+      "type": "default",
       "eventSources": {
         "default": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/default",
         "development": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/development"
@@ -122,13 +122,6 @@
         "cron": "0 30 4 * * *"
       }
     },
-    "development": {
-      "watchDirs": [],
-      "ignoreDirs": [],
-      "fastReady": false,
-      "reloadOnDebug": true,
-      "overrideDefault": false
-    },
     "logrotator": {
       "filesRotateByHour": null,
       "hourDelimiter": "-",
@@ -143,12 +136,13 @@
       "dir": "/Users/wangjiahui/git/mahjong-egg/app/public",
       "dynamic": true,
       "preload": false,
-      "buffer": false,
-      "maxFiles": 1000
+      "buffer": true,
+      "maxFiles": 1000,
+      "maxAge": 31536000
     },
     "view": {
       "root": "/Users/wangjiahui/git/mahjong-egg/app/view",
-      "cache": false,
+      "cache": true,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {}
@@ -192,7 +186,7 @@
       "agent": false,
       "clients": {
         "db": {
-          "host": "127.0.0.1",
+          "host": "121.199.13.2",
           "port": "3306",
           "user": "root",
           "password": "<String len: 6>",
@@ -205,7 +199,7 @@
       "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH"
     },
     "validate": {},
-    "env": "local",
+    "env": "prod",
     "name": "jake",
     "keys": "<String len: 23>",
     "proxy": false,
@@ -254,7 +248,8 @@
         "cov": "egg-bin cov",
         "lint": "eslint .",
         "ci": "npm run lint && npm run cov",
-        "autod": "autod"
+        "autod": "autod",
+        "reload": "npm run stop && npm run start"
       },
       "ci": {
         "version": "10"
@@ -300,21 +295,19 @@
       "onerror": "<Function onerror>"
     },
     "logger": {
-      "dir": "/Users/wangjiahui/git/mahjong-egg/logs/jake",
+      "dir": "/Users/wangjiahui/logs/jake",
       "encoding": "utf8",
-      "env": "local",
+      "env": "prod",
       "level": "INFO",
       "consoleLevel": "INFO",
-      "disableConsoleAfterReady": false,
+      "disableConsoleAfterReady": true,
       "outputJSON": false,
       "buffer": true,
       "appLogName": "jake-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {
-        "consoleLevel": "WARN"
-      },
+      "coreLogger": {},
       "allowDebugAtProd": false,
       "type": "agent"
     },
@@ -474,21 +467,6 @@
       "from": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/plugin.js",
       "path": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-multipart@2.9.0@egg-multipart",
       "version": "2.9.0"
-    },
-    "development": {
-      "enable": true,
-      "package": "egg-development",
-      "name": "development",
-      "dependencies": [
-        "watcher"
-      ],
-      "optionalDependencies": [],
-      "env": [
-        "local"
-      ],
-      "from": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg@2.24.0@egg/config/plugin.js",
-      "path": "/Users/wangjiahui/git/mahjong-egg/node_modules/_egg-development@2.4.3@egg-development",
-      "version": "2.4.3"
     },
     "logrotator": {
       "enable": true,

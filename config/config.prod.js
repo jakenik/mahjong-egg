@@ -76,7 +76,7 @@ module.exports = appInfo => {
   config.security = {
     csrf: {
       enable: true,
-      ignore: ['/auth/registered', '/auth/getToken']
+      ignore: ['/auth/registered', '/auth/getToken', '/getOrder']
     }
   };
   config.i18n = {

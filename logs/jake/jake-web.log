@@ -878,3 +878,15 @@ hostname: wangjiahuideMacBook-Pro.local
   data: { customs_clearance: 'MIAMI, FL', ratio: 0.03 },
   msg: undefined
 }
+2020-02-25 13:12:25,095 INFO 3555 [-/127.0.0.1/-/24ms POST /getOrder] 当前请求参数 { code: '11111' }
+2020-02-25 13:12:25,258 INFO 3555 [-/127.0.0.1/-/187ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: '无', ratio: '无' },
+  msg: undefined
+}
+2020-02-25 13:14:53,686 INFO 3555 [-/127.0.0.1/-/1ms POST /getOrder] 当前请求参数 { code: '1111' }
+2020-02-25 13:14:53,809 INFO 3555 [-/127.0.0.1/-/124ms POST /getOrder] {
+  success: true,
+  data: { customs_clearance: '无', ratio: '无' },
+  msg: undefined
+}

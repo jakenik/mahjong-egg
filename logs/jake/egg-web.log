@@ -1143,3 +1143,61 @@ hostname: wangjiahuideMacBook-Pro.local
 2020-02-24 22:31:24,693 INFO 1679 [egg-watcher:application] watcher start success
 2020-02-24 22:31:24,697 INFO 1679 [egg-mysql] instance[0] status OK, rds currentTime: Mon Feb 24 2020 22:31:24 GMT+0800 (GMT+08:00)
 2020-02-24 22:31:24,709 INFO 1679 [egg:core] dump config after ready, 6ms
+2020-02-25 13:08:00,322 INFO 3555 [egg:logger] init all loggers with options: {"dir":"/Users/wangjiahui/git/mahjong-egg/logs/jake","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"jake-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-25 13:08:00,348 INFO 3555 [egg-multipart] stream mode enable
+2020-02-25 13:08:00,417 INFO 3555 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-02-25 13:08:00,419 INFO 3555 [egg-mysql] connecting root@127.0.0.1:3306/db
+2020-02-25 13:08:00,567 INFO 3555 [egg-static] starting static serve /public/ -> /Users/wangjiahui/git/mahjong-egg/app/public
+2020-02-25 13:08:00,570 INFO 3555 [egg-security] use csrf middleware
+2020-02-25 13:08:00,571 INFO 3555 [egg-security] use methodnoallow middleware
+2020-02-25 13:08:00,572 INFO 3555 [egg-security] use noopen middleware
+2020-02-25 13:08:00,573 INFO 3555 [egg-security] use nosniff middleware
+2020-02-25 13:08:00,574 INFO 3555 [egg-security] use xssProtection middleware
+2020-02-25 13:08:00,575 INFO 3555 [egg-security] use xframe middleware
+2020-02-25 13:08:00,575 INFO 3555 [egg-security] use dta middleware
+2020-02-25 13:08:00,575 INFO 3555 [egg-security] compose 7 middlewares into one security middleware
+2020-02-25 13:08:00,586 INFO 3555 [egg:core] dump config after load, 4ms
+2020-02-25 13:08:00,598 INFO 3555 [egg-redis] client connect success
+2020-02-25 13:08:00,603 INFO 3555 [egg-redis] instance[0] status OK, client ready
+2020-02-25 13:08:00,609 INFO 3555 [egg-watcher:application] watcher start success
+2020-02-25 13:08:00,614 INFO 3555 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 25 2020 13:08:00 GMT+0800 (China Standard Time)
+2020-02-25 13:08:00,634 INFO 3555 [egg:core] dump config after ready, 4ms
+2020-02-25 13:39:24,117 WARN 3555 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-02-25 15:13:10,234 INFO 4085 [egg:logger] init all loggers with options: {"dir":"/Users/wangjiahui/git/mahjong-egg/logs/jake","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"jake-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-25 15:13:10,266 INFO 4085 [egg-multipart] stream mode enable
+2020-02-25 15:13:10,333 INFO 4085 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-02-25 15:13:10,335 INFO 4085 [egg-mysql] connecting root@127.0.0.1:3306/db
+2020-02-25 15:13:10,509 INFO 4085 [egg-static] starting static serve /public/ -> /Users/wangjiahui/git/mahjong-egg/app/public
+2020-02-25 15:13:10,512 INFO 4085 [egg-security] use csrf middleware
+2020-02-25 15:13:10,513 INFO 4085 [egg-security] use methodnoallow middleware
+2020-02-25 15:13:10,514 INFO 4085 [egg-security] use noopen middleware
+2020-02-25 15:13:10,515 INFO 4085 [egg-security] use nosniff middleware
+2020-02-25 15:13:10,516 INFO 4085 [egg-security] use xssProtection middleware
+2020-02-25 15:13:10,517 INFO 4085 [egg-security] use xframe middleware
+2020-02-25 15:13:10,518 INFO 4085 [egg-security] use dta middleware
+2020-02-25 15:13:10,518 INFO 4085 [egg-security] compose 7 middlewares into one security middleware
+2020-02-25 15:13:10,528 INFO 4085 [egg:core] dump config after load, 5ms
+2020-02-25 15:13:10,540 INFO 4085 [egg-redis] client connect success
+2020-02-25 15:13:10,544 INFO 4085 [egg-redis] instance[0] status OK, client ready
+2020-02-25 15:13:10,549 INFO 4085 [egg-watcher:application] watcher start success
+2020-02-25 15:13:10,551 INFO 4085 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 25 2020 15:13:10 GMT+0800 (China Standard Time)
+2020-02-25 15:13:10,573 INFO 4085 [egg:core] dump config after ready, 5ms
+2020-02-25 15:13:18,439 INFO 4106 [egg:logger] init all loggers with options: {"dir":"/Users/wangjiahui/git/mahjong-egg/logs/jake","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"jake-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-25 15:13:18,466 INFO 4106 [egg-multipart] stream mode enable
+2020-02-25 15:13:18,533 INFO 4106 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-02-25 15:13:18,534 INFO 4106 [egg-mysql] connecting root@127.0.0.1:3306/db
+2020-02-25 15:13:18,674 INFO 4106 [egg-static] starting static serve /public/ -> /Users/wangjiahui/git/mahjong-egg/app/public
+2020-02-25 15:13:18,676 INFO 4106 [egg-security] use csrf middleware
+2020-02-25 15:13:18,677 INFO 4106 [egg-security] use methodnoallow middleware
+2020-02-25 15:13:18,678 INFO 4106 [egg-security] use noopen middleware
+2020-02-25 15:13:18,680 INFO 4106 [egg-security] use nosniff middleware
+2020-02-25 15:13:18,680 INFO 4106 [egg-security] use xssProtection middleware
+2020-02-25 15:13:18,681 INFO 4106 [egg-security] use xframe middleware
+2020-02-25 15:13:18,682 INFO 4106 [egg-security] use dta middleware
+2020-02-25 15:13:18,682 INFO 4106 [egg-security] compose 7 middlewares into one security middleware
+2020-02-25 15:13:18,691 INFO 4106 [egg:core] dump config after load, 4ms
+2020-02-25 15:13:18,702 INFO 4106 [egg-redis] client connect success
+2020-02-25 15:13:18,707 INFO 4106 [egg-redis] instance[0] status OK, client ready
+2020-02-25 15:13:18,712 INFO 4106 [egg-watcher:application] watcher start success
+2020-02-25 15:13:18,713 INFO 4106 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 25 2020 15:13:18 GMT+0800 (China Standard Time)
+2020-02-25 15:13:18,733 INFO 4106 [egg:core] dump config after ready, 5ms

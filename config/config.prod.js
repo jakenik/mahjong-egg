@@ -18,10 +18,10 @@ module.exports = appInfo => {
   // add your middleware config here
   config.middleware = ['jwt'];
 
-  config.jwt = {
-    enable: true,
-    ignore: ['/auth/registered', '/auth/getToken', '/getOrder'], // 哪些请求不需要认证
-  };
+  // config.jwt = {
+  //   enable: true,
+  //   ignore: ['/auth/registered', '/auth/getToken', '/getOrder'], // 哪些请求不需要认证
+  // };
 
   // add your user config here
   const userConfig = {

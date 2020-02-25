@@ -331,3 +331,11 @@ hostname: wangjiahuideMacBook-Pro.local
     '    at /Users/wangjiahui/git/mahjong-egg/node_modules/_co@4.6.0@co/index.js:54:5\n' +
     "    sql: SELECT * FROM `order_statistics` WHERE `date` = '2017-01-02' LIMIT 0, 1"
 }
+2020-02-25 13:39:24,119 ERROR 3547 nodejs.ClusterClientNoResponseError: client no response in 803307ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/wangjiahui/git/mahjong-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 3547
+hostname: wangjiahuideMacBook-Pro.local
+

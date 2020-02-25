@@ -260,3 +260,5 @@ hostname: wangjiahuideMacBook-Pro.local
 2020-02-25 15:13:17,524 INFO 4102 [egg-watcher] Start watching: "/Users/wangjiahui/git/mahjong-egg/app.js"
 2020-02-25 15:13:17,525 INFO 4102 [egg-watcher:agent] watcher start success
 2020-02-25 15:13:17,538 INFO 4102 [egg:core] dump config after ready, 5ms
+2020-02-25 15:15:38,329 WARN 4102 [agent:development] reload worker because /Users/wangjiahui/git/mahjong-egg/config/config.prod.js change
+2020-02-25 15:15:38,123 INFO 4102 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/wangjiahui/git/mahjong-egg/config/config.prod.js","stat":{"dev":16777223,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":2187891,"size":1900,"blocks":8,"atimeMs":1582614871082.267,"mtimeMs":1582614938061.224,"ctimeMs":1582614938061.224,"birthtimeMs":1571841434460,"atime":"2020-02-25T07:14:31.082Z","mtime":"2020-02-25T07:15:38.061Z","ctime":"2020-02-25T07:15:38.061Z","birthtime":"2019-10-23T14:37:14.460Z"},"remove":false,"isDirectory":false,"isFile":true}

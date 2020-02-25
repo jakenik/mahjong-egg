@@ -98,11 +98,6 @@
     "origin": "/Users/wangjiahui/git/mahjong-egg/config/config.prod.js",
     "allowMethods": "/Users/wangjiahui/git/mahjong-egg/config/config.prod.js"
   },
-  "middleware": "/Users/wangjiahui/git/mahjong-egg/config/config.prod.js",
-  "jwt": {
-    "enable": "/Users/wangjiahui/git/mahjong-egg/config/config.prod.js",
-    "ignore": "/Users/wangjiahui/git/mahjong-egg/config/config.prod.js"
-  },
   "io": {
     "init": "/Users/wangjiahui/git/mahjong-egg/config/config.prod.js",
     "namespace": {

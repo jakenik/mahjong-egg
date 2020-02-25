@@ -16,12 +16,12 @@ module.exports = appInfo => {
   config.keys = appInfo.name + '_1569649534802_9422';
 
   // add your middleware config here
-  config.middleware = ['jwt'];
-
-  config.jwt = {
-    enable: true,
-    ignore: ['/auth/registered', '/auth/getToken', '/getOrder'], // 哪些请求不需要认证
-  };
+  // config.middleware = ['jwt'];
+  //
+  // config.jwt = {
+  //   enable: true,
+  //   ignore: ['/auth/registered', '/auth/getToken', '/getOrder'], // 哪些请求不需要认证
+  // };
 
   // add your user config here
   const userConfig = {

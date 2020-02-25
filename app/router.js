@@ -5,7 +5,7 @@
  */
 module.exports = app => {
   const { router, controller, io } = app;
-  router.get('/index', controller.home.index);
+  router.get('/', controller.home.index);
   router.post('/getOrder', controller.order.getOrder);
   router.post('/auth/getToken', controller.auth.getToken);
   router.post('/auth/registered', controller.auth.registered);

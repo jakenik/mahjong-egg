@@ -16,7 +16,7 @@ module.exports = appInfo => {
   config.keys = appInfo.name + '_1569649534802_9422';
 
   // add your middleware config here
-  config.middleware = ['jwt'];
+  // config.middleware = ['jwt'];
 
   // config.jwt = {
   //   enable: true,

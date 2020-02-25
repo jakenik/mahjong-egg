@@ -57,13 +57,13 @@ module.exports = appInfo => {
     clients: {
       db: {
         // host
-        'host': '127.0.0.1',
+        'host': '121.199.13.2',
         // 端口号
         'port': '3306',
         // 用户名
         'user': 'root',
         // 密码
-        'password': '123456',
+        'password': '111022',
         // 数据库名
         'database': 'db',
       }

@@ -256,3 +256,6 @@
 2020-02-25 17:54:43,820 INFO 1700 [egg-schedule]: register schedule /Users/wangjiahui/git/mahjong-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
 2020-02-25 17:54:43,820 INFO 1700 [egg-schedule]: register schedule /Users/wangjiahui/git/mahjong-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
 2020-02-25 17:54:43,820 INFO 1700 [egg-schedule]: register schedule /Users/wangjiahui/git/mahjong-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-25 18:08:18,844 INFO 30761 [egg-schedule]: register schedule /root/git/mahjong-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-25 18:08:18,844 INFO 30761 [egg-schedule]: register schedule /root/git/mahjong-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-02-25 18:08:18,844 INFO 30761 [egg-schedule]: register schedule /root/git/mahjong-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js

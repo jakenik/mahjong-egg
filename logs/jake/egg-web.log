@@ -1450,3 +1450,21 @@ hostname: wangjiahuideMacBook-Pro.local
 2020-02-25 17:54:44,021 INFO 1700 [egg-watcher:application] watcher start success
 2020-02-25 17:54:44,023 INFO 1700 [egg-mysql] instance[0] status OK, rds currentTime: Tue Feb 25 2020 17:54:44 GMT+0800 (China Standard Time)
 2020-02-25 17:54:44,037 INFO 1700 [egg:core] dump config after ready, 5ms
+2020-02-25 18:08:18,815 INFO 30761 [egg:logger] init all loggers with options: {"dir":"/root/git/mahjong-egg/logs/jake","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"jake-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-02-25 18:08:18,845 INFO 30761 [egg-multipart] stream mode enable
+2020-02-25 18:08:18,978 INFO 30761 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2020-02-25 18:08:18,981 INFO 30761 [egg-mysql] connecting root@127.0.0.1:3306/db
+2020-02-25 18:08:19,327 INFO 30761 [egg-static] starting static serve /public/ -> /root/git/mahjong-egg/app/public
+2020-02-25 18:08:19,331 INFO 30761 [egg-security] use csrf middleware
+2020-02-25 18:08:19,331 INFO 30761 [egg-security] use methodnoallow middleware
+2020-02-25 18:08:19,332 INFO 30761 [egg-security] use noopen middleware
+2020-02-25 18:08:19,332 INFO 30761 [egg-security] use nosniff middleware
+2020-02-25 18:08:19,333 INFO 30761 [egg-security] use xssProtection middleware
+2020-02-25 18:08:19,333 INFO 30761 [egg-security] use xframe middleware
+2020-02-25 18:08:19,333 INFO 30761 [egg-security] use dta middleware
+2020-02-25 18:08:19,333 INFO 30761 [egg-security] compose 7 middlewares into one security middleware
+2020-02-25 18:08:19,343 INFO 30761 [egg:core] dump config after load, 6ms
+2020-02-25 18:08:19,360 INFO 30761 [egg-redis] client connect success
+2020-02-25 18:08:19,371 INFO 30761 [egg-redis] instance[0] status OK, client ready
+2020-02-25 18:08:19,430 INFO 30761 [egg-watcher:application] watcher start success
+2020-02-25 18:08:19,450 INFO 30761 [egg:core] dump config after ready, 16ms
